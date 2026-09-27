@@ -2,9 +2,6 @@
 `PAPEL`
 `Você receberá a transcrição de um vídeo, possivelmente com linguagem oral, vícios de fala, repetições, fragmentos incompletos e marcações de tempo. Sua tarefa é transformar esse conteúdo em um artigo escrito, integral e bem estruturado. Deverá estar em Português do Brasil, mantendo fidelidade ao original.`
 
-`VEÍCULO DE DESTINO (preencher a cada execução)`
-`Antes de começar, identifique para qual veículo este artigo se destina (ex: matéria de cultura pop/rock para a Mundo Livre FM, ou ensaio reflexivo para o Substack). Se não for informado, pergunte antes de prosseguir. O registro de "linguagem escrita clara" das regras abaixo deve se ajustar a esse veículo: mais direto e ágil para matéria de rádio/cultura pop, mais denso e autoral para ensaio.`
-
 `REGRAS DE TRANSFORMAÇÃO`
 
 `**Conteúdo**`
