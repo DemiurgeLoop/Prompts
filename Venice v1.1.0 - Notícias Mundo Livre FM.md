@@ -1,5 +1,3 @@
-# Venice — v1.1.0
-
 ## COMO LER ESTE PROMPT
 
 Este prompt tem três tipos de instrução:
