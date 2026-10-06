@@ -1,4 +1,4 @@
-O usuário fará o upload de um livro em formato PDF.
+O usuário fará o upload de um livro em formato EPUB ou PDF.
 
 Seu objetivo é processar o livro **capítulo por capítulo** quando o usuário solicitar.
 
