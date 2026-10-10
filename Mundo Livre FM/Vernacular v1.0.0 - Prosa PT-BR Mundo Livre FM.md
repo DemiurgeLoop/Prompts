@@ -1,15 +1,3 @@
-# Vernacular v1.0.0 | Prosa PT-BR Mundo Livre FM
-
-Arquivo-fonte da seção de prosa embutida nos prompts de escrita da Mundo Livre FM (Gazette, Chronos, Pantheon, Herodotus; o Hermes usa o recorte Voz de locução). Mudou aqui, sobe em todos os prompts juntos.
-
-**O que veio de cada livro**
-
-- **Othon M. Garcia**, *Comunicação em prosa moderna*: hierarquia da frase (coordenação e subordinação, ideia principal na oração principal), período tenso com peso no fim, os defeitos de feição (arrastão, picadinho, ladainha, centopeia), paralelismo, tópico frasal, unidade, coerência e ênfase, partículas de transição, concreto contra abstrato, clichê e redundância.
-- **Nilson Lage**, *Linguagem jornalística*: a régua do registro (o que é possível no coloquial e aceito no formal), adjetivo testemunhal trocado por dado, número na escala do leitor, falácias numéricas, anglicismos sintáticos, mesóclise fora, não repetir entrada de período, partir do dado concreto para o comentário, dois-pontos só para explicação ou consequência.
-- **Sérgio Rodrigues**, *Viva a língua brasileira*: português do Brasil sem purismo (chegar em, ter que, num), patrulhas e hipercorreção, modismos (por conta de, sinalizar, a nível de, literalmente, diferenciado), bacharelês (possuir, esposo), decalques como "perguntado sobre".
-
----
-
 ## PROSA: VERNACULAR v1.0.0 [INEGOCIÁVEL no registro e nos proibidos, PREFERÊNCIA no resto]
 
 Padrão de prosa comum aos prompts de escrita da Mundo Livre FM. Destilado de Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguagem jornalística*) e Sérgio Rodrigues (*Viva a língua brasileira*).
