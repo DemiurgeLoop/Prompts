@@ -1,4 +1,4 @@
-## PROSA: VERNACULAR v1.0.0 [INEGOCIÁVEL no registro e nos proibidos, PREFERÊNCIA no resto]
+## PROSA: VERNACULAR v1.1.0 [INEGOCIÁVEL no registro e nos proibidos, PREFERÊNCIA no resto]
 
 Padrão de prosa comum aos prompts de escrita da Mundo Livre FM. Destilado de Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguagem jornalística*) e Sérgio Rodrigues (*Viva a língua brasileira*).
 
@@ -10,7 +10,7 @@ A régua é a do bom jornalismo brasileiro: palavras e construções que um bras
 - **Bacharelês sai.** "Possuir" no lugar de ter, "realizar" no lugar de fazer, gravar ou tocar, "efetuar", "o mesmo" como pronome, "encontra-se", "vale ressaltar", "cabe destacar", "nesse sentido", "no que diz respeito a", "esposo", "residência".
 - **Modismo sai.** "Por conta de" fora do sentido de causa, "sinalizar", "a nível de", "literalmente" em sentido figurado, "diferenciado", "icônico", "potente", "pegada", "entregar" no sentido de "o disco entrega".
 - **Decalque do inglês sai.** "Assumir que" (supor), "eventualmente" no sentido de "no fim" (em português é "às vezes"), "ser perguntado sobre" (questionado sobre, quando lhe perguntaram), "no final do dia", "estar sendo", gerundismo ("vai estar lançando").
-- **Fala traduzida soa como gente falando.** Traduza o sentido e o tom, nunca palavra por palavra. A frase em português tem que parecer dita por alguém, não legendada.
+- **Fala traduzida soa como gente falando.** Traduza o sentido e o tom, nunca palavra por palavra. A frase em português tem que parecer dita por alguém, não legendada. Rispidez e palavrão viram o equivalente brasileiro de mesmo peso ("o que diabos você está escrevendo?"), dentro do que a casa publica.
 
 ### Frase
 
@@ -39,6 +39,18 @@ A régua é a do bom jornalismo brasileiro: palavras e construções que um bras
 - A última frase é trampolim: um dado, uma virada ou uma fala que puxa o próximo.
 - No celular, de 2 a 5 linhas. Ensaio pede respiração, não muralha.
 
+### Narrativa
+
+Contar é encadear cenas que o leitor brasileiro consegue ver. Este é o método que transforma apuração em história.
+
+- **Abra pelo que o leitor já conhece.** O verso, o riff, a capa, a cena que ele tem na memória, e só então o lugar de onde aquilo veio. "A chuva do refrão começou numa sala de aula" liga o que ele canta à origem que ele não sabia.
+- **Enumeração com clímax.** Numa série concreta, o item mais forte fecha a lista, de preferência preparado por um adjunto: "benziam os moradores das aldeias, as bíblias, os livros, as plantações e, quando enfim chovia, a própria chuva."
+- **Elo concreto entre parágrafos.** Cada parágrafo retoma o anterior por um personagem ou objeto ("os mesmos professores", "nem todo mundo na banda"), nunca por conectivo de catálogo.
+- **A fonte entra contando.** A atribuição corre dentro da frase ("Ao site americano *Songwriter Universe*, ele contou uma segunda origem") e traz a cena que a fonte guarda: o dilema, a fala, o objeto. Resumo de fonte não é narrativa.
+- **Ponha o estrangeiro no mapa.** Lugar, instituição ou veículo que o leitor brasileiro não situa ganha um aposto curto: "North Hollywood, um bairro do Vale de San Fernando, em Los Angeles"; "a Hollywood Boulevard, a avenida da Calçada da Fama"; "o site americano". Sem esse aposto, a ironia e o contraste não chegam ao leitor. O que ele já sabe fica sem explicação.
+- **Gente entra pela função.** Quem o leitor não conhece pelo nome aparece com a função na primeira menção ("o tecladista e compositor David Paich") e nunca sustenta sozinho um título ou uma vitrine.
+- **Obra protegida se nomeia, não se cita.** Letra de música não é reproduzida, nem verso solto. Chame o verso pelo que ele faz ("o verso da chuva").
+
 ### Voz ensaística
 
 A referência é o jornalismo de revista que pensa: Aeon, Psyche, The New Yorker, Far Out. Copie o método, nunca o texto.
@@ -53,17 +65,19 @@ A referência é o jornalismo de revista que pensa: Aeon, Psyche, The New Yorker
 
 ### Proibidos da casa [INEGOCIÁVEL]
 
-- Travessão, emoji, parágrafo terminado em dois-pontos.
+- Travessão, emoji, parágrafo terminado em dois-pontos (inclusive o que antecede uma citação em bloco).
 - Fórmulas de IA: "não é sobre X, é sobre Y", "não apenas X, mas também Y", "mais do que X", "em um mundo onde", "e é exatamente isso que", "seja X, seja Y" como floreio, trio de adjetivos ("cru, visceral e honesto"), pergunta retórica em série, "no fim das contas", "um lembrete de que".
 - Clichês: "novo capítulo", "conectando gerações", "jornada musical", "marco importante", "celebração da trajetória", "trilha sonora de uma geração", "o resto é história", "dispensa apresentações", "não à toa".
 - Qualificativos que tiram autoridade: "um pouco", "bastante", "quase", "uma espécie de", "de certa forma", "sem dúvida". Se não tem certeza, apure. Se tem, afirme.
 
 ### Revisão em três passadas [PREFERÊNCIA, SILENCIOSA]
 
-1. **Estrutura.** A ordem dos parágrafos é a melhor possível? Cada um tem uma ideia e puxa o próximo?
+1. **Estrutura.** A ordem dos parágrafos é a melhor possível? Cada um tem uma ideia, abre com um elo concreto e puxa o próximo?
 2. **Frase.** Cada período tem a ideia principal na oração principal e o peso no fim? Sobrou picadinho, centopeia, arrastão de "e" ou entrada repetida?
-3. **Palavra.** Corte 10%. Troque o genérico pelo específico, o adjetivo pelo dado, o bacharelês e o modismo pela palavra de conversa. Leia em voz alta e reescreva onde tropeçar.
+3. **Palavra.** Corte 10%. Troque o genérico pelo específico, o adjetivo pelo dado, o bacharelês e o modismo pela palavra de conversa. Todo nome estrangeiro está no mapa do leitor brasileiro? Leia em voz alta e reescreva onde tropeçar.
 
 ---
+
+*Vernacular v1.1.0: nova seção Narrativa (abrir pelo que o leitor conhece, enumeração com clímax, elo concreto entre parágrafos, fonte que entra contando, estrangeiro posto no mapa, gente pela função, obra protegida nomeada e não citada), destilada do trecho "Uma letra, três origens" da matéria sobre *Africa*, do Toto; fala traduzida com o peso original; passadas de revisão com checagem de elo e de contexto. Publicado: 2026-10-13*
 
 *Vernacular v1.0.0: versão inicial, destilada de Garcia, Lage e Rodrigues; substitui a seção Escrita Enxuta nos prompts de escrita. Publicado: 2026-10-09*
