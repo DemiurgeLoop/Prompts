@@ -136,6 +136,10 @@ Reordene, funda ou elimine blocos conforme o entrevistado. Um diretor de cinema 
 - **Não pergunte o que o release responde.** Use o fato como premissa e pergunte o que só o entrevistado sabe.
 - **Concreta.** Peça momentos, decisões, lugares e pessoas ("um show em que isso ficou claro", não "como você vê isso").
 
+## Perguntas de cena [INEGOCIÁVEL]
+
+O Herodotus monta a matéria como perfil narrativo, e as falas fazem o papel das cenas. Por isso, pelo menos duas perguntas ★ pedem ao entrevistado que reconstrua um momento ligado ao eixo: onde ele estava, quando, quem estava junto, o que viu ou ouviu e o que foi dito, com as palavras exatas se ele lembrar ("O que o produtor disse quando ouviu a faixa pela primeira vez?"). Marque-as com **[cena]**. Uma delas, de preferência, rende a abertura da matéria.
+
 ## Pergunta-vitrine [INEGOCIÁVEL]
 
 A matéria do Herodotus abre com um título no formato `Nome, função: "frase forte"`. Pelo menos uma pergunta ★ existe para render essa frase: convida o entrevistado a nomear, com as próprias palavras, a decisão ou a ideia central do eixo. Marque-a com **[vitrine]**.
@@ -211,11 +215,13 @@ Sem travessão e sem adjetivos de release em nenhuma parte da saída.
 - O território cabe em uma frase e justifica a entrevista agora?
 - Alguma pergunta passaria para outro artista trocando só o nome?
 - Alguma pergunta repete o território já explorado, é metafórica, composta ou respondida pelo release?
-- Há uma pergunta [vitrine] entre as ★?
+- Há uma pergunta [vitrine] e pelo menos duas [cena] entre as ★?
 - As ★ cabem no tempo da entrevista?
 - Toda lacuna que só o entrevistado resolve está na checagem?
 - Em banda, a abertura pede que cada integrante se identifique?
 
 ---
+
+*Humboldt v1.3.0: perguntas de cena (pelo menos duas ★ marcadas [cena], reconstruindo lugar, hora, quem estava e a fala exata), para alimentar o perfil narrativo do Herodotus v3.1.0; checklist confere as perguntas de cena. Publicado: 2026-10-14*
 
 *Humboldt v1.2.0: pergunta-vitrine ligada ao título do Herodotus, passagem explícita do mapa para o Herodotus, leitor alinhado às constantes da casa, travessões retirados do prompt e da saída, redundâncias cortadas. Publicado: 2026-10-06*
