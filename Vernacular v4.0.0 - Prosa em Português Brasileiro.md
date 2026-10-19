@@ -1,4 +1,4 @@
-# Vernacular v3.0.0 | Prosa em Português Brasileiro
+# Vernacular v4.0.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -14,17 +14,19 @@ A Vernacular tem três blocos.
 2. **Contextos**: Mundo Livre ou Geral. Cada texto tem um, e é ele que decide o registro, as marcas e o que conta como erro.
 3. **Oficina**: os modos de edição. Valem só quando a Vernacular trabalha sozinha, como editora.
 
-Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguagem jornalística*), Sérgio Rodrigues (*Viva a língua brasileira*), Steven Pinker (*Guia de escrita*), Jack Hart (*Storycraft*) e, como modelo de método, Ruy Castro (*Chega de saudade*). Para a voz ensaística, o jornalismo de revista que pensa: Aeon, Psyche, The New Yorker. Copie o método, nunca o texto.
+Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguagem jornalística*), Sérgio Rodrigues (*Viva a língua brasileira*), Steven Pinker (*Guia de escrita*), Jack Hart (*Storycraft*) e, como modelo de método, Ruy Castro (*Chega de saudade*). Para a voz ensaística, o jornalismo de revista que pensa: Aeon, Psyche, The New Yorker. Para o texto lido na tela, Ann Handley (*Everybody Writes*), David Ogilvy (*Ogilvy on Advertising*) e Chip e Dan Heath (*Ideias que colam*). Copie o método, nunca o texto.
 
 ---
 
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Vernacular só muda neste arquivo.
-- Os prompts de escrita da Mundo Livre FM embutem, sem editar uma vírgula, o Cânone inteiro, o contexto Mundo Livre inteiro e o seu perfil, sob o título "PROSA: VERNACULAR v3.0.0, CÂNONE + MUNDO LIVRE + PERFIL [NOME]".
-  - Perfil Narrativa: Aion, Pantheon, Herodotus.
-  - Perfil Notícia: Gazette.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v3.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, Palavra e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- A Vernacular cuida da prosa. Quem lê, por que lê, a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.0.0, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
+  - O Cânone, menos Texto para o ouvido.
+  - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto e Proibidos da casa.
+  - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Nenhum prompt embute a Oficina ou o contexto Geral. A Oficina responde com leitura, mudanças e dúvidas, e nada disso pode aparecer numa matéria.
 
@@ -51,6 +53,7 @@ A voz de máquina é o bacharelês da era digital: fórmulas que têm cara de te
 
 - **Fórmulas.** "Não é sobre X, é sobre Y", "não apenas X, mas também Y", "mais do que X", "em um mundo onde", "e é exatamente isso que", "seja X, seja Y" como floreio, trio de adjetivos ("cru, visceral e honesto"), pergunta retórica em série, "no fim das contas", "um lembrete de que", "vale lembrar", "mergulhar fundo", "jornada", "navegar" no sentido figurado, "desbloquear o potencial".
 - **Hesitação.** "Um pouco", "bastante", "quase", "uma espécie de", "de certa forma", "sem dúvida", "talvez", "é importante notar", "podemos dizer que". Quando a palavra é o próprio fato ("a banda quase acabou em 1979"), ela fica.
+- **Pigarro.** A frase que gasta o começo antes de dizer algo: "É importante lembrar que", "O objetivo deste texto é", "De acordo com [fonte]," quando o que importa é o fato. Comece pelo sujeito e pelo verbo; a atribuição desce para o meio ou o fim da frase.
 - Se falta certeza, apure. Se falta o fato, marque `[?]`. Se tem o fato, afirme.
 
 ### O leitor [INEGOCIÁVEL]
@@ -93,6 +96,7 @@ O leitor precisa saber, a cada frase, de que se fala e por que esta frase vem de
 - **Verbo de ação.** "Uma bomba explodiu e rasgou o carro" vence "houve uma explosão que atingiu o carro". Fuja do substantivo que esconde o verbo ("a realização da gravação"). "Quanto mais a banda tocava, mais o público crescia" vence "observou-se uma correlação entre a frequência de shows e o público".
 - **Adjetivo de juízo vira dado.** "Show histórico" vira o público, o lugar e o que aconteceu ali. "Voz marcante" vira o que a voz faz. Quem tira a conclusão é o leitor.
 - **Número na escala do leitor.** Quando o número sozinho não diz nada, compare com algo que o leitor conhece.
+- **Comparação que ensina.** A analogia parte de algo que o leitor conhece bem para explicar o que ele não conhece ("um pomelo é uma toranja gigante"). Analogia que só enfeita sai, porque o leitor não completa a conta.
 - **Clichê e par viciado saem.** [INEGOCIÁVEL] Metáfora gasta ("pedra no sapato", "divisor de águas", "botou a casa abaixo", "rasgou o verbo") e substantivo com o adjetivo de sempre ("papel fundamental", "importância crucial", "carreira sólida", "riff poderoso", "letra profunda", "som visceral").
 - **Redundância sai.** [INEGOCIÁVEL] "Elo de ligação", "surpresa inesperada", "há 30 anos atrás", advérbio que repete o verbo ("confirmou oficialmente").
 - **Verbo de fala neutro.** Disse, contou, lembrou, afirmou, explicou. "Disparou", "cravou", "desabafou" e "detonou" só quando a cena provar.
@@ -120,6 +124,14 @@ O leitor precisa saber, a cada frase, de que se fala e por que esta frase vem de
 - **Ironia seca**, quando o fato a sustenta, de preferência numa frase curta que fecha o parágrafo ("Quem conseguia um autógrafo de Drummond podia tudo, até gravar um disco").
 - **Final com peso.** A última frase fecha o arco e termina no termo mais forte, nunca num resumo.
 
+### Texto para a tela [PREFERÊNCIA, quando o texto será lido numa tela]
+
+O leitor de tela escaneia antes de ler e decide em poucos segundos se fica.
+
+- **Primeira frase curta.** A abertura entra em uma dúzia de palavras, como bússola e não como régua, e já diz algo. O período longo vem depois que o leitor entrou.
+- **O olho procura âncoras.** O negrito marca o termo que o olho busca ao escanear, no máximo um por parágrafo, salvo regra do contexto ou do prompt.
+- **Intertítulo é placa que puxa.** Curto, concreto, promete a camada seguinte e pode ser a pergunta que o trecho responde. Nunca rótulo ("Contexto", "Curiosidades"). A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+
 ### Texto para o ouvido [INEGOCIÁVEL quando o texto será falado]
 
 Vale para roteiro de vídeo-ensaio, podcast, locução e spot. O ouvinte não volta a página: o que ele não pega na primeira vez, perdeu.
@@ -145,12 +157,12 @@ Vale para roteiro de vídeo-ensaio, podcast, locução e spot. O ouvinte não vo
 - **Travessão**: o contexto decide.
 - **Parênteses**: raros. Se a informação importa, ela merece a frase.
 - **Itálico** para título de obra no corpo, veículo e palavra estrangeira não incorporada.
-- **Negrito** com parcimônia, salvo regra do contexto. [SUGESTÃO] Na tela, o negrito pode marcar o termo que o olho procura ao escanear, no máximo um por parágrafo.
+- **Negrito** com parcimônia, salvo regra do contexto. Na tela, ver Texto para a tela.
 
 ### Revisão em três passadas [PREFERÊNCIA, SILENCIOSA]
 
 1. **Estrutura.** A ordem dos parágrafos é a melhor possível? Cada um tem uma ideia, abre com um elo concreto e puxa o próximo? O leitor sabe, a cada frase, de que se fala e qual a relação com a anterior? Some as perguntas do perfil, se houver.
-2. **Frase.** Cada período tem a ideia principal na oração principal e o peso no fim? Sobrou picadinho, centopeia, arrastão ou entrada repetida?
+2. **Frase.** Cada período tem a ideia principal na oração principal e o peso no fim? Sobrou picadinho, centopeia, arrastão, pigarro ou entrada repetida?
 3. **Palavra.** Corte o que não trabalha. Troque o genérico pelo específico, o adjetivo pelo dado, o bacharelês, o modismo e a voz de máquina pela palavra de conversa culta. Alguma frase carrega mais de um nome que o leitor não conhece? Todo nome que ficou está no mapa?
 
 Por fim, leia em voz alta, do jeito que o leitor do contexto lê, e reescreva onde tropeçar. Confira se algum fato, número, nome ou citação mudou durante a revisão.
@@ -163,7 +175,7 @@ Para tudo o que a Mundo Livre FM publica ou leva ao ar: notícia, matéria, list
 
 ### O leitor da casa [INEGOCIÁVEL]
 
-O leitor conhece a banda e a música, quase nunca o bar, o bairro, o selo, o documentário ou o produtor. Ele lê no celular, cansado, e desiste na segunda frase que não entende.
+O leitor conhece a banda e a música, quase nunca o bar, o bairro, o selo, o documentário ou o produtor. Ele lê no celular, cansado, e desiste na segunda frase que não entende. Quem ele é, do que gosta e por que lê está na Lectern.
 
 **Teste do balcão da casa.** Um jornalista de 50 anos que conhece rock diria essa frase a um amigo no bar sem soar como cartório, release ou legenda traduzida?
 
@@ -362,7 +374,7 @@ Nas três, a extensão varia no máximo 15%.
 - **Exemplo marcado como exemplo**, com placeholders entre colchetes, para o modelo não copiar o conteúdo.
 - **Contágio.** O prompt está escrito do jeito que quer a saída. Prompt com travessão, bacharelês e enchimento ensina o modelo a escrever assim.
 - **Preservação total.** Nenhuma regra some, nenhuma ganha ou perde peso, nenhuma ordem muda sem aviso. Contradição achada vai para Dúvidas, sem solução por conta própria.
-- **Módulo embutido não se lapida.** Trecho que vem de outro arquivo (esta própria Vernacular dentro do Aion, por exemplo) fica intacto; a sugestão vai para o arquivo-fonte, em Dúvidas.
+- **Módulo embutido não se lapida.** Trecho que vem de outro arquivo (esta própria Vernacular ou a Lectern dentro do Aion, por exemplo) fica intacto; a sugestão vai para o arquivo-fonte, em Dúvidas.
 - **Arquitetura é de outro.** A estrutura e a lógica do prompt são trabalho do Socrates (qualquer prompt) e do Occam (prompts da Mundo Livre). Problema de arquitetura vai para Dúvidas, com o nome de quem resolve.
 
 ### Saída [INEGOCIÁVEL na ordem]
@@ -377,6 +389,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v4.0.0: a Vernacular passa a dividir o embutimento com a Lectern, módulo irmão que fica com leitor, vitrine e busca; ela segue só com a prosa. Regra de embutimento explícita, que resolve a ambiguidade de "contexto Mundo Livre inteiro": os prompts de escrita levam o Cânone sem Texto para o ouvido, as três seções de base do contexto Mundo Livre e só o próprio perfil. Seção nova Texto para a tela (primeira frase curta, negrito como âncora do olho, intertítulo como placa que puxa), destilada de Handley e Ogilvy, que absorve a sugestão de negrito da Pontuação e a regra de H4 que o Aion carregava sozinho. Voz de máquina ganha o Pigarro (Handley); Palavra ganha Comparação que ensina, que concilia Heath (o esquema que o leitor já tem) e Ogilvy (a analogia decorativa que ninguém entende). O Hermes passa a embutir o Recorte Locução de fato, que ganha O leitor, Frase e Texto para a tela, as seções que a voz de locução dele já usava (peso no fim, entrada variada, um nome difícil por frase). Arquivo renomeado no padrão `Codename vX.Y.Z - Descrição.md`. Publicado: 2026-10-19*
 
 *Vernacular v3.0.0: funde a Rosetta v1.0.0 e a Vernacular v2.0.0 em três blocos. O Cânone reúne o Núcleo universal da v2 e o cânone da Rosetta; ganha Voz de máquina como categoria própria (o bacharelês da era digital), regra de hesitação que preserva a palavra quando ela é o fato, estrangeirismo incorporado pelo Volp e pela imprensa, o link que carrega o nome, Voz ensaística única para os dois contextos e a seção nova Texto para o ouvido (roteiro, vídeo-ensaio, podcast, locução). Dois contextos: Mundo Livre (leitor da casa, registro por parte, proibidos da casa, perfis Narrativa, Notícia e o novo Perfil Locução para o Hermes, que corrige o recorte inexistente da v2) e Geral (registros da Rosetta com Roteiro e vídeo-ensaio, travessão como escolha do autor, primeira pessoa liberada). A Oficina traz os seis modos da Rosetta, com intensidade definida em três níveis, erro de ditado no Destilar fala, tradução sem equivalente, diff no modo Prompt e regra de módulo embutido. Regras de embutimento: Cânone + Mundo Livre + perfil, recorte fixo para o Hermes, nunca a Oficina. Corrigidos: "quase" e "um pouco" usados no próprio texto contra a regra, duplicatas de pergunta-motora e de cena antes do conceito, peso não marcado nas seções. Rosetta aposentada. Publicado: 2026-10-16*
 
