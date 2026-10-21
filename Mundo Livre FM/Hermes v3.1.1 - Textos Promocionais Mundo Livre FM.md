@@ -1,4 +1,4 @@
-# Hermes v3.1.0 | Textos Promocionais Mundo Livre FM
+# Hermes v3.1.1 | Textos Promocionais Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -77,7 +77,7 @@ O Recorte Locução da Vernacular rege a frase. Acrescente o que é próprio da 
 
 ---
 
-## LEITOR E BUSCA: LECTERN v1.1.0
+## LEITOR E BUSCA: LECTERN v1.2.0
 
 ### Por que ainda se lê [INEGOCIÁVEL]
 
@@ -190,7 +190,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
     - **Facebook:** post com o link. O card (foto, H1, linha fina) vem da página. Texto de uma ou duas frases.
     - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos.
     - **X:** texto curto (cerca de 200 caracteres) e o link, que o X encurta.
-    - **Instagram:** post comum não leva link clicável. Entregue o texto de tela do story (até 8 palavras que abrem a pergunta) e o link para o adesivo de link, e diga que o link da bio é a reserva.
+    - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
 4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1.
 5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão.
@@ -389,6 +389,8 @@ Depois do bloco de Atenção, fora do texto do site, quatro campos que seguem A 
 - O Pacote de busca está preenchido, sem caixa alta e sem termo de sorte?
 
 ---
+
+*Hermes v3.1.1: Lectern v1.2.0 embutida (Instagram da Distribuição com mensagem para os grupos de compartilhamento); o Hermes segue fixo na vitrine Normal e fora da Distribuição. Publicado: 2026-10-21*
 
 *Hermes v3.1.0: Lectern v1.1.0 embutida; o Hermes fica fixo na vitrine Normal e fora da Distribuição. Publicado: 2026-10-21*
 

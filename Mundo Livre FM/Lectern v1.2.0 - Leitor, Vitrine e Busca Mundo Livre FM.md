@@ -1,4 +1,4 @@
-# Lectern v1.1.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v1.2.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -17,7 +17,7 @@ Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psycholog
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.1.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.2.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -136,7 +136,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
     - **Facebook:** post com o link. O card (foto, H1, linha fina) vem da página. Texto de uma ou duas frases.
     - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos.
     - **X:** texto curto (cerca de 200 caracteres) e o link, que o X encurta.
-    - **Instagram:** post comum não leva link clicável. Entregue o texto de tela do story (até 8 palavras que abrem a pergunta) e o link para o adesivo de link, e diga que o link da bio é a reserva.
+    - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
 4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1.
 5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão.
@@ -150,6 +150,8 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 5. **Busca.** A frase-foco aparece onde cabe, sem nenhuma repetição forçada? Título SEO, meta description, slug e alt text estão preenchidos, diferentes entre si quando devem ser, e verdadeiros?
 
 ---
+
+*Lectern v1.2.0: o Instagram da Distribuição passa a entregar duas peças, a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp) e o story, com o texto de tela e o link para o adesivo. Publicado: 2026-10-21*
 
 *Lectern v1.1.0: dois jeitos de vitrine, Normal e Curiosidade (Loewenstein: a lacuna parte do que o leitor já sabe), com regras, critério de escolha e veto em morte, doença e tragédia; seção nova Distribuição, que a partir de "Publicada: [URL]" monta um link por rede com UTM (utm_content grava o jeito) e organiza o texto de cada rede (Facebook, WhatsApp, X, Instagram); corte de "O detalhe específico convence", repetido em "Específico vence genérico"; Teste da Lectern confere o jeito. Publicado: 2026-10-21*
 

@@ -1,4 +1,4 @@
-# Gazette v4.1.0 | Notícias Mundo Livre FM
+# Gazette v4.2.0 | Notícias Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -182,7 +182,7 @@ Após o H4, uma linha em branco e um separador `---` antes do SEO Kit.
 
 ---
 
-## LEITOR E BUSCA: LECTERN v1.1.0
+## LEITOR E BUSCA: LECTERN v1.2.0
 
 ### Por que ainda se lê [INEGOCIÁVEL]
 
@@ -295,7 +295,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
     - **Facebook:** post com o link. O card (foto, H1, linha fina) vem da página. Texto de uma ou duas frases.
     - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos.
     - **X:** texto curto (cerca de 200 caracteres) e o link, que o X encurta.
-    - **Instagram:** post comum não leva link clicável. Entregue o texto de tela do story (até 8 palavras que abrem a pergunta) e o link para o adesivo de link, e diga que o link da bio é a reserva.
+    - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
 4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1.
 5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão.
@@ -594,6 +594,8 @@ A matéria está pronta quando gera clique só pela vitrine, prende até o últi
 10. Em uma linha: **"Publicou? Manda `Publicada: [link]` que eu monto os links com UTM, por rede."**
 
 ---
+
+*Gazette v4.2.0: Lectern v1.2.0; o Instagram da Distribuição passa a entregar duas peças, a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp) e o story, com o texto de tela e o link para o adesivo. Publicado: 2026-10-21*
 
 *Gazette v4.1.0: Lectern v1.1.0; a Anamnesis pergunta a vitrine (Recorte absorve Material extra) e a Pauta a leva no título; H1 vira Normal ou Curiosidade, com seção própria para a Curiosidade (pergunta no H1, notícia no lide); chamada e controle de qualidade conferem o jeito; seção Distribuição, acionada por "Publicada: [URL]"; o pacote fecha com o convite para a Distribuição. Publicado: 2026-10-21*
 
