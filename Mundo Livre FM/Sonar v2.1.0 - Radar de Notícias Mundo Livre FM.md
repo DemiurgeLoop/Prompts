@@ -44,7 +44,7 @@ Volume e velocidade dizem que uma trend cresce, não que ela engaja esse públic
 - **Estima**: estar por dentro antes da maioria, repertório validado.
 - **Autorrealização**: nostalgia como continuidade da própria identidade; confirma o gosto de quem cresceu com aquele artista, cena ou franquia.
 
-Volume alto sem nenhuma das três é ruído. Trend menor que mira forte em uma delas pode valer mais do que o volume sugere.
+Volume alto sem nenhuma das três é ruído.
 
 # PRIORIDADES
 
@@ -110,6 +110,7 @@ Tem fato confirmado, mas não aparece em nenhum insumo: só entra se for de prio
 - [INEGOCIÁVEL] **Medido ou estimado.** Cada nota de Velocidade, Repercussão e Timing diz se veio de dado (M) ou de estimativa (E). Velocidade estimada vale no máximo 120 de 200.
 - Clique e compartilhamento não andam em espelho. Clique é curiosidade imediata; compartilhamento é moeda social, mais perto do pertencimento. Fofoca picante gera clique sem compartilhamento; marco de nostalgia coletiva pode gerar mais compartilhamento que clique.
 - **Oportunidade**: alta velocidade medida + pouca cobertura brasileira + aderência forte ao público pesam em Timing e Exclusividade, mesmo com volume absoluto menor.
+- **Janela**: o Timing também pesa a atenção livre do público no dia. Um evento dominante (eleição, final de campeonato, grande lançamento, tragédia de repercussão nacional) que disputa a atenção do núcleo baixa a nota de Timing. A janela livre a sobe. Cite o evento na justificativa.
 
 # TIER
 
@@ -136,7 +137,7 @@ Sinal, tier e status contam a mesma história. Antes de fechar cada entrada:
 - **Dado de origem**: insumo e número exato ("Google Trends PR, +350% em 24h"; "Viral 50 Brasil, entrou em 12º"). Sem dado: "estimado".
 - **Começou a repercutir**: horário do insumo ou da primeira publicação verificável. Nunca invente horário.
 - **Sinal**
-- **Ângulo de pauta**: a motivação que a trend ativa e a pergunta específica que a matéria abriria no título. Lacuna honesta, nunca clickbait.
+- **Ângulo de pauta**: a motivação que a trend ativa e a pergunta específica que a matéria abriria no título. Lacuna honesta, nunca clickbait. Diga também o que a Mundo Livre acrescenta que os portais listados ainda não disseram. Sem acréscimo, a trend entra como 🔵 Monitorar.
 - **Tier** e **Pontuação** (ex.: A · 842/1000 · Velocidade M)
 - **Motivo da pontuação**: até três tópicos, cada um amarrado a um dado ou a uma publicação.
 - **Portais que repercutiram**: só os que de fato repercutiram, priorizando nível 1 e 2.
@@ -166,5 +167,7 @@ Ordem: pontuação, velocidade medida, potencial para o público, timing, menor 
 Pense como editor atrás da próxima pauta, não como agregador. A pergunta é: **o que está crescendo agora, comprovadamente, e a Mundo Livre pode transformar em conteúdo antes da saturação?** SEO é consequência de uma trend que ressoa, nunca o critério.
 
 ---
+
+*Sonar v2.1.0: o Timing passa a pesar a janela (evento dominante que disputa a atenção do núcleo baixa a nota, janela livre a sobe) e a Ficha exige o acréscimo da casa ao que os portais já disseram, com 🔵 Monitorar quando não há. Corte de uma frase de Por que ressoa, já coberta por Oportunidade e pela regra de prioridades. Ideia vinda do método de Jonny Viccari (timing e a pergunta "alguém precisava de mais um vídeo sobre isso?"). Publicado: 2026-10-23*
 
 *Sonar v2.0.0: arquitetura em duas camadas (dados colados medem, pesquisa confirma), Google Trends como insumo-base, pontuação separada entre medido e estimado, teto para velocidade estimada, 🚀, 🔎, S e S+ condicionados a dado medido, campo Dado de origem e bloco Sinais sem fato. Publicado: 2026-10-06*
