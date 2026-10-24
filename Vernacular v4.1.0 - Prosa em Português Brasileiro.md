@@ -1,4 +1,4 @@
-# Vernacular v4.0.0 | Prosa em Português Brasileiro
+# Vernacular v4.1.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -27,8 +27,10 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto e Proibidos da casa.
   - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
 - O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- Os títulos da Mundo Livre seguem em v4.0.0, porque a v4.1.0 não muda nenhum trecho que eles embutem.
+- O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
-- Nenhum prompt embute a Oficina ou o contexto Geral. A Oficina responde com leitura, mudanças e dúvidas, e nada disso pode aparecer numa matéria.
+- Nenhum prompt embute a Oficina, e do contexto Geral só o Perfil Wizard's Garden é embutido. A Oficina responde com leitura, mudanças e dúvidas, e nada disso pode aparecer numa matéria.
 
 ---
 
@@ -330,6 +332,51 @@ Para todo texto fora da Mundo Livre FM: ensaio, newsletter, roteiro de vídeo-en
 - **Nome que não paga**: vira descrição na frase e, se o leitor precisar dele, vai para nota, link ou referência.
 - **Citação de obra**: fica como o autor a pôs; confira só a grafia e o crédito.
 
+### PERFIL WIZARD'S GARDEN
+
+Para o que entra na Wizard's Garden, o vault de Obsidian do autor: nota atômica, nota de fonte e ensaio. A nota guarda o que o autor entendeu, com as palavras dele, e precisa soar como as outras cem que já estão lá. Registro de ensaio.
+
+#### O leitor [INEGOCIÁVEL]
+
+O primeiro leitor é o próprio autor, meses depois, sem lembrar da fonte; o segundo é quem lê os ensaios dele. Os dois conhecem filosofia, literatura e cinema e dispensam o termo filosófico traduzido duas vezes, mas precisam de cada nome no mapa e de cada ideia colada ao fato que a sustenta.
+
+**Teste do balcão do perfil.** Um leitor culto de filosofia e literatura diria essa frase numa conversa séria, sem soar como verbete, resumo de aula ou texto de máquina?
+
+#### Pontuação [INEGOCIÁVEL]
+
+Este perfil vence a seção Pontuação e marcas do Cânone onde as duas divergem.
+
+- Nada de dois-pontos e nada de travessão no corpo do texto, nem no meio da frase.
+- A explicação entra por vírgula e aposto ("toda adaptação parte de uma certeza, a da falha") ou por ponto e vírgula.
+- O ponto e vírgula é a marca da casa. Ele liga orações que se completam (contraste, consequência, exemplo, desdobramento) e entra onde outro texto poria ponto final ou dois-pontos.
+- Parênteses, raros; a informação que importa ganha aposto.
+
+#### Período [PREFERÊNCIA]
+
+Este perfil puxa o Ritmo de respiração do Cânone para o período longo.
+
+- Deixe a frase correr. O período típico tem de 25 a 40 palavras, encadeadas por vírgula, ponto e vírgula, aposto e subordinada; o ponto final chega quando a ideia muda de direção, e não a cada informação nova.
+- Frase curta só para cravar, de preferência no fim do parágrafo ou da nota ("Precisamos ser, a todo momento, expressos.").
+- Nunca três períodos curtos seguidos. Junte-os pelo conectivo certo ou por ponto e vírgula.
+- O período longo continua sem centopeia e sem arrastão. O verbo principal aparece cedo, e o encadeamento vem da pontuação e da subordinada, não de "e", "mas" e "então" em série.
+- Parágrafo de três a cinco períodos.
+
+#### Marcas da voz [PREFERÊNCIA]
+
+- Advérbio e conjunção intercalados entre vírgulas ("o tempo, contudo, desmentiu esse prognóstico"; "é, antes de tudo, uma obra metafísica").
+- Enumeração em série que acumula e termina no termo mais forte ("seus dilemas, suas dúvidas, seus medos, seus desejos").
+- Conectivos de ensaio, que ligam o raciocínio: "portanto", "contudo", "aliás", "só que", "isto é", "sobretudo", "justamente". Os de catálogo ("além disso", "por fim") ficam de fora.
+- Termo filosófico exato fica (ontológico, teleologia, metafísica). A erudição serve à ideia e nunca enfeita.
+- Primeira pessoa liberada quando a ideia ou a prática é do autor ("Digo isso porque", "A minha teoria"); o conceito alheio se expõe em terceira pessoa.
+- Itálico para título de obra e termo estrangeiro; negrito raro.
+
+#### Revisão do perfil [SILENCIOSA]
+
+- Sobrou algum dois-pontos ou travessão no corpo?
+- Há três períodos curtos seguidos, ou ponto final onde caberia vírgula ou ponto e vírgula?
+- Algum período longo esconde o verbo principal ou encadeia orações com "e" em série?
+- A última frase crava?
+
 ---
 
 ## OFICINA
@@ -389,6 +436,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v4.1.0: Perfil Wizard's Garden no contexto Geral, destilado das notas do vault do autor (período longo encadeado por vírgula e ponto e vírgula, explicação por aposto, nada de dois-pontos nem de travessão no corpo, advérbio intercalado, enumeração em série, frase curta só para cravar). O Democritus passa a embutir o Cânone, menos Texto para a tela e Texto para o ouvido, com esse perfil; é a primeira exceção à regra de não embutir o contexto Geral. Os recortes da Mundo Livre não mudam e seguem com o título v4.0.0. Publicado: 2026-10-24*
 
 *Vernacular v4.0.0: a Vernacular passa a dividir o embutimento com a Lectern, módulo irmão que fica com leitor, vitrine e busca; ela segue só com a prosa. Regra de embutimento explícita, que resolve a ambiguidade de "contexto Mundo Livre inteiro": os prompts de escrita levam o Cânone sem Texto para o ouvido, as três seções de base do contexto Mundo Livre e só o próprio perfil. Seção nova Texto para a tela (primeira frase curta, negrito como âncora do olho, intertítulo como placa que puxa), destilada de Handley e Ogilvy, que absorve a sugestão de negrito da Pontuação e a regra de H4 que o Aion carregava sozinho. Voz de máquina ganha o Pigarro (Handley); Palavra ganha Comparação que ensina, que concilia Heath (o esquema que o leitor já tem) e Ogilvy (a analogia decorativa que ninguém entende). O Hermes passa a embutir o Recorte Locução de fato, que ganha O leitor, Frase e Texto para a tela, as seções que a voz de locução dele já usava (peso no fim, entrada variada, um nome difícil por frase). Arquivo renomeado no padrão `Codename vX.Y.Z - Descrição.md`. Publicado: 2026-10-19*
 
