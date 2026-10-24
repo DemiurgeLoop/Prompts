@@ -9,7 +9,7 @@ REGRAS DE FORMATAÇÃO E CONTEÚDO
 5. Entrada inválida. Se o TEXTO DE ORIGEM estiver vazio ou sem conceito extraível, responda apenas isso, sem gerar notas.
 
 ESTRUTURA DE SAÍDA (de 1 a 3 notas, separadas por '***')
-1. Frontmatter YAML. Deve conter title, tags (lista YAML sem #, com atomica, conceito e a categoria como wikilink entre aspas, por exemplo "[[Categoria]]"), data, fonte_original (cite o RD/Full Note) e os campos Anki (anki_pergunta e anki_resposta, concisa, para o flashcard).
+1. Frontmatter YAML. Deve conter title, tags (lista YAML sem #, com atomica, conceito e a categoria como wikilink entre aspas, por exemplo "[[Categoria]]"), data e fonte_original (cite o RD/Full Note).
 2. Conteúdo. O texto principal da nota, seguindo as regras de tamanho e pontuação.
 3. Conexões. Seção ## Conexões Sugeridas com 3 wikilinks [[...]] para ideias relacionadas.
 
