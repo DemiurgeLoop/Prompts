@@ -1,4 +1,4 @@
-# Vernacular v4.1.0 | Prosa em Português Brasileiro
+# Vernacular v4.1.1 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,12 +22,12 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.0.0, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.1, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto e Proibidos da casa.
   - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
-- Os títulos da Mundo Livre seguem em v4.0.0, porque a v4.1.0 não muda nenhum trecho que eles embutem.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.1.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Nenhum prompt embute a Oficina, e do contexto Geral só o Perfil Wizard's Garden é embutido. A Oficina responde com leitura, mudanças e dúvidas, e nada disso pode aparecer numa matéria.
@@ -436,6 +436,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v4.1.1: os títulos de embutimento da Mundo Livre passam a acompanhar a versão do arquivo (v4.1.1), no lugar de ficar em v4.0.0; nenhum trecho embutido mudou. Publicado: 2026-10-25*
 
 *Vernacular v4.1.0: Perfil Wizard's Garden no contexto Geral, destilado das notas do vault do autor (período longo encadeado por vírgula e ponto e vírgula, explicação por aposto, nada de dois-pontos nem de travessão no corpo, advérbio intercalado, enumeração em série, frase curta só para cravar). O Democritus passa a embutir o Cânone, menos Texto para a tela e Texto para o ouvido, com esse perfil; é a primeira exceção à regra de não embutir o contexto Geral. Os recortes da Mundo Livre não mudam e seguem com o título v4.0.0. Publicado: 2026-10-24*
 

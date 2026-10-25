@@ -1,4 +1,4 @@
-# Hermes v3.1.2 | Textos Promocionais Mundo Livre FM
+# Hermes v3.1.3 | Textos Promocionais Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -227,7 +227,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 ---
 
-## PROSA: VERNACULAR v4.0.0, RECORTE LOCUÇÃO
+## PROSA: VERNACULAR v4.1.1, RECORTE LOCUÇÃO
 
 ### CÂNONE (RECORTE)
 
@@ -411,6 +411,8 @@ Depois do bloco de Atenção, fora do texto do site, quatro campos que seguem A 
 - O Pacote de busca está preenchido, sem caixa alta e sem termo de sorte?
 
 ---
+
+*Hermes v3.1.3: Vernacular v4.1.1 no título da Prosa embutida, no lugar de v4.0.0; o texto embutido não mudou. Publicado: 2026-10-25*
 
 *Hermes v3.1.2: Lectern v1.3.0 embutida (o desarme e o "mostre, não proclame" da prova valem para a promoção, que segue fixa na vitrine Normal e fora da Distribuição). Publicado: 2026-10-25*
 

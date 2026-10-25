@@ -1,4 +1,4 @@
-# Gazette v4.3.0 | Notícias Mundo Livre FM
+# Gazette v4.3.1 | Notícias Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -332,7 +332,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 ---
 
-## PROSA: VERNACULAR v4.0.0, CÂNONE + MUNDO LIVRE + PERFIL NOTÍCIA
+## PROSA: VERNACULAR v4.1.1, CÂNONE + MUNDO LIVRE + PERFIL NOTÍCIA
 
 ### CÂNONE
 
@@ -616,6 +616,8 @@ A matéria está pronta quando gera clique só pela vitrine, prende até o últi
 10. Em uma linha: **"Publicou? Manda `Publicada: [link]` que eu monto os links com UTM, por rede."**
 
 ---
+
+*Gazette v4.3.1: Vernacular v4.1.1 no título da Prosa embutida, no lugar de v4.0.0; o texto embutido não mudou. Publicado: 2026-10-25*
 
 *Gazette v4.3.0: Lectern v1.3.0; as cinco perguntas do ouvinte entram na definição de ângulo da Anamnesis, e a regra da primeira frase sobe para a Lectern (Segurar quem clicou), ficando aqui só o zero preâmbulo. Publicado: 2026-10-25*
 

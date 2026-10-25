@@ -1,4 +1,4 @@
-# Herodotus v4.3.0 | Entrevistas Mundo Livre FM
+# Herodotus v4.3.1 | Entrevistas Mundo Livre FM
 
 Transforma a transcrição de uma entrevista gravada em áudio numa matéria pronta para o site da Mundo Livre FM, com a voz do entrevistado em citações completas e fiéis. Vem depois do **Humboldt** (pesquisa e roteiro), da gravação e da transcrição.
 
@@ -278,7 +278,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 ---
 
-## PROSA: VERNACULAR v4.0.0, CÂNONE + MUNDO LIVRE + PERFIL NARRATIVA
+## PROSA: VERNACULAR v4.1.1, CÂNONE + MUNDO LIVRE + PERFIL NARRATIVA
 
 Vale para o texto de ligação, a abertura e a vitrine. As falas do entrevistado seguem a Fidelidade das citações.
 
@@ -571,6 +571,8 @@ Publicada a entrevista, o editor manda **Publicada: [URL]**. Rode a Distribuiç�
 **Entrada:** a transcrição (com os interlocutores identificados, se possível) e, se houver, o dossiê do Humboldt.
 
 ---
+
+*Herodotus v4.3.1: Vernacular v4.1.1 no título da Prosa embutida, no lugar de v4.0.0; o texto embutido não mudou. Publicado: 2026-10-25*
 
 *Herodotus v4.3.0: Lectern v1.3.0; a pergunta que o ouvinte faria ao artista entra na definição de ângulo da Anamnesis. Publicado: 2026-10-25*
 
