@@ -126,6 +126,7 @@ Termine perguntando se a pessoa quer que o registro seja atualizado.
 | Florilegium | Resumir artigos e ensaios |
 | Hermes | Textos promocionais Mundo Livre FM |
 | Herodotus | Entrevistas em matérias |
+| Lethe | Limpeza de chats do Claude Code |
 | Marginalia | Resumir livros |
 | Orpheus | Curadoria de playlists de álbuns |
 | Argonaut | YT-DLP (biblioteca musical) |
