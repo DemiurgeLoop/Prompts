@@ -1,4 +1,4 @@
-# Lectern v1.3.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v1.4.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -10,14 +10,14 @@ A marca de uma seção vale para todas as regras dentro dela, salvo quando a reg
 
 O nome vem do atril, a estante onde se apoia o livro aberto para ler. A Lectern diz quem lê a Mundo Livre, por que ainda lê e como o texto chega até ele. A Vernacular diz como o texto soa. Uma não repete a outra.
 
-Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
+Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Robert Cialdini (*As armas da persuasão*), Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
 
 ---
 
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.3.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.4.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -66,16 +66,16 @@ O card (foto, H1 e linha fina) é o texto que mais gente lê, e para muitos é o
 - **Clareza primeiro, engenho depois.** Uns 90% claro e 10% engenhoso. O H1 se entende sozinho, sem o contexto da matéria. Trocadilho que só funciona depois de ler o texto não entra. Passa no **teste do grunhido** (Miller): um desconhecido, em três segundos, diz com as próprias palavras do que se trata. Palavra que ele precisa decifrar custa atenção, e palavra pomposa custa credibilidade (Kahneman).
 - **O que o leitor reconhece vai na frente.** O nome da banda, do artista, da obra ou do filme abre o H1, porque o fim dele some no celular e na busca.
 - **Específico vence genérico.** Número, nome, ano e fato concreto no lugar do adjetivo. "Lucro de 5%" convence; "menos do que você imagina" não.
-- **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o detalhe, o desfecho) sem respondê-la. Ele nunca esconde o *quê*. Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
+- **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o detalhe, o desfecho) sem respondê-la. Ele nunca esconde o *quê*. No jeito `explode`, o desfecho fica escondido com mais força, e o assunto e a promessa paga continuam valendo (PROTOCOLO: EXPLODE!, abaixo). Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
 - **H1 e linha fina nunca repetem a mesma informação.** O H1 fisga, a linha fina aperta.
 - **Toda promessa é paga, e cedo**: até o segundo ou terceiro parágrafo, salvo quando o prompt diz outro lugar (a lista paga no item que a linha fina anuncia). Prometer e enrolar é o mesmo que mentir.
 - **Teste do card.** Lendo só o card, o leitor sabe do que se trata e com quem? Precisa ser sim. Já sabe a resposta? Precisa ser não. Sente que perde algo se não clicar? Precisa ser sim. Se a resposta escapou para a vitrine, leve-a ao corpo e troque-a pelo que ela provoca.
 - **Várias tentativas, uma escolha.** [PREFERÊNCIA] Em silêncio, escreva o H1 de cinco a sete jeitos diferentes (pergunta, contraste, número, consequência, fala) e fique com o que um ouvinte repetiria em voz alta para outro.
 - **A imagem também é vitrine.** [PREFERÊNCIA] Foto grande e nítida, horizontal (16:9, com pelo menos 1200 px de largura), com um foco claro, de preferência uma pessoa. Nunca logotipo nem imagem cheia de texto. Se a imagem fornecida não atende, diga no bloco para o editor (Ficha de apuração ou Pontos a verificar).
 
-### Os dois jeitos da vitrine: Normal e Curiosidade [INEGOCIÁVEL]
+### Os três jeitos da vitrine: Normal, Curiosidade e Explode [INEGOCIÁVEL]
 
-Toda matéria sai em um de dois jeitos. O jeito se escolhe na Pauta, antes do H1. Ele muda o H1 e a linha fina e nunca o rigor do texto: a lacuna honesta vale nos dois.
+Toda matéria sai em um de três jeitos. O jeito se escolhe na Pauta, antes do H1. Ele muda o H1, a linha fina e os textos das redes, e nunca o rigor do texto: a lacuna honesta vale no Normal e na Curiosidade, e o PROTOCOLO: EXPLODE! vale no `explode`.
 
 - **Vitrine Normal.** O H1 entrega o fato: quem e o quê, com o nome na frente. A lacuna mora na linha fina.
 - **Vitrine Curiosidade.** O H1 abre a pergunta ou o contraste que o leitor faria sobre algo que **já conhece**, e a matéria a responde cedo. A linha fina diz o que está em jogo e não repete o H1.
@@ -92,8 +92,30 @@ Toda matéria sai em um de dois jeitos. O jeito se escolhe na Pauta, antes do H1
 - **Normal:** notícia que o leitor já espera (turnê, data, line-up, lançamento anunciado), entrevista e todo texto em que o nome e o fato já bastam.
 - **Curiosidade:** história de obra, bastidor, "por que" e "como", ranking com critério e notícia que traz uma pergunta de verdade, respondida no lide.
 - **Nunca Curiosidade** [INEGOCIÁVEL]: morte, doença, acidente, crime, tragédia, processo e qualquer texto sobre alguém em sofrimento. O H1 informa, sóbrio.
-- Na dúvida, Normal. O prompt do formato pode fixar o jeito (o Aion é sempre Curiosidade, o Hermes sempre Normal). Na Anamnesis, recomende um e diga em meia linha por quê.
+- **Explode** [PREFERÊNCIA]: notícia de anúncio em que falta uma peça nomeável e forte (quem abre, quem divide o palco, o preço, a data de um segundo show), bastidor com desfecho claro e lista de topo escondido. Escolha pensada para a rede: pede que a matéria pague o desfecho no lide e que o editor aceite poucos por vez.
+- Na dúvida, Normal. O prompt do formato pode fixar o jeito (o Aion é sempre Curiosidade na matéria, e só a Distribuição dele pode ir ao `explode`, quando o editor pedir; o Hermes é sempre Normal). Na Anamnesis, recomende um e diga em meia linha por quê.
 - O jeito escolhido vira dado: a Distribuição o grava em cada link, e é assim que a casa descobre o que funciona com o leitor.
+
+### PROTOCOLO: EXPLODE! [INEGOCIÁVEL quando o jeito é `explode`]
+
+O terceiro jeito da vitrine, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5.
+
+**Os seis gatilhos**
+
+1. **Nomeie o assunto, esconda o desfecho.** O card diz do que se trata e com quem, com o nome que o leitor conhece na frente, e retém a peça que falta: quem, qual, quanto, onde, por quê, como terminou. A lacuna aperta quando o leitor está perto de saber (Loewenstein), então dê o contorno (quantos, desde quando, de qual cidade) e guarde o miolo. Na Curiosidade a linha fina conta o que está em jogo; no `explode` ela só dá o contorno. Exemplo (colchetes são placeholders, não fatos): H1 "[Banda] em Curitiba: quem abre o show?", linha fina "**O nome foi confirmado ontem e tem [n] anos de estrada.**", chamada "Olha quem vai abrir pra [banda] em Curitiba."
+2. **Um pedido, um verbo, um passo.** Imperativo concreto ("olha", "confere", "adivinha", "manda"), uma ação só, ao alcance de um polegar. Nunca duas opções, nunca "saiba mais".
+3. **Pertencimento com papel.** Fale de pessoa para pessoa e no plural do ouvinte ("a gente"), e dê a quem clica e a quem repassa um papel: o que soube primeiro, o que lembra, o que estava lá. O Exército dava patente; a Mundo Livre dá a posição de quem entende do assunto. Sem farda, sem grito de guerra, sem "soldado".
+4. **Placar e prazo reais.** Número, data e contagem verdadeiros (o ingresso abre quinta, restam [n] datas, faltam [n] dias para o show). Sem prazo real não há prazo. O leitor de 50 anos reconhece pressa fabricada de longe, e só cai uma vez.
+5. **Atrito zero para repassar.** Imagem e link vão juntos, e o texto sai pronto para encaminhar sem edição. Dê a quem manda o ganho de quem manda: "eu soube primeiro", "eu sei mais que você" (Sutherland).
+6. **Cadência** [SUGESTÃO]. Se a pauta tem desdobramentos (anúncio, confirmação, ingresso, resultado), cada card abre a lacuna do próximo, e a casa volta ao assunto. Não repita o mesmo molde de card duas vezes seguidas.
+
+**O freio** [INEGOCIÁVEL]. É ele que sustenta o clique do card de amanhã.
+
+- **O desfecho se paga cedo e inteiro**: no lide (segundo ou terceiro parágrafo) e, na lista, no item que a linha fina anuncia, sem revelar o topo antes. Card que a matéria não paga é promessa quebrada, e quem foi enganado não abre o próximo.
+- **O assunto fica nomeado.** Pronome no lugar do nome, "isso", "essa banda", "o motivo" e as fórmulas vazias ("você não vai acreditar", "o motivo vai te surpreender", "veja o que aconteceu") seguem proibidos: escondem o assunto, e o que se esconde aqui é o desfecho.
+- **Nada falso, nada insinuado.** Nenhuma urgência ou escassez inventada, nenhuma sugestão de briga, saída, morte ou escândalo que a matéria não confirma, nenhuma foto que diga o que o texto não diz. A afirmação de alguém vai atribuída a esse alguém.
+- **Fora do `explode`**: tudo o que a Curiosidade veta (morte, doença, acidente, crime, tragédia, processo e quem sofre) e os textos de promoção e sorteio.
+- **Poucos por vez** [PREFERÊNCIA]. Explode em todo card vira ruído, e o leitor aprende a ignorar. Reserve-o para a pauta com desfecho nomeável e forte; na dúvida, Curiosidade ou Normal.
 
 ### As cinco perguntas do ouvinte [SUGESTÃO]
 
@@ -150,21 +172,22 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 1. **Confira em uma linha** a matéria e o jeito da vitrine (da Pauta). Se o jeito não estiver na conversa, pergunte em uma linha.
 2. **Um link por rede, com UTM.** Modelo: `[URL]?utm_source={rede}&utm_medium=social&utm_campaign=cards&utm_content={jeito}`
-    - `rede`: `facebook`, `whatsapp`, `x` ou `instagram`. `jeito`: `normal` ou `curiosidade`.
+    - `rede`: `facebook`, `whatsapp`, `x` ou `instagram`. `jeito`: `normal`, `curiosidade` ou `explode`.
     - Tudo em minúsculas, sem espaço nem acento. Se a URL já tem `?`, junte com `&`. Tire da URL os parâmetros de terceiros (`fbclid` e parecidos).
+    - No `explode`, acrescente `&utm_term=a` (a chamada do pacote). Só quando o editor pedir teste A/B, entregue uma segunda chamada com outro gatilho e `utm_term=b`.
     - UTM só em link que vai para fora do site. Nunca no corpo da matéria, nas tags nem no "Confira também:".
 3. **Organize por destino**, uma caixa por rede, nesta ordem [PREFERÊNCIA, revise a ordem quando o GA4 mostrar outra]. Cada caixa traz onde colar, o texto que acompanha e o link.
     - **Facebook:** post com o link. O card (foto, H1, linha fina) vem da página. Texto de uma ou duas frases.
-    - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos.
+    - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos. No `explode`, entregue duas peças: a mensagem 1 a 1 (abre com um cumprimento curto, uma frase e o link) e a de grupo (uma frase, o link e a linha "quem quiser pode mandar só o link com a imagem").
     - **X:** texto curto (cerca de 200 caracteres) e o link, que o X encurta.
     - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
-4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1.
-5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão.
+4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1. No `explode`, nenhum texto traz o desfecho, e cada um aplica os gatilhos 2 a 5 do PROTOCOLO: EXPLODE!.
+5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão (e Session manual term, para ler a variante no `explode`).
 
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
-1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece?
+1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece? No `explode`, o card nomeia o assunto, esconde o desfecho, pede uma ação só e não traz urgência inventada, e a matéria paga o desfecho no lide?
 2. **Essência.** Dá para dizer em uma frase o que o leitor leva? O começo do texto já a entrega ou se aproxima dela?
 3. **Diferença.** O texto tem algo que um resumo automático não teria?
 4. **Leitor.** Um ouvinte de 50 anos, lendo no celular depois do trabalho, chega ao fim sem tropeçar e com vontade de mandar o link a alguém?
@@ -172,6 +195,8 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 6. **Retenção.** A abertura levanta o "por quê?" antes de explicar, cada parágrafo empurra o seguinte e o final fica no ponto mais forte, sem resumo?
 
 ---
+
+*Lectern v1.4.0: terceiro jeito de vitrine, `explode`, com o PROTOCOLO: EXPLODE! (seis gatilhos tirados do canal "Exército do Lula", que foi de 60 mil a quase 11 milhões de inscritos em três semanas, e o freio que os mantém honestos: o assunto fica nomeado, o desfecho se paga no lide, nada de urgência inventada, fora de morte, doença, tragédia e promoção, poucos por vez). A Distribuição aceita `utm_content=explode`, grava a variante em `utm_term`, entrega o WhatsApp em duas peças (1 a 1 e grupo) e o Teste da Lectern confere o jeito novo. Cialdini entra nas bases. Publicado: 2026-10-27*
 
 *Lectern v1.3.0: oito livros da biblioteca entram como método. They Ask, You Answer (Sheridan) dá as cinco perguntas do ouvinte (quanto, o que deu errado, um contra o outro, vale a pena, quem é o melhor) como gerador de ângulos, a pergunta nas palavras do ouvinte no card e a resposta por inteiro; o jogo limpo ganha o desarme (defeito e interesse da casa ditos antes) e o "mostre, não proclame". Building a StoryBrand (Miller) dá o teste do grunhido. Alquimia (Sutherland) dá o motivo do repasse (compartilhar é sinalizar). Story (McKee) e Zinsser dão a seção nova Segurar quem clicou (o "por quê?" antes da informação, abertura pela segunda metade do incidente, parágrafo que empurra o seguinte, final no ponto mais forte, cardápio de aberturas de Handley) e o atrito na essência. The Elements of Journalism (Kovach e Rosenstiel) dá a proporção e a atribuição do verbo forte no H1. Cortes: o pedágio de "Por que ainda se lê", as regras 3 e 4 da Curiosidade (repetiam o teste do card e o nome na frente) e a frase final da regra 5 (repetia a Várias tentativas). Publicado: 2026-10-25*
 
