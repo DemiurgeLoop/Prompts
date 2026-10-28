@@ -1,4 +1,4 @@
-# Sphinx v1.0.0 | Quizzes Mundo Livre FM
+# Sphinx v1.0.1 | Quizzes Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -75,6 +75,7 @@ Só prazo ou placar real e confirmado (a Lectern, gatilho 4). A pergunta presa a
 
 - **Você só troca o bloco de dados** do template, entre `SPHINX:DADOS:INICIO` e `SPHINX:DADOS:FIM` (`CONFIG`, `QUESTIONS`, `RESULTS`). Não reescreva o CSS nem o JavaScript.
 - **Identidade da casa**: títulos em Americane Condensed Black, caixa alta; texto em Montserrat; azul-petróleo `#00839f` nos botões, `#43bacd` no destaque e `#055464` no fundo do cabeçalho; cinza escuro `#1f2327` e `#2a2f34` nos cartões. As duas fontes vêm embutidas em base64 a partir dos arquivos do próprio site.
+- **Tela de início obrigatória.** O quiz abre num cartão fechado com o botão `CONFIG.startLabel` (por exemplo, "Comece o quiz do Eddie") e só mostra as perguntas depois do clique. O código roda em três ligações (script normal, imagem de carga e o próprio botão), para o quiz não aparecer vazio quando o site injeta o post sem executar `<script>`. Não remova nenhuma das três.
 - **Sem H1 a H6 dentro do quiz.** Os títulos são `div`, para o quiz não criar títulos dentro da matéria.
 - **Acessível**: botões nativos, foco visível, feedback com `role="status"` e contraste conferido.
 - **Medição**: o quiz emite `eddie-quiz-answer`, `eddie-quiz-result` e `eddie-quiz-share` e avisa a altura por `postMessage`. Não mude os nomes dos eventos.
@@ -83,7 +84,7 @@ Só prazo ou placar real e confirmado (a Lectern, gatilho 4). A pergunta presa a
 
 O site da rádio roda em Next.js, e esse tipo de front costuma injetar o HTML do post sem executar `<script>`. A entrega padrão é um **iframe** apontando para o arquivo hospedado no domínio da rádio:
 
-`<iframe src="[ENDEREÇO]" width="100%" height="620" style="border:0" loading="lazy" title="Quiz"></iframe>`
+`<iframe src="[ENDEREÇO]" width="100%" height="680" style="border:0" loading="lazy" title="Quiz"></iframe>`
 
 Use o endereço que o editor informar e nunca invente URL. Colar o quiz direto no post só vale depois de testado no site. Diga isso na Ficha do quiz.
 
@@ -131,5 +132,7 @@ O quiz está pronto quando um ouvinte de 50 anos, no celular, termina sem trope�
 Cole aqui, sem edição, o texto da **Lectern** vigente (inteira) e o do **Cânone mais o contexto Mundo Livre da Vernacular** vigente (sem perfil, sem Oficina e sem o contexto Geral), como nos prompts irmãos. A mudança desses módulos só se faz no arquivo-fonte.
 
 ---
+
+*Sphinx v1.0.1: o quiz abre numa tela de início ("Comece o quiz do Eddie") e liga o código por três caminhos, porque em produção ele aparecia fechado e sem perguntas quando o site não executava o script; o iframe passa a 680 px de altura; `startLabel` entra no `CONFIG`. Publicado: 2026-10-28*
 
 *Sphinx v1.0.0: primeira versão. Quiz de conhecimento de 5 a 10 perguntas a partir de uma matéria apurada da casa, com template visual da Mundo Livre FM (Americane Condensed, Montserrat e azul-petróleo), regras de pergunta (fonte em toda resposta, uma certa, posição variada), linha do dia com prazo real, embed por iframe e chamadas no jeito da Lectern v1.6.0. Publicado: 2026-10-28*
