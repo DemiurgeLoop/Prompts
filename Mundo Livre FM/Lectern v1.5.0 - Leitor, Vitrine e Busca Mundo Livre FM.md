@@ -1,4 +1,4 @@
-# Lectern v1.4.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v1.5.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -10,14 +10,14 @@ A marca de uma seção vale para todas as regras dentro dela, salvo quando a reg
 
 O nome vem do atril, a estante onde se apoia o livro aberto para ler. A Lectern diz quem lê a Mundo Livre, por que ainda lê e como o texto chega até ele. A Vernacular diz como o texto soa. Uma não repete a outra.
 
-Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Robert Cialdini (*As armas da persuasão*), Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
+Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Robert Cialdini (*As armas da persuasão*), André Janones (*Janonismo Cultural*, 2023: manual de campanha eleitoral nas redes, lido pelo mecanismo de circulação e nunca pela provocação nem pelo título que não corresponde ao conteúdo), Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
 
 ---
 
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.4.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.5.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -71,7 +71,18 @@ O card (foto, H1 e linha fina) é o texto que mais gente lê, e para muitos é o
 - **Toda promessa é paga, e cedo**: até o segundo ou terceiro parágrafo, salvo quando o prompt diz outro lugar (a lista paga no item que a linha fina anuncia). Prometer e enrolar é o mesmo que mentir.
 - **Teste do card.** Lendo só o card, o leitor sabe do que se trata e com quem? Precisa ser sim. Já sabe a resposta? Precisa ser não. Sente que perde algo se não clicar? Precisa ser sim. Se a resposta escapou para a vitrine, leve-a ao corpo e troque-a pelo que ela provoca.
 - **Várias tentativas, uma escolha.** [PREFERÊNCIA] Em silêncio, escreva o H1 de cinco a sete jeitos diferentes (pergunta, contraste, número, consequência, fala) e fique com o que um ouvinte repetiria em voz alta para outro.
-- **A imagem também é vitrine.** [PREFERÊNCIA] Foto grande e nítida, horizontal (16:9, com pelo menos 1200 px de largura), com um foco claro, de preferência uma pessoa. Nunca logotipo nem imagem cheia de texto. Se a imagem fornecida não atende, diga no bloco para o editor (Ficha de apuração ou Pontos a verificar).
+- **A imagem também é vitrine.** [PREFERÊNCIA] Foto grande e nítida, horizontal (16:9, com pelo menos 1200 px de largura), com um foco claro, de preferência uma pessoa ou uma cena que o leitor reconhece. Crua: sem selo, data, moldura, logotipo nem texto por cima. Janones sustenta que quanto menos produção sobre a imagem, mais alcance; é observação dele, e a casa trata como hipótese a medir no GA4. No `explode`, o enquadramento mostra o contexto e não entrega o desfecho. **A imagem nunca sugere o que a matéria não diz** [INEGOCIÁVEL]. Se a imagem fornecida não atende, diga no bloco para o editor (Ficha de apuração ou Pontos a verificar).
+
+### O pack do card [INEGOCIÁVEL]
+
+O que o leitor vê no feed não é um texto, é um conjunto de quatro peças: **imagem, H1, linha fina e chamada**. Cada uma acrescenta uma coisa e nenhuma repete outra.
+
+- **Imagem:** quem. O rosto ou a cena que o leitor reconhece.
+- **H1:** o assunto, com o nome na frente.
+- **Linha fina:** o contorno da lacuna, o que está em jogo, sem o desfecho.
+- **Chamada:** o terceiro gancho, em voz de pessoa, com um pedido só.
+
+Escreva nesta ordem [PREFERÊNCIA]: essência, H1, linha fina, chamada e, por último, a direção da imagem. As quatro peças dizem a mesma verdade que a matéria, e a matéria paga tudo o que elas abrem. O pack não existe para fazer clicar quem não queria aquilo; existe para fazer clicar com vontade quem quer saber aquilo.
 
 ### Os três jeitos da vitrine: Normal, Curiosidade e Explode [INEGOCIÁVEL]
 
@@ -106,8 +117,8 @@ O terceiro jeito da vitrine, feito para a rede, onde o card tem um segundo para 
 2. **Um pedido, um verbo, um passo.** Imperativo concreto ("olha", "confere", "adivinha", "manda"), uma ação só, ao alcance de um polegar. Nunca duas opções, nunca "saiba mais".
 3. **Pertencimento com papel.** Fale de pessoa para pessoa e no plural do ouvinte ("a gente"), e dê a quem clica e a quem repassa um papel: o que soube primeiro, o que lembra, o que estava lá. O Exército dava patente; a Mundo Livre dá a posição de quem entende do assunto. Sem farda, sem grito de guerra, sem "soldado".
 4. **Placar e prazo reais.** Número, data e contagem verdadeiros (o ingresso abre quinta, restam [n] datas, faltam [n] dias para o show). Sem prazo real não há prazo. O leitor de 50 anos reconhece pressa fabricada de longe, e só cai uma vez.
-5. **Atrito zero para repassar.** Imagem e link vão juntos, e o texto sai pronto para encaminhar sem edição. Dê a quem manda o ganho de quem manda: "eu soube primeiro", "eu sei mais que você" (Sutherland).
-6. **Cadência** [SUGESTÃO]. Se a pauta tem desdobramentos (anúncio, confirmação, ingresso, resultado), cada card abre a lacuna do próximo, e a casa volta ao assunto. Não repita o mesmo molde de card duas vezes seguidas.
+5. **Atrito zero para repassar** (o Kit de repasse da Distribuição). Imagem e link vão juntos, e o texto sai pronto para encaminhar sem edição. Dê a quem manda o ganho de quem manda: "eu soube primeiro", "eu sei mais que você" (Sutherland).
+6. **Cadência** [SUGESTÃO] (ver Uma pauta por vez, em capítulos, em Compartilhar). Se a pauta tem desdobramentos (anúncio, confirmação, ingresso, resultado), cada card abre a lacuna do próximo, e a casa volta ao assunto. Não repita o mesmo molde de card duas vezes seguidas.
 
 **O freio** [INEGOCIÁVEL]. É ele que sustenta o clique do card de amanhã.
 
@@ -166,6 +177,20 @@ O leitor e o Google confiam em quem mostra de onde tirou o que diz.
 - **Ponto de vista com jogo limpo.** A casa pode ter opinião. Diga o defeito e o melhor argumento do outro lado antes que o leitor os procure, e declare em uma frase o interesse da casa quando ele existe (parceria, promoção, preferência assumida). Quem desarma primeiro ganha a confiança (Sheridan).
 - **Mostre, não proclame.** A rádio não diz que é a melhor; mostra a entrevista, o show, o bastidor. O que não se mostra não existe.
 
+### Compartilhar [PREFERÊNCIA]
+
+Como o pack circula depois de publicado. A base é o *Janonismo Cultural* (Janones, 2023), manual de uma campanha eleitoral no Facebook, no X e no Telegram. Muito dele vale para o público dele (Facebook, classes C e D, 2022), e os números que ele cita (selfie rende 20% mais, quatro horas entre posts, compartilhamentos acima das curtidas em três minutos) são observação própria, sem estudo. Use como hipótese e meça no GA4.
+
+- **Uma pauta por vez, em capítulos.** O espaço do feed é limitado: dois assuntos ao mesmo tempo dividem a atenção, e a rede dá mais alcance ao assunto que já está sendo comentado. A pauta grande (turnê, lançamento, aniversário de disco) vira uma novela: cada card abre a lacuna do próximo capítulo, e as perguntas dos comentários viram o capítulo seguinte. Não abra uma segunda novela antes de fechar a primeira. A matéria evergreen volta no aniversário.
+- **Ouvir antes de publicar.** Olhe o que a rede comenta hoje e as perguntas nos comentários dos últimos cards antes de soltar o seguinte. A pergunta que o ouvinte já fez vale mais que a que a redação imaginou. Não solte pauta séria no meio de um assunto que toma a rede inteira. Dia e hora são hipótese: o GA4 diz a janela da casa.
+- **Um post-mãe por rede.** O original fica no perfil principal. Os outros perfis da casa (programas, locutores, parceiros) compartilham o original e não repostam cópia, porque a audiência espalhada em cópias perde a força que teria concentrada (Janones: a live com Lula teve 300 perfis publicando separado).
+- **Quem fala é pessoa.** Texto de rede em voz de gente, nunca de "Equipe Mundo Livre" nem de comunicado. A rádio tem voz, e o áudio do locutor vale mais que o texto quando soa como conversa e não como anúncio ("Atenção!").
+- **Cada rede é um lugar.** Facebook: feed e notificação, leitor mais velho. X: formador de opinião e imprensa, onde a pauta vira assunto. Instagram: recorrência e story. WhatsApp: gente para gente, em grupos. O mesmo texto não serve às quatro, e a Distribuição entrega um para cada.
+- **Quem repassa precisa de motivo e de facilidade.** O repasse sai pronto (imagem e link juntos, uma frase que dá para mandar sem editar) e vai para o grupo certo: card de show no grupo de fãs da banda, e não no da academia (Janones: segmentação).
+- **Boato não vira manchete.** A rede não distingue "X morreu" de "X não morreu": os dois fazem o assunto circular. Quando um boato corre sobre um artista, o H1 diz o fato apurado e confirmado, sem repetir o boato e sem negá-lo (Janones: "fake news não se desmente").
+
+**O que não se importa do livro** [INEGOCIÁVEL]. O Janones joga o jogo da rede para vencer uma eleição em quatro semanas. A Mundo Livre joga o da confiança de um leitor de 30 a 60 anos que detecta clickbait de longe, e quem perde esse leitor não ganha o próximo clique. Ficam de fora: provocar, insultar ou armar isca para adversário; título ou imagem que sugerem o que o conteúdo não é (o livro defende um "urgente!" sobre um vídeo que não era isso; o Discover e o leitor punem); urgência fabricada; insinuação do tipo "poderia muito bem ter feito"; manchete que repete o boato; apagar o post para esconder o erro (corrija e registre).
+
 ### Distribuição [INEGOCIÁVEL quando o editor manda o link]
 
 Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de fora. Matéria publicada só tem leitor depois de chegar a ele. Quando o editor publicar, ele manda **Publicada: [URL]** e, se quiser, as redes do dia. Sem o link, não monte nada e não invente endereço.
@@ -181,9 +206,11 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
     - **WhatsApp:** mensagem curta, de pessoa para pessoa, uma frase e o link. Serve ao canal e aos grupos. No `explode`, entregue duas peças: a mensagem 1 a 1 (abre com um cumprimento curto, uma frase e o link) e a de grupo (uma frase, o link e a linha "quem quiser pode mandar só o link com a imagem").
     - **X:** texto curto (cerca de 200 caracteres) e o link, que o X encurta.
     - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
+    - **Áudio do locutor** [SUGESTÃO, quando o editor pedir]: roteiro de 15 a 20 segundos, em fala de conversa, que abre a pergunta e não a responde e fecha com o pedido único. Serve ao canal e aos grupos do WhatsApp.
+    - **Post-mãe e Kit de repasse** [PREFERÊNCIA]: depois das redes, uma caixa "Para a casa" com o post-mãe a compartilhar (nada de repostar cópia), uma frase pronta para locutores, equipe e parceiros mandarem aos seus grupos, e os grupos certos para esta matéria (fãs da banda, rock clássico, cena de Curitiba). O pedido de repasse aparece só nas mensagens de pessoa para pessoa, uma vez, com o motivo ("manda pra quem foi ao show").
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
 4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1. No `explode`, nenhum texto traz o desfecho, e cada um aplica os gatilhos 2 a 5 do PROTOCOLO: EXPLODE!.
-5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão (e Session manual term, para ler a variante no `explode`).
+5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão (e Session manual term, para ler a variante no `explode`). Nos primeiros minutos do post, veja também se os compartilhamentos passam as curtidas, sinal de alcance grande segundo o Janones; é heurística dele, a confirmar com o histórico da casa.
 
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
@@ -193,8 +220,11 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 4. **Leitor.** Um ouvinte de 50 anos, lendo no celular depois do trabalho, chega ao fim sem tropeçar e com vontade de mandar o link a alguém?
 5. **Busca.** A frase-foco aparece onde cabe, sem nenhuma repetição forçada? Título SEO, meta description, slug e alt text estão preenchidos, diferentes entre si quando devem ser, e verdadeiros?
 6. **Retenção.** A abertura levanta o "por quê?" antes de explicar, cada parágrafo empurra o seguinte e o final fica no ponto mais forte, sem resumo?
+7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 
 ---
+
+*Lectern v1.5.0: *Janonismo Cultural* (Janones, 2023) entra como base de circulação, lido pelo mecanismo e filtrado: seção nova O pack do card (imagem, H1, linha fina e chamada como conjunto que acrescenta sem repetir e que a matéria paga), seção nova Compartilhar (uma pauta por vez em capítulos, ouvir antes de publicar, post-mãe por rede, quem fala é pessoa, cada rede é um lugar, repasse pronto para o grupo certo, boato não vira manchete) com o corte explícito do que não se importa (provocação, isca, título ou imagem que sugerem o que o conteúdo não é, urgência fabricada, insinuação). A imagem fica crua e nunca sugere o que a matéria não diz; a Distribuição ganha o áudio do locutor, o post-mãe com o Kit de repasse e o sinal dos primeiros minutos (compartilhamentos contra curtidas, heurística do autor); o Teste da Lectern confere o pack. Os números do livro (selfie, quatro horas, três minutos) são hipóteses a medir no GA4. Publicado: 2026-10-28*
 
 *Lectern v1.4.0: terceiro jeito de vitrine, `explode`, com o PROTOCOLO: EXPLODE! (seis gatilhos tirados do canal "Exército do Lula", que foi de 60 mil a quase 11 milhões de inscritos em três semanas, e o freio que os mantém honestos: o assunto fica nomeado, o desfecho se paga no lide, nada de urgência inventada, fora de morte, doença, tragédia e promoção, poucos por vez). A Distribuição aceita `utm_content=explode`, grava a variante em `utm_term`, entrega o WhatsApp em duas peças (1 a 1 e grupo) e o Teste da Lectern confere o jeito novo. Cialdini entra nas bases. Publicado: 2026-10-27*
 
