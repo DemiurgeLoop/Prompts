@@ -1,4 +1,4 @@
-# Sphinx v1.0.1 | Quizzes Mundo Livre FM
+# Sphinx v1.0.2 | Quizzes Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -59,7 +59,7 @@ Antes das perguntas, confira em uma linha o que a Ficha marca como fonte única 
 
 ### Explicação [INEGOCIÁVEL]
 
-Depois de cada resposta, uma ou duas frases com o fato e a fonte nomeada ("Fonte: Far Out"). Os textos fixos são "Acertou." e "Não foi dessa vez.", sem emoji.
+Depois de cada resposta, uma ou duas frases com o fato e a fonte nomeada ("Fonte: Far Out"), tirada da lista Fontes da matéria. O quiz não é corpo de matéria, e o nome do veículo aqui não quebra Fontes da casa. Os textos fixos são "Acertou." e "Não foi dessa vez.", sem emoji.
 
 ### Resultado [PREFERÊNCIA]
 
@@ -132,6 +132,8 @@ O quiz está pronto quando um ouvinte de 50 anos, no celular, termina sem trope�
 Cole aqui, sem edição, o texto da **Lectern** vigente (inteira) e o do **Cânone mais o contexto Mundo Livre da Vernacular** vigente (sem perfil, sem Oficina e sem o contexto Geral), como nos prompts irmãos. A mudança desses módulos só se faz no arquivo-fonte.
 
 ---
+
+*Sphinx v1.0.2: a fonte nomeada após cada resposta vem da lista Fontes da matéria, e o quiz fica fora da regra de Fontes da casa, que vale para o corpo da matéria. Publicado: 2026-10-29*
 
 *Sphinx v1.0.1: o quiz abre numa tela de início ("Comece o quiz do Eddie") e liga o código por três caminhos, porque em produção ele aparecia fechado e sem perguntas quando o site não executava o script; o iframe passa a 680 px de altura; `startLabel` entra no `CONFIG`. Publicado: 2026-10-28*
 

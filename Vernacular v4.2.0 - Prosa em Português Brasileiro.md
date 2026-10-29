@@ -1,4 +1,4 @@
-# Vernacular v4.1.1 | Prosa em Português Brasileiro
+# Vernacular v4.2.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,11 +22,11 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.1, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.2.0, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
   - O Cânone, menos Texto para o ouvido.
-  - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto e Proibidos da casa.
+  - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
   - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.1.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.2.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -196,6 +196,17 @@ O leitor conhece a banda e a música, quase nunca o bar, o bairro, o selo, o doc
 - Letra de música não se reproduz, nem verso solto. Chame o verso pelo que ele faz ("o verso da chuva").
 - Em H4, nunca itálico: título de obra vai entre aspas.
 
+### Fontes da casa [INEGOCIÁVEL]
+
+O texto conta a história e a prova fica no fim. O leitor não tropeça em veículo, data e link no meio da frase, e quem quer conferir acha tudo na lista **Fontes**, logo acima de "Confira também". Esta seção detalha a Autoridade do Cânone: o *quem* fica no corpo; o *onde* e o *quando* da publicação vão para a lista.
+
+- **No corpo, só o dono.** Quem fez ou disse algo entra pelo nome, como personagem ("Fender avisou os fãs"). O canal que trouxe a notícia (veículo, post, comunicado, data de publicação) não aparece, e o corpo não leva link para fonte, só os links de tag da casa.
+- **O que só uma parte afirma sai como dela.** O que o artista, a empresa, a gravadora ou um lado da disputa diz de si ou do outro vai com o nome de quem disse ("a cantora diz que", "a empresa afirma que"), nunca como fato do mundo. Fala vai com quem falou. Isso é honestidade, não citação de fonte.
+- **O veículo entra quando é parte da história.** A lista que elegeu o disco, a entrevista que causou a briga, o documentário que revelou a cena: aí o veículo é personagem ou objeto do fato, não o canal dele. Uma vez só.
+- **Nada entra só para ter o que citar.** Vídeo antigo, matéria vizinha, declaração de ministro, estudo: se não faz a história andar, fica fora do corpo. Se sustenta um fato que o corpo usa, vai para Fontes.
+- **A lista.** A linha `**Fontes:**` e, abaixo, um item por fonte: `- *Veículo ou autor*, dd/mm/aaaa: [Título](URL)`, com o título no idioma original. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única lista que a matéria carrega fora do corpo, ao lado do "Confira também".
+- **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Título, data e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
+
 ### PERFIL NARRATIVA
 
 Para os prompts que contam histórias (Aion, Pantheon, Herodotus). O leitor deve ler como quem lê um livro: cada parágrafo responde ao que o anterior deixou no ar, e a história anda para a frente sem que ele perceba o esforço.
@@ -230,7 +241,7 @@ Para os prompts que contam histórias (Aion, Pantheon, Herodotus). O leitor deve
 - **Abra pelo que o leitor já conhece.** O verso, o riff, a capa, a cena que ele tem na memória, e só então o lugar de onde aquilo veio. "A chuva do refrão começou numa sala de aula" liga o que ele canta à origem que ele não sabia.
 - **Poucos detalhes certos.** A cena acende a memória do leitor, e ele completa o resto. Três detalhes que pesam valem mais que um inventário. Detalhe entra se move a ação, se revela a pessoa ou se vira imagem; objeto citado tem que servir depois.
 - **Enumeração com clímax.** Numa série concreta, o item mais forte fecha a lista, de preferência preparado por um adjunto: "benziam os moradores das aldeias, as bíblias, os livros, as plantações e, quando enfim chovia, a própria chuva."
-- **A fonte entra contando.** A atribuição corre dentro da frase ("Ao site americano *Songwriter Universe*, ele contou uma segunda origem") e traz a cena que a fonte guarda: o dilema, a fala, o objeto. Resumo de fonte não é narrativa.
+- **O dono entra contando.** Quem contou a versão entra dentro da frase e traz a cena que guarda: o dilema, a fala, o objeto ("Paich contou uma segunda origem, e ela também não saiu de uma viagem"). O veículo onde ele contou vai para Fontes. Resumo de fonte não é narrativa.
 - **A lenda primeiro, o fato depois.** Quando a versão corrente está errada, conte-a como o leitor a conhece e desmonte-a com o registro: "Faz sentido, não faz? Só que não foi assim."
 
 #### Ritmo
@@ -265,7 +276,7 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 
 #### A ordem
 
-- **Lide nos dois primeiros períodos.** Quem, o quê, quando e a fonte. O leitor que para aí já sabe o que aconteceu.
+- **Lide nos dois primeiros períodos.** Quem, o quê e quando. O leitor que para aí já sabe o que aconteceu.
 - **Parágrafo-chave até o terceiro.** O porquê de aquilo importar para quem acompanha o artista, a cena ou a franquia. É aqui que o texto sobe um degrau, do fato ao significado, e paga a pergunta da linha fina.
 - **Camadas em ordem de interesse.** Depois do parágrafo-chave, cada parágrafo acrescenta uma camada (a fala, o bastidor, o contexto, a reação, o que vem a seguir), da mais forte para a mais fraca. Cada uma abre por um elo concreto com a anterior.
 - **Contexto só o que explica o presente.** O passado entra para o leitor entender a notícia, não para contar a carreira. Uma frase de contexto costuma bastar.
@@ -275,10 +286,10 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 - **Quando a apuração tem uma cena** (a fala no palco, o post, o momento do anúncio), a notícia pode abrir por ela em até dois parágrafos curtos, subir ao fato e ao significado no parágrafo seguinte e fechar voltando à mesma cena ou à mesma pessoa. A cena serve à notícia e nunca a substitui.
 - **Sem cena apurada, abra pelo fato.** Cena inventada ou genérica ("numa noite de sexta") não entra.
 
-#### O fato e a fonte
+#### O fato e o dono
 
-- **Atribuição precisa.** Toda afirmação de terceiros diz quem disse, onde e quando, na fonte original. "Segundo a banda", "disse ao *Guardian* em [data]". O leitor nunca confunde a voz da fonte com a da casa.
-- **Uma versão por fonte.** Quando as fontes divergem, cada versão vai para a sua fonte, lado a lado, sem escolha em silêncio.
+- **Dono da afirmação.** Toda afirmação de terceiros diz quem a fez ("a banda diz", "Fender escreveu"). Veículo e data de publicação vão para Fontes (ver Fontes da casa). O leitor nunca confunde a voz da fonte com a da casa.
+- **Uma versão por dono.** Quando as fontes divergem, cada versão vai para quem a contou, lado a lado, sem escolha em silêncio.
 - **Data sempre.** O fato tem dia; o tempo relativo ("ontem", "nesta semana") só com a data ao lado.
 
 #### A frase da notícia
@@ -289,7 +300,7 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 
 #### Revisão do perfil [SILENCIOSA]
 
-- Quem, o quê, quando e fonte estão nos dois primeiros períodos?
+- Quem, o quê e quando estão nos dois primeiros períodos?
 - O parágrafo-chave aparece até o terceiro e paga a linha fina?
 - Se abriu por cena, a moldura fecha?
 - Alguma afirmação ficou sem dono?
@@ -436,6 +447,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v4.2.0: seção nova Fontes da casa no contexto Mundo Livre. O texto conta a história e a prova fica no fim: no corpo, só o dono de cada afirmação, sem veículo, data de publicação nem link para fonte; o que só uma parte afirma sai como dela; nada entra só para ter o que citar; a lista Fontes vai logo acima de "Confira também", só com o que foi lido e `[?]` no que falta. Perfil Notícia: o lide perde "a fonte" e "O fato e a fonte" vira "O fato e o dono". Perfil Narrativa: "A fonte entra contando" vira "O dono entra contando". As seções embutidas do contexto Mundo Livre passam a quatro. Publicado: 2026-10-29*
 
 *Vernacular v4.1.1: os títulos de embutimento da Mundo Livre passam a acompanhar a versão do arquivo (v4.1.1), no lugar de ficar em v4.0.0; nenhum trecho embutido mudou. Publicado: 2026-10-25*
 

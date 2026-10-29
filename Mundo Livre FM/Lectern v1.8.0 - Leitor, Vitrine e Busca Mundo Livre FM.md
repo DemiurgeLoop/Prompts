@@ -1,4 +1,4 @@
-# Lectern v1.7.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v1.8.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -17,7 +17,7 @@ Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psycholog
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.7.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.8.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -104,7 +104,7 @@ Moldes (colchetes são placeholders, não fatos):
 3. **Verbo de conversa e conta concreta.** "Avisa", "conta", "explica", "tenta". Número, época ou fonte no lugar do adjetivo. Sem humor de encomenda.
 4. **Uma frase, cerca de 140 caracteres** (teto de 160). Sem fatos em fila: dois substantivos técnicos seguidos ("a máscara de [lugar] e o desenho de [época]") leem como ficha.
 5. **Não entrega a tese nem o desfecho.** Se a segunda oração pode ser a resposta do H1, ela é resposta, e não buraco.
-6. **Só fato com fonte no corpo.** A linha fina passa pela mesma apuração que o texto (A prova). A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card.
+6. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card.
 7. **Não repete o H1** e não responde a pergunta dele.
 
 **Fracas** (placeholders)
@@ -115,7 +115,7 @@ Moldes (colchetes são placeholders, não fatos):
 - Fórmula fato, desfecho e pergunta: "[Fato]. [Desfecho]. Mas de onde veio [X]?"
 - Duas perguntas na mesma linha: o leitor não sabe qual abrir.
 
-**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, com fonte? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
+**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
 
 ### Os três jeitos da vitrine: Normal, Curiosidade e Explode [INEGOCIÁVEL]
 
@@ -226,7 +226,7 @@ O objetivo é ser encontrado por quem já procura o assunto e reconhecido como a
 O leitor e o Google confiam em quem mostra de onde tirou o que diz.
 
 - **Experiência da casa.** O que só a rádio tem (a entrevista própria, o show na cidade, a programação, a passagem documentada de um artista pelo Paraná) sobe na hierarquia do texto. Nunca invente essa ligação.
-- **Fato com dono.** Quem disse, onde e quando. Fonte primária antes de agregador.
+- **Fato com dono, prova no fim.** Todo fato tem fonte, e a fonte aparece na lista Fontes, no fim do texto, nunca no meio da frase. O corpo conta, a lista prova. Fonte primária antes de agregador, e a lista diz só o que foi lido de fato.
 - **O que vai à busca também é fato.** H1, linha fina, título SEO, meta description e alt text passam pela mesma apuração que o corpo. Nada inventado em nenhum deles.
 - **Data honesta.** A data muda só quando o conteúdo muda.
 - **Ponto de vista com jogo limpo.** A casa pode ter opinião. Diga o defeito e o melhor argumento do outro lado antes que o leitor os procure, e declare em uma frase o interesse da casa quando ele existe (parceria, promoção, preferência assumida). Quem desarma primeiro ganha a confiança (Sheridan).
@@ -279,6 +279,8 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 
 ---
+
+*Lectern v1.8.0: A prova passa a pedir a fonte no fim, na lista Fontes, e não no meio da frase ("Fato com dono, prova no fim"; a lista diz só o que foi lido de fato). A linha fina exige fato apurado no corpo, e o Teste da linha fina confere que esse fato consta em Fontes. Publicado: 2026-10-29*
 
 *Lectern v1.7.0: seção nova O que move o clique, com seis alavancas que têm estudo (lacuna que parte do que o leitor sabe, pessoa que faz algo, pergunta literal com cautela, emoção que ativa e utilidade, o que o feed não carrega, um passo ao alcance do polegar), cada uma com o que o estudo mediu e o limite dele; o que a pesquisa não sustenta (número, tamanho, negatividade, números de Janones, clique sem leitura); o preço da isca; e a medição por quatro números juntos. O H1 passa a trazer, quando couber, quem faz o quê; a tentativa de H1 troca a pergunta solta pela pergunta do ouvinte; o Teste da Lectern ganha o item Clique. Publicado: 2026-10-29*
 
