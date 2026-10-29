@@ -1,4 +1,4 @@
-# Vernacular v4.2.0 | Prosa em Português Brasileiro
+# Vernacular v4.2.1 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,11 +22,11 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.2.0, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.2.1, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
   - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.2.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.2.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -204,8 +204,8 @@ O texto conta a história e a prova fica no fim. O leitor não tropeça em veíc
 - **O que só uma parte afirma sai como dela.** O que o artista, a empresa, a gravadora ou um lado da disputa diz de si ou do outro vai com o nome de quem disse ("a cantora diz que", "a empresa afirma que"), nunca como fato do mundo. Fala vai com quem falou. Isso é honestidade, não citação de fonte.
 - **O veículo entra quando é parte da história.** A lista que elegeu o disco, a entrevista que causou a briga, o documentário que revelou a cena: aí o veículo é personagem ou objeto do fato, não o canal dele. Uma vez só.
 - **Nada entra só para ter o que citar.** Vídeo antigo, matéria vizinha, declaração de ministro, estudo: se não faz a história andar, fica fora do corpo. Se sustenta um fato que o corpo usa, vai para Fontes.
-- **A lista.** A linha `**Fontes:**` e, abaixo, um item por fonte: `- *Veículo ou autor*, dd/mm/aaaa: [Título](URL)`, com o título no idioma original. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única lista que a matéria carrega fora do corpo, ao lado do "Confira também".
-- **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Título, data e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
+- **A lista.** Uma linha só: `**Fontes:**` e as fontes separadas por " · ", cada uma como `[Veículo (assunto)](URL)`, em que o assunto diz o que a fonte sustenta (`[NME (ataque de bots)](URL)`). Sem data de publicação. Fonte sem link entra como texto simples (`Gigantic Tickets (comunicado)`). Dado que muda com o tempo leva a data da consulta dentro do parêntese. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única linha que a matéria carrega fora do corpo, ao lado do "Confira também".
+- **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Assunto e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
 
 ### PERFIL NARRATIVA
 
@@ -447,6 +447,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v4.2.1: a lista Fontes passa a ser uma linha só, `**Fontes:** [Veículo (assunto)](URL) · Nome (assunto) · ...`, sem data de publicação e com fonte sem link em texto simples. Publicado: 2026-10-29*
 
 *Vernacular v4.2.0: seção nova Fontes da casa no contexto Mundo Livre. O texto conta a história e a prova fica no fim: no corpo, só o dono de cada afirmação, sem veículo, data de publicação nem link para fonte; o que só uma parte afirma sai como dela; nada entra só para ter o que citar; a lista Fontes vai logo acima de "Confira também", só com o que foi lido e `[?]` no que falta. Perfil Notícia: o lide perde "a fonte" e "O fato e a fonte" vira "O fato e o dono". Perfil Narrativa: "A fonte entra contando" vira "O dono entra contando". As seções embutidas do contexto Mundo Livre passam a quatro. Publicado: 2026-10-29*
 

@@ -1,4 +1,4 @@
-# Gazette v4.8.0 | Notícias Mundo Livre FM
+# Gazette v4.8.1 | Notícias Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -439,7 +439,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 ---
 
-## PROSA: VERNACULAR v4.2.0, CÂNONE + MUNDO LIVRE + PERFIL NOTÍCIA
+## PROSA: VERNACULAR v4.2.1, CÂNONE + MUNDO LIVRE + PERFIL NOTÍCIA
 
 ### CÂNONE
 
@@ -596,8 +596,8 @@ O texto conta a história e a prova fica no fim. O leitor não tropeça em veíc
 - **O que só uma parte afirma sai como dela.** O que o artista, a empresa, a gravadora ou um lado da disputa diz de si ou do outro vai com o nome de quem disse ("a cantora diz que", "a empresa afirma que"), nunca como fato do mundo. Fala vai com quem falou. Isso é honestidade, não citação de fonte.
 - **O veículo entra quando é parte da história.** A lista que elegeu o disco, a entrevista que causou a briga, o documentário que revelou a cena: aí o veículo é personagem ou objeto do fato, não o canal dele. Uma vez só.
 - **Nada entra só para ter o que citar.** Vídeo antigo, matéria vizinha, declaração de ministro, estudo: se não faz a história andar, fica fora do corpo. Se sustenta um fato que o corpo usa, vai para Fontes.
-- **A lista.** A linha `**Fontes:**` e, abaixo, um item por fonte: `- *Veículo ou autor*, dd/mm/aaaa: [Título](URL)`, com o título no idioma original. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única lista que a matéria carrega fora do corpo, ao lado do "Confira também".
-- **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Título, data e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
+- **A lista.** Uma linha só: `**Fontes:**` e as fontes separadas por " · ", cada uma como `[Veículo (assunto)](URL)`, em que o assunto diz o que a fonte sustenta (`[NME (ataque de bots)](URL)`). Sem data de publicação. Fonte sem link entra como texto simples (`Gigantic Tickets (comunicado)`). Dado que muda com o tempo leva a data da consulta dentro do parêntese. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única linha que a matéria carrega fora do corpo, ao lado do "Confira também".
+- **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Assunto e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
 
 ### PERFIL NOTÍCIA
 
@@ -735,6 +735,8 @@ A matéria está pronta quando gera clique só pela vitrine, prende até o últi
 10. Em uma linha: **"Publicou? Manda `Publicada: [link]` que eu monto os links com UTM, por rede."**
 
 ---
+
+*Gazette v4.8.1: Vernacular v4.2.1 (lista Fontes em uma linha, `[Veículo (assunto)](URL) · ...`). Publicado: 2026-10-29*
 
 *Gazette v4.8.0: Vernacular v4.2.0 e Lectern v1.8.0. A matéria conta a história e deixa a prova no fim: o corpo sem veículo, sem data de publicação e sem link para fonte, só com o dono de cada afirmação; lista Fontes logo acima de "Confira também", só com o que foi lido. O lide perde "a fonte", a apuração manda registrar a fonte em Fontes e declarar a segunda mão, o pacote ganha a lista e o controle de qualidade confere que o corpo ficou limpo e que tudo consta em Fontes. Publicado: 2026-10-29*
 
