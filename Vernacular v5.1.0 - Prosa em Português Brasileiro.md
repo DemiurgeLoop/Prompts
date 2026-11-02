@@ -1,4 +1,4 @@
-# Vernacular v5.0.0 | Prosa em Português Brasileiro
+# Vernacular v5.1.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,12 +22,12 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, o tom da casa (Conteúdo ou Sóbrio), a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.0.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.1.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
   - O Perfil Conteúdo, que vale no tom Conteúdo da Lectern.
   - O perfil de base do prompt, e só ele: Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette. No tom Sóbrio da Lectern, vale só o perfil de base.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.1.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -57,6 +57,7 @@ A voz de máquina é o bacharelês da era digital: fórmulas que têm cara de te
 - **Fórmulas.** "Não é sobre X, é sobre Y", "não apenas X, mas também Y", "mais do que X", "em um mundo onde", "e é exatamente isso que", "seja X, seja Y" como floreio, trio de adjetivos ("cru, visceral e honesto"), pergunta retórica em série, "no fim das contas", "um lembrete de que", "vale lembrar", "mergulhar fundo", "jornada", "navegar" no sentido figurado, "desbloquear o potencial".
 - **Hesitação.** "Um pouco", "bastante", "quase", "uma espécie de", "de certa forma", "sem dúvida", "talvez", "é importante notar", "podemos dizer que". Quando a palavra é o próprio fato ("a banda quase acabou em 1979"), ela fica.
 - **Pigarro.** A frase que gasta o começo antes de dizer algo: "É importante lembrar que", "O objetivo deste texto é", "De acordo com [fonte]," quando o que importa é o fato. Comece pelo sujeito e pelo verbo; a atribuição desce para o meio ou o fim da frase.
+- **Palavras de LinkedIn.** No sentido figurado: alavancar, otimizar, capacitar, impulsionar, sinergia, paradigma, farol, ecossistema e panorama ("desbloquear" e "jornada" já estão acima). Troque pela palavra que um amigo usaria no WhatsApp.
 - Se falta certeza, apure. Se falta o fato, marque `[?]`. Se tem o fato, afirme.
 
 ### O leitor [INEGOCIÁVEL]
@@ -76,7 +77,7 @@ Quem escreve sabe demais e esquece que o leitor não sabe. Cada contexto diz que
 
 - **Uma ideia principal por período, e ela mora na oração principal.** O acessório (data, lugar, circunstância) desce para adjunto, aposto ou subordinada. "O disco saiu em 1991 e vendeu 30 milhões de cópias" põe as duas informações no mesmo nível; "Lançado em 1991, o disco vendeu 30 milhões de cópias" põe o peso no que importa.
 - **Dado antes do novo, peso no fim.** A frase começa pelo que o leitor já tem e termina no que ele não sabia. O termo que surpreende ou decide fecha o período.
-- **Ritmo de respiração.** Alterne períodos médios e longos, que acumulam detalhe, com curtos, que cravam. Evite o estilo picadinho (três ou mais frases curtas seguidas sem conectivo), a centopeia (mais de duas orações ou duas linhas antes de o verbo principal aparecer) e o arrastão (tudo encadeado com "e", "mas" e "então").
+- **Ritmo de respiração.** Alterne períodos médios e longos, que acumulam detalhe, com curtos, que cravam. Uma frase de até 6 palavras ao lado de outra de 25 ou mais; a cadência uniforme de 15 a 20 palavras por frase é marca de máquina. Evite o estilo picadinho (três ou mais frases curtas seguidas sem conectivo), a centopeia (mais de duas orações ou duas linhas antes de o verbo principal aparecer) e o arrastão (tudo encadeado com "e", "mas" e "então").
 - **Paralelismo.** Termos coordenados têm a mesma forma: "gravou, mixou e lançou o disco", nunca "gravou, fez a mixagem e o disco foi lançado".
 - **Entrada variada.** Dois períodos ou parágrafos seguidos não começam com a mesma palavra nem com a mesma estrutura (gerúndio, particípio, "Com", "Em [ano]").
 - **Voz ativa.** Passiva só quando o agente não importa, não se sabe, ou quando ela mantém o protagonista como sujeito.
@@ -186,7 +187,7 @@ O leitor conhece a banda e a música, quase nunca o bar, o bairro, o selo, o doc
 
 - Dado, serviço, contrato e Ficha seguem o jornalismo e web: frase possível na fala, terceira pessoa, fato antes de opinião.
 - Abertura, narrativa e final seguem o ensaio: admitem período longo, subordinação e ironia, desde que cada frase se sustente e termine com peso.
-- Em nenhuma das duas entra a primeira pessoa.
+- No tom Sóbrio, nenhuma das duas leva primeira pessoa. No tom Conteúdo ela é permitida, como o Perfil Conteúdo define.
 - Nome que não paga a cena vai para a Ficha de apuração.
 - Gente que o leitor não conhece pelo nome nunca sustenta sozinha um título ou uma vitrine.
 
@@ -312,7 +313,7 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 
 #### Antes de escrever [SILENCIOSO]
 
-- **O ângulo em uma frase.** O que a casa pensa que este fato significa para quem ouve, com o fato que o sustenta. Fato sem ângulo é verbete; ângulo sem fato é opinião de bar.
+- **O ângulo em uma frase, com lado tomado.** O que a casa pensa que este fato significa para quem ouve, com o fato que o sustenta. Fato sem ângulo é verbete; ângulo sem fato é opinião de bar; ângulo morno não explode.
 - **A razão de repassar.** Complete: "quem mandar este texto está dizendo que ____" ("eu estava lá", "eu sei mais que você", "eu sempre disse"). Se a frase não fecha, falta ângulo.
 - **A peça mais forte.** Ache, no material, a consequência, o dado que contraria, a fala ou a cena que mais pesa. Ela abre ou fecha o texto, e nunca fica enterrada no meio.
 
@@ -333,9 +334,10 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 #### A voz
 
 - **Fã que sabe.** A voz é a de quem gosta do assunto e o conhece por dentro. O entusiasmo vem do verbo escolhido, do detalhe certo e do ritmo, nunca do adjetivo nem do ponto de exclamação.
-- **Opinião da casa, com dono.** O ângulo vem dito em terceira pessoa, como leitura da casa ("para quem cresceu com o disco, a versão de [ano] muda o que ele significa"), sempre colado ao fato. Sem primeira pessoa e sem "nós" no corpo (Registro por parte do texto); o "a gente" fica nos textos de rede, como a Lectern define.
+- **Lado tomado, com dono.** A casa tem posição e a diz sem rodeio, porque o centro confortável não explode. O ângulo pode vir em primeira pessoa (o "eu" de quem assina, o "a gente" da rádio) ou em terceira ("para quem cresceu com o disco, a versão de [ano] muda o que ele significa"), sempre colado ao fato e sem virar fato do mundo.
 - **Humor seco, de bar.** Uma ironia curta por texto, quando o fato a sustenta (Voz ensaística). Nunca sobre quem sofre.
-- **Paixão na escala do fato.** O texto pode vibrar, mas se o fato é médio a voz é média. Superlativo só com o número que o prova.
+- **Intensidade de fã.** O texto vibra e pode ser extremo na posição: veredito duro e superlativo valem, desde que o fato por baixo exista e o número que prova o superlativo esteja no texto.
+- **Imperfeição humana.** Pelo menos uma por texto: um fragmento, um aparte, uma opinião torta, um detalhe sem função que só quem viveu lembra, algo que fica chato ou irritante porque é real. É imperfeição de voz, nunca erro de fato nem de gramática.
 - **Convite pelo fato.** "Você precisa ver", "imperdível" e "não perca" ficam fora, e o gancho de influenciador também ("prepare-se", "calma que tem mais", "spoiler").
 
 #### O que o Conteúdo não faz [INEGOCIÁVEL]
@@ -351,7 +353,8 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 - Dá para completar "quem mandar este texto está dizendo que ____"?
 - A abertura entra pela peça mais forte e já paga o card?
 - Algum parágrafo se arrasta, sem cena que o peça, ou termina sem empurrar o próximo?
-- Alguma frase vibra mais do que o fato aguenta?
+- O texto tem lado tomado e pelo menos uma imperfeição humana?
+- Alguma frase afirma mais do que o fato sustenta (intensidade vale, fato inventado não)?
 
 ### PERFIL LOCUÇÃO
 
@@ -495,6 +498,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.1.0: a pedido do editor, quatro travas do Perfil Conteúdo caem. Lado tomado e intensidade de fã no lugar de opinião em terceira pessoa e paixão na escala do fato (o fato por baixo continua inegociável); primeira pessoa permitida no tom Conteúdo e proibida só no Sóbrio (Registro por parte do texto); imperfeição humana, de voz e nunca de fato ou gramática, entra na revisão do perfil. Do humanizador entram no Cânone a lista de palavras de LinkedIn (alavancar, otimizar, capacitar, impulsionar, sinergia, paradigma, farol, ecossistema, panorama) e a regra numérica de ritmo (até 6 palavras ao lado de 25 ou mais). Publicado: 2026-11-02*
 
 *Vernacular v5.0.0: Perfil Conteúdo no contexto Mundo Livre, a camada de voz da Lectern v2.0.0 (conteúdo que circula, com apuração por baixo): ângulo da casa em uma frase, razão de repassar, gancho nas primeiras doze palavras, ritmo de celular, fã que sabe, opinião em terceira pessoa com dono, humor seco, paixão na escala do fato e o que o Conteúdo não faz (inventar, trocar apuração por tom, insinuar). Vale por cima do perfil de base e sai inteiro no tom Sóbrio. Gazette, Aion, Pantheon e Herodotus passam a embutir quatro partes (Cânone, Mundo Livre, Perfil Conteúdo e o perfil de base); o Hermes e o Democritus não mudam. Os perfis Notícia e Narrativa ficam como estão. Publicado: 2026-11-02*
 

@@ -1,4 +1,4 @@
-# Lectern v2.0.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.1.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -17,7 +17,7 @@ Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psycholog
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v2.0.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v2.1.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -38,10 +38,10 @@ A Mundo Livre publica **conteúdo que circula**, com apuração por baixo. O tex
 
 Todo texto sai em um de dois tons, e a Pauta escolhe o tom antes do H1.
 
-- **Conteúdo** (o padrão). O texto tem **ângulo**: o ponto de vista da casa sobre o que o fato significa para quem ouve, colado ao fato que o sustenta. Tem gancho, ritmo e voz (Perfil Conteúdo da Vernacular), e a vitrine usa um dos três jeitos do Conteúdo (Direta, Curiosidade ou Explode, abaixo). É nele que a casa escreve quase tudo.
+- **Conteúdo** (o padrão). O texto tem **ângulo**: o ponto de vista da casa sobre o que o fato significa para quem ouve, colado ao fato que o sustenta, e a casa toma lado: posição forte alcança mais que posição neutra, e o centro confortável não explode. Tem gancho, ritmo e voz (Perfil Conteúdo da Vernacular), e a vitrine usa um dos três jeitos do Conteúdo (Direta, Curiosidade ou Explode, abaixo). É nele que a casa escreve quase tudo.
 - **Sóbrio** [INEGOCIÁVEL quando o tema é]. Morte (e o luto e a homenagem a quem morreu), doença, acidente, crime, tragédia, processo, abuso e qualquer texto sobre alguém em sofrimento. A casa informa e acompanha. O H1 diz o fato, sem lacuna. A linha fina dá o contorno do fato e não abre buraco para forçar o clique. Não há humor, ironia nem suspense. O corpo segue só o perfil de base da Vernacular (Notícia ou Narrativa), sem a camada Conteúdo, e as chamadas informam e não pedem repasse.
 - **Na dúvida sobre o tema, Sóbrio.** O erro de tom num tema sério custa a confiança do leitor de uma vez; ser sóbrio demais num tema leve custa um clique.
-- **O freio vale nos dois tons** [INEGOCIÁVEL]. Conteúdo não é licença para o que o leitor de 30 a 60 anos detecta de longe: isca, urgência inventada, insinuação, foto que diz o que o texto não diz, promessa que o corpo não paga. Viral, aqui, é o card que o leitor repassa com orgulho, e não o que o enganou. Quem perde a confiança dele perde também o clique de amanhã, e o Discover pune o resto.
+- **O freio vale nos dois tons** [INEGOCIÁVEL]. Conteúdo não é licença para o que o leitor de 30 a 60 anos detecta de longe: isca, urgência inventada, insinuação, foto que diz o que o texto não diz, promessa que o corpo não paga. O freio vale para o fato, e não para a opinião: a casa pode ter lado e ser dura, mas não inventa nem insinua o que não sabe. Viral, aqui, é o card que o leitor repassa com orgulho, e não o que o enganou. Quem perde a confiança dele perde também o clique de amanhã, e o Discover pune o resto.
 
 ### Quem lê [INEGOCIÁVEL como referência]
 
@@ -75,7 +75,8 @@ Uma mensagem com três prioridades não tem nenhuma. Antes da primeira frase, re
 O card (foto, H1 e linha fina) é o texto que mais gente lê, e para muitos é o único. O mesmo H1 aparece na busca, no Discover e nos resumos de IA.
 
 - **Clareza primeiro, engenho depois.** Uns 90% claro e 10% engenhoso. O H1 se entende sozinho, sem o contexto da matéria. Trocadilho que só funciona depois de ler o texto não entra. Passa no **teste do grunhido** (Miller): um desconhecido, em três segundos, diz com as próprias palavras do que se trata. Palavra que ele precisa decifrar custa atenção, e palavra pomposa custa credibilidade (Kahneman).
-- **O que o leitor reconhece vai na frente.** O nome da banda, do artista, da obra ou do filme abre o H1, porque o fim dele some no celular e na busca.
+- **O que o leitor reconhece vai na frente, exceto no H1 curto do Conteúdo (abaixo), onde o título SEO leva o nome.** O nome da banda, do artista, da obra ou do filme abre o H1, porque o fim dele some no celular e na busca.
+- **H1 curto no Conteúdo.** [PREFERÊNCIA] O H1 pode ser curto e afirmativo: de 3 a 4 palavras de núcleo, até 8 no total, com o nome quando couber e uma direção clara, nunca neutro. O título SEO fica com o nome e a frase-foco por inteiro (A busca) e é ele que a busca lê. Padrões de partida, a conferir contra o dado do canal: primeira pessoa mais verbo de ação mais consequência; mudança mais urgência; confissão com humor; número específico mais sistema. Perdem: genérico explicativo, palavra vazia, elogio sem consequência, neutro de professor.
 - **Específico vence genérico.** Número, nome, ano e fato concreto no lugar do adjetivo. "Lucro de 5%" convence; "menos do que você imagina" não.
 - **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o detalhe, o desfecho) sem respondê-la. Ele nunca esconde o *quê*. No jeito `explode`, o desfecho fica escondido com mais força, e o assunto e a promessa paga continuam valendo (PROTOCOLO: EXPLODE!, abaixo). Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
 - **H1 e linha fina nunca repetem a mesma informação.** O H1 fisga, a linha fina aperta.
@@ -190,7 +191,7 @@ Estas são as alavancas do clique que têm estudo por trás, cada uma com o que 
 - **Número no H1, manchete longa e citação parcial** não mudaram o clique no Blendle. O número serve para ser específico, não para fisgar.
 - **Sentimento negativo** ajudou no Blendle e não se repetiu no estudo holandês de testes A/B. Não é alavanca.
 - **Os números de Janones** (selfie, quatro horas, três minutos) são relato de campanha, sem estudo. Seguem como hipóteses.
-- **A tese do pêndulo** (Viccari, 2026: quanto mais extremo, mais visualizações) é observação de criador, sem dado, e puxa contra o freio e contra o leitor da casa. Importa-se a paixão do torcedor, a vibração de quem gosta, no verbo e no ritmo, nunca a posição extrema.
+- **A tese do pêndulo** (Viccari, 2026: quanto mais extremo, mais visualizações) é observação de criador, sem estudo. A casa a adota como aposta: toma lado com força, e o GA4 diz se rende com o leitor dela.
 - **Postar no mesmo segundo** para o algoritmo tratar o assunto como evento é afirmação de Janones, repetida por Viccari, sem prova. Serve como hipótese de concentrar os primeiros sinais.
 - **O canal do Exército do Lula** cresceu muito, mas o próprio Viccari diz duas vezes que conteúdo explica só parte da virada que veio depois. O protocolo copia o mecanismo, nunca a prova de resultado.
 - **Quase nenhum estudo mede leitura**, só clique. Clique alto com leitura baixa é promessa mal paga.
@@ -257,12 +258,12 @@ Como o pack circula depois de publicado. A base é o *Janonismo Cultural* (Janon
 - **Ouvir antes de publicar.** Olhe o que a rede comenta hoje e as perguntas nos comentários dos últimos cards antes de soltar o seguinte. A pergunta que o ouvinte já fez vale mais que a que a redação imaginou. Não solte pauta séria no meio de um assunto que toma a rede inteira. Dia e hora são hipótese: o GA4 diz a janela da casa.
 - **Um post-mãe por rede.** O original fica no perfil principal. Os outros perfis da casa (programas, locutores, parceiros) compartilham o original e não repostam cópia, porque a audiência espalhada em cópias perde a força que teria concentrada (Janones: a live com Lula teve 300 perfis publicando separado).
 - **Janela única.** [SUGESTÃO] Combine o minuto: o card sai em todos os perfis da casa ao mesmo tempo, de preferência quando o locutor fala do assunto no ar. A rádio é o único meio da casa com audiência simultânea, justamente o que Viccari diz ter sumido da cultura. Que o algoritmo trate o minuto como evento é afirmação de Janones, sem prova; trate como hipótese e leia o resultado no GA4 contra os cards soltos em horas diferentes.
-- **Quem fala é pessoa.** Texto de rede em voz de gente, nunca de "Equipe Mundo Livre" nem de comunicado. A rádio tem voz, e o áudio do locutor vale mais que o texto quando soa como conversa e não como anúncio ("Atenção!").
+- **Quem fala é pessoa.** Texto de rede em voz de gente, em primeira pessoa quando couber, nunca de "Equipe Mundo Livre" nem de comunicado. A rádio tem voz, e o áudio do locutor vale mais que o texto quando soa como conversa e não como anúncio ("Atenção!").
 - **Cada rede é um lugar.** Facebook: feed e notificação, leitor mais velho. X: formador de opinião e imprensa, onde a pauta vira assunto. Instagram: recorrência e story. WhatsApp: gente para gente, em grupos. O mesmo texto não serve às quatro, e a Distribuição entrega um para cada.
 - **Quem repassa precisa de motivo e de facilidade.** O repasse sai pronto (imagem e link juntos, uma frase que dá para mandar sem editar) e vai para o grupo certo: card de show no grupo de fãs da banda, e não no da academia (Janones: segmentação).
 - **Boato não vira manchete.** A rede não distingue "X morreu" de "X não morreu": os dois fazem o assunto circular. Quando um boato corre sobre um artista, o H1 diz o fato apurado e confirmado, sem repetir o boato e sem negá-lo (Janones: "fake news não se desmente").
 
-**O que não se importa do livro** [INEGOCIÁVEL]. O Janones joga o jogo da rede para vencer uma eleição em quatro semanas. A Mundo Livre joga o da confiança de um leitor de 30 a 60 anos que detecta clickbait de longe, e quem perde esse leitor não ganha o próximo clique. Ficam de fora: provocar, insultar ou armar isca para adversário; título ou imagem que sugerem o que o conteúdo não é (o livro defende um "urgente!" sobre um vídeo que não era isso; o Discover e o leitor punem); urgência fabricada; insinuação do tipo "poderia muito bem ter feito"; manchete que repete o boato; apagar o post para esconder o erro (corrija e registre). Do vídeo de Viccari ficam de fora a tese do pêndulo (a posição mais extrema rende mais), a isca de engajamento que esconde a resposta de quem não paga e o cinismo de que o leitor "só quer novela".
+**O que não se importa do livro** [INEGOCIÁVEL]. O Janones joga o jogo da rede para vencer uma eleição em quatro semanas. A Mundo Livre joga o da confiança de um leitor de 30 a 60 anos que detecta clickbait de longe, e quem perde esse leitor não ganha o próximo clique. Ficam de fora: provocar, insultar ou armar isca para adversário; título ou imagem que sugerem o que o conteúdo não é (o livro defende um "urgente!" sobre um vídeo que não era isso; o Discover e o leitor punem); urgência fabricada; insinuação do tipo "poderia muito bem ter feito"; manchete que repete o boato; apagar o post para esconder o erro (corrija e registre). Do vídeo de Viccari ficam de fora a isca de engajamento que esconde a resposta de quem não paga e o cinismo de que o leitor "só quer novela".
 
 ### Distribuição [INEGOCIÁVEL quando o editor manda o link]
 
@@ -296,9 +297,11 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 6. **Retenção.** A abertura levanta o "por quê?" antes de explicar, cada parágrafo empurra o seguinte e o final fica no ponto mais forte, sem resumo?
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
-9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa, gancho e voz, e cada fato continua com dono e com fonte na lista?
+9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
 
 ---
+
+*Lectern v2.1.0: a pedido do editor, quatro travas caem. A casa toma lado e a posição forte vale (a tese do pêndulo vira aposta a medir no GA4, e sai da lista do que não se importa); o freio passa a valer para o fato e não para a opinião; entra o H1 curto no Conteúdo (3 a 4 palavras de núcleo, até 8), com o título SEO levando o nome e a frase-foco; o texto de rede aceita primeira pessoa. Publicado: 2026-11-02*
 
 *Lectern v2.0.0: a casa passa de jornalismo com vitrine para conteúdo com apuração. Seção nova Os dois tons da casa: Conteúdo, o padrão, com ângulo, gancho, ritmo e voz, e Sóbrio, obrigatório em morte, doença, acidente, crime, tragédia, processo e abuso e na dúvida sobre o tema, com o freio valendo nos dois. Os três jeitos viram quatro: Direta (o antigo Normal, agora dentro do Conteúdo), Curiosidade, Explode e Sóbrio; o `utm_content` passa a `direta`, `curiosidade`, `explode` ou `sobrio`. A partir do vídeo de Jonny Viccari sobre o canal do Exército do Lula, o PROTOCOLO: EXPLODE! ganha o pedido "conta" no gatilho 2, a assinatura de rádio no gatilho 3 e o gatilho 7, janela única (o card sai no mesmo minuto em que o locutor fala do assunto), também em Compartilhar. O que a pesquisa não sustenta registra a tese do pêndulo, o mesmo segundo e o limite causal do canal. A prova dá à casa ângulo e opinião no Conteúdo, Segurar quem clicou põe o ritmo no texto, a Distribuição trata o `sobrio` e o Teste ganha o item Tom. Publicado: 2026-11-02*
 
