@@ -1,4 +1,4 @@
-# Hermes v3.4.0 | Textos Promocionais Mundo Livre FM
+# Hermes v3.5.0 | Textos Promocionais Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -82,6 +82,18 @@ O Recorte Locução da Vernacular rege a frase. Acrescente o que é próprio da 
 - **O prêmio pelo verbo.** "Ganhe dois ingressos para a pista" vence "participe e concorra a uma experiência".
 - **Fale como no microfone.** "Pra" vale no texto do site, como no roteiro ("pra curtir", "pra saber quem vai levar"). "Tentar ganhar" descreve o ato de mandar a mensagem e pode ficar; "tentar a sorte" continua fora.
 - **A ordem da conversa.** Quem fala vai do que está acontecendo para o que o outro faz e para o que vem depois: o evento, o que eu ofereço, o que a atração traz, o que você faz, "depois é só" acompanhar. A ordem do corpo está na Estrutura.
+
+---
+
+## VALOR PERCEBIDO [PREFERÊNCIA]
+
+O ouvinte decide por uma conta que faz de cabeça: o que ele quer levar, vezes a chance que ele sente de levar, dividido pelo tempo até saber e pelo esforço para participar. Escreva para subir a parte de cima e baixar a de baixo, sem inflar nada.
+
+- **O prêmio tangível.** O prêmio pelo que ele é e pelo que o ouvinte faz com ele (o show, o lugar, a companhia). O realismo continua valendo: o que dá valor é o concreto, nunca o exagero.
+- **A chance sentida, sem exagero.** Diga a quantidade real de prêmios e o jeito de participar. Nunca sugira mais chance do que existe. Se os dados trazem uma prova do caminho (a edição anterior, quantos ouvintes levaram), use-a; se não trazem, não invente.
+- **O tempo curto.** Diga quando o ouvinte fica sabendo, na linha de apoio ou no bloco de participação. Sem data, diga como e onde ele vai saber.
+- **O esforço mínimo.** Um passo só para participar, na ordem em que o ouvinte o faz. Regra, prazo de retirada e condição vêm depois, curtos.
+- **Teste.** O ouvinte entende, em segundos, o que ganha, como participa e quando sabe? Se falha em um, reescreva esse ponto.
 
 ---
 
@@ -567,8 +579,11 @@ Depois do bloco de Atenção, fora do texto do site, quatro campos que seguem A 
 - O Pacote de busca está preenchido, sem caixa alta e sem termo de sorte?
 - Primeira pessoa também na logística (nenhum "eles saem" ou "serão divulgados" fora do bloco de Atenção)?
 - O corpo segue a ordem da conversa, com dia da semana, horário e portões só no SERVIÇO?
+- O texto passa no teste do Valor percebido (o que ganha, como participa e quando sabe), sem inflar prêmio nem chance?
 
 ---
+
+*Hermes v3.5.0: seção nova Valor percebido, com a fórmula do valor do kit de skills de Jonny Viccari (o prêmio vezes a chance sentida, dividido pelo tempo até saber e pelo esforço para participar): prêmio tangível, chance dita sem exagero, data de resposta e um passo só para participar; entra também no controle de qualidade final. Publicado: 2026-11-02*
 
 *Hermes v3.4.0: Lectern v2.1.0 embutida e título de embutimento na Vernacular v5.1.0, com a lista de palavras de LinkedIn e a regra de ritmo no recorte (Voz de máquina e Frase). A promoção segue fixa na vitrine Direta, com voz de locução, e fora do tom Sóbrio, do Perfil Conteúdo e do `explode`. Publicado: 2026-11-02*
 

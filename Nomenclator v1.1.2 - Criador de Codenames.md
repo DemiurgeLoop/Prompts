@@ -117,7 +117,7 @@ Termine perguntando se a pessoa quer que o registro seja atualizado.
 
 # REGISTRO DE CODENAMES (atualize a cada novo prompt)
 
-Estado em 2026-11-02: 33 prompts no repositório. A tabela é a lista de nomes ocupados; consulte-a antes de propor qualquer codename.
+Estado em 2026-11-02: 36 prompts no repositório. A tabela é a lista de nomes ocupados; consulte-a antes de propor qualquer codename.
 
 ## Coleção principal
 
@@ -127,9 +127,12 @@ Estado em 2026-11-02: 33 prompts no repositório. A tabela é a lista de nomes o
 | Ariadne | Indexador da Wizard's Garden |
 | Aristarchus | Análise de ensaios |
 | Arrian | Transcrição integral, veredito e pathway |
+| Assayer | Score de post (nota de 0 a 50 contra o padrão do próprio autor) |
 | Buddhaghosa | Leitura inspecional, pathway e resumo |
 | Callimachus | Bibliotecário dos Personal Curriculums |
 | Democritus | Notas atômicas da Wizard's Garden |
+| Exordium | Hooks de duas linhas para post e vídeo |
+| Haruspex | Rank de ideia de vídeo (nota de 0 a 10 contra a régua do canal) |
 | Lethe | Limpeza de chats do Claude Code |
 | Nomenclator | Criador de codenames |
 | Odysseus | YT-DLP (biblioteca musical) |
@@ -188,5 +191,7 @@ Estado em 2026-11-02: 33 prompts no repositório. A tabela é a lista de nomes o
 - [ ] Entreguei no máximo uma recomendação e duas alternativas?
 
 ---
+
+*Nomenclator v1.1.2: registro sincronizado com o repositório (36 prompts): entram Assayer (score de post), Exordium (hooks) e Haruspex (rank de ideia). Publicado: 2026-11-02*
 
 *Nomenclator v1.1.1: registro sincronizado com o repositório (33 prompts, separados em coleção principal e Mundo Livre FM) e com os nomes aposentados listados para não serem reutilizados. Publicado: 2026-11-02*
