@@ -4,6 +4,8 @@ Biblioteca de prompts de sistema de Gustavo: cada arquivo `.md` é um prompt com
 
 O nome do arquivo carrega a versão: `Codename vX.Y.Z - Descrição.md`. Só existe uma versão de cada prompt, a atual; o histórico fica no git e na nota de versão no rodapé de cada arquivo.
 
+Para fixar o nome e a ideia de cada prompt, leia `docs/Nomes e filosofia dos prompts.md`.
+
 ## Como os prompts se organizam
 
 - **Módulos.** A **Lectern** (leitor, tom, vitrine e busca) e a **Vernacular** (prosa em português do Brasil) são a fonte única do que vale para todo texto da Mundo Livre FM. Os prompts de escrita embutem uma cópia delas, sem editar uma vírgula. Quem muda é a fonte; as cópias são regravadas por `tools/sync_modules.py`.

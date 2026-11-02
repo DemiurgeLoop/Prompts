@@ -186,6 +186,8 @@ def check_modules(lec_path, ver_path):
 
 
 def check_names():
+    gp = os.path.join(ROOT, "docs", "Nomes e filosofia dos prompts.md")
+    guia = read(gp) if os.path.exists(gp) else None
     for p in sorted(glob.glob(os.path.join(ROOT, "*.md")) + glob.glob(os.path.join(ML, "*.md"))):
         b = os.path.basename(p)
         if b in ("README.md", "CLAUDE.md"):
@@ -201,6 +203,8 @@ def check_names():
             avisos.append(f"{b}: sem H1 '# {nome} vX.Y.Z | ...'")
         elif h1.group(2) != ver:
             erros.append(f"{b}: o H1 diz v{h1.group(2)} e o nome do arquivo diz v{ver}")
+        if guia is not None and not re.search(r"^### " + nome + r"\s*$", guia, re.M):
+            erros.append(f"{b}: sem entrada em docs/Nomes e filosofia dos prompts.md")
         notas = re.findall(r"^\*" + nome + r" v(\d+\.\d+\.\d+)[:.]", t, re.M)
         if not notas:
             avisos.append(f"{b}: sem nota de versão no rodapé")

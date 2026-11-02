@@ -10,7 +10,7 @@ Leia o arquivo aqui e siga-o como está escrito, com os modos, a ordem de saída
 
 1. **Nome e versão.** `Codename vX.Y.Z - Descrição.md`. MAJOR quando muda o propósito ou a arquitetura, MINOR quando entra ou sai regra, PATCH para ajuste de texto ou de título de embutimento. Renomeie o arquivo para a nova versão e remova a antiga: só a versão atual fica no repositório.
 2. **Dentro do arquivo.** Atualize o H1 (`# Nome vX.Y.Z | Descrição`) e acrescente, no topo das notas de versão do rodapé, `*Nome vX.Y.Z: o que mudou. Publicado: AAAA-MM-DD*`. A nota mais recente sempre vem primeiro.
-3. **Codenames** em inglês, uma palavra, de origem erudita. Prompt novo entra no registro do Nomenclator.
+3. **Codenames** em inglês, uma palavra, de origem erudita. Prompt novo entra no registro do Nomenclator, no índice do README e em `docs/Nomes e filosofia dos prompts.md` (o `check` falha se faltar a entrada neste último). Onde o prompt não explica o próprio nome, marque a origem como associação.
 4. **Peso das regras.** Toda regra leva [INEGOCIÁVEL], [PREFERÊNCIA] ou [SUGESTÃO], na seção ou na própria regra.
 5. **Estilo dentro dos prompts.** Sem travessão, sem emoji e sem parágrafo terminado em dois-pontos. O prompt é escrito do jeito que quer a saída.
 
