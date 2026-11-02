@@ -1,0 +1,18 @@
+name: Conferir módulos embutidos
+
+# Roda tools/sync_modules.py check a cada subida e a cada pull request.
+# Falha só com erro (cópia embutida divergente, nome ou versão inconsistentes); aviso não falha.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir a Lectern e a Vernacular embutidas
+        run: python3 -I tools/sync_modules.py check
