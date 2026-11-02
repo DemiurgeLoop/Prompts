@@ -1,4 +1,4 @@
-# Lectern v1.8.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.0.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -8,16 +8,16 @@
 
 A marca de uma seção vale para todas as regras dentro dela, salvo quando a regra traz marca própria.
 
-O nome vem do atril, a estante onde se apoia o livro aberto para ler. A Lectern diz quem lê a Mundo Livre, por que ainda lê e como o texto chega até ele. A Vernacular diz como o texto soa. Uma não repete a outra.
+O nome vem do atril, a estante onde se apoia o livro aberto para ler. A Lectern diz quem lê a Mundo Livre, por que ainda lê, em que tom a casa escreve (Conteúdo, o padrão, e Sóbrio, para os temas sérios) e como o texto chega até ele. A Vernacular diz como o texto soa. Uma não repete a outra.
 
-Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Robert Cialdini (*As armas da persuasão*), André Janones (*Janonismo Cultural*, 2023: manual de campanha eleitoral nas redes, lido pelo mecanismo de circulação e nunca pela provocação nem pelo título que não corresponde ao conteúdo), Jonah Berger e Katherine Milkman (2012), Kuiken e colegas (2017), Molyneux e Coddington (2019) e Scott (2021), estudos sobre clique e compartilhamento, Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
+Bases: Chip e Dan Heath (*Ideias que colam*), George Loewenstein (*The Psychology of Curiosity*, 1994, sobre a lacuna de informação), David Ogilvy (*Ogilvy on Advertising*), Ann Handley (*Everybody Writes*), Marcus Sheridan (*They Ask, You Answer*), Donald Miller (*Building a StoryBrand*), Rory Sutherland (*Alquimia*), Robert McKee (*Story*), Bill Kovach e Tom Rosenstiel (*The Elements of Journalism*), William Zinsser (*Como escrever bem*), Daniel Kahneman (*Rápido e devagar*), Robert Cialdini (*As armas da persuasão*), André Janones (*Janonismo Cultural*, 2023: manual de campanha eleitoral nas redes, lido pelo mecanismo de circulação e nunca pela provocação nem pelo título que não corresponde ao conteúdo), Jonny Viccari (vídeo "Janones manja muito de criação de conteúdo", 2026: leitura de criador sobre o canal do Exército do Lula, usada só pelo mecanismo e nunca pela política), Jonah Berger e Katherine Milkman (2012), Kuiken e colegas (2017), Molyneux e Coddington (2019) e Scott (2021), estudos sobre clique e compartilhamento, Austin Kleon (*Show Your Work*), Eric Enge, Stephan Spencer, Jessie Stricchiola e Rand Fishkin (*The Art of SEO*) e a documentação do Google Search Central (conteúdo útil e confiável, title links, snippets, Discover, imagens, IA generativa, políticas de spam e recursos de IA na busca), consultada em outubro de 2026. Copie o método, nunca o texto.
 
 ---
 
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Lectern só muda neste arquivo.
-- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v1.8.0".
+- Gazette, Aion, Pantheon, Herodotus e Hermes embutem, sem editar uma vírgula, tudo o que está entre "MÓDULO" e o rodapé, sob o título "LEITOR E BUSCA: LECTERN v2.0.0".
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
 - Quando um prompt detalha um ponto (o formato do card, a extensão, o pacote), vale o prompt naquele detalhe. No princípio, vale a Lectern.
 
@@ -31,6 +31,17 @@ O fato cru chega ao leitor antes de nós e de graça: no feed, na notificação,
 
 - **O fato é o ponto de partida, não o produto.** Texto que só repete o que qualquer agregador já disse não tem motivo para existir.
 - **SEO é consequência de servir o leitor.** O Google pergunta por que o texto existe, e a única resposta que ele premia é "para ajudar quem lê".
+
+### Os dois tons da casa: Conteúdo e Sóbrio [INEGOCIÁVEL]
+
+A Mundo Livre publica **conteúdo que circula**, com apuração por baixo. O texto da casa não é comunicado da redação nem verbete: é uma peça feita para ser clicada, lida até o fim e repassada. A apuração é o alicerce, e a forma é a de quem cria para um leitor com o celular na mão e mil outras coisas disputando a atenção dele: gancho, ângulo, ritmo, voz, um pack pensado como conjunto e uma distribuição que também é trabalho de quem escreve. Do jornalismo ficam o fato com dono, a prova no fim, a proporção e a correção. Saem o lide de agência, o tom de comunicado e o título que só informa.
+
+Todo texto sai em um de dois tons, e a Pauta escolhe o tom antes do H1.
+
+- **Conteúdo** (o padrão). O texto tem **ângulo**: o ponto de vista da casa sobre o que o fato significa para quem ouve, colado ao fato que o sustenta. Tem gancho, ritmo e voz (Perfil Conteúdo da Vernacular), e a vitrine usa um dos três jeitos do Conteúdo (Direta, Curiosidade ou Explode, abaixo). É nele que a casa escreve quase tudo.
+- **Sóbrio** [INEGOCIÁVEL quando o tema é]. Morte (e o luto e a homenagem a quem morreu), doença, acidente, crime, tragédia, processo, abuso e qualquer texto sobre alguém em sofrimento. A casa informa e acompanha. O H1 diz o fato, sem lacuna. A linha fina dá o contorno do fato e não abre buraco para forçar o clique. Não há humor, ironia nem suspense. O corpo segue só o perfil de base da Vernacular (Notícia ou Narrativa), sem a camada Conteúdo, e as chamadas informam e não pedem repasse.
+- **Na dúvida sobre o tema, Sóbrio.** O erro de tom num tema sério custa a confiança do leitor de uma vez; ser sóbrio demais num tema leve custa um clique.
+- **O freio vale nos dois tons** [INEGOCIÁVEL]. Conteúdo não é licença para o que o leitor de 30 a 60 anos detecta de longe: isca, urgência inventada, insinuação, foto que diz o que o texto não diz, promessa que o corpo não paga. Viral, aqui, é o card que o leitor repassa com orgulho, e não o que o enganou. Quem perde a confiança dele perde também o clique de amanhã, e o Discover pune o resto.
 
 ### Quem lê [INEGOCIÁVEL como referência]
 
@@ -86,7 +97,7 @@ Escreva nesta ordem [PREFERÊNCIA]: essência, H1, linha fina, chamada e, por ú
 
 ### A linha fina [INEGOCIÁVEL]
 
-A linha fina é a segunda coisa que o leitor lê e a que mais separa o card que clica do que passa. A forma da casa vem das melhores linhas finas do Gazette e vale nos três jeitos.
+A linha fina é a segunda coisa que o leitor lê e a que mais separa o card que clica do que passa. A forma da casa vem das melhores linhas finas do Gazette e vale nos três jeitos do Conteúdo. No tom Sóbrio, a linha fina dá o contorno do fato (quem, quando, o que se sabe) e não abre buraco.
 
 **Uma afirmação, de duas orações ligadas por "e" ou "mas".** A primeira dá o contorno: contagem, época, fonte, quantos, desde quando. A segunda aponta a peça que falta e a deixa nomeada na própria frase, sem preenchê-la. O leitor faz a pergunta sozinho, e a pergunta que ele faz sozinho pesa mais que a que a redação faz por ele.
 
@@ -117,49 +128,51 @@ Moldes (colchetes são placeholders, não fatos):
 
 **Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
 
-### Os três jeitos da vitrine: Normal, Curiosidade e Explode [INEGOCIÁVEL]
+### Os quatro jeitos da vitrine [INEGOCIÁVEL]
 
-Toda matéria sai em um de três jeitos. O jeito se escolhe na Pauta, antes do H1. Ele muda o H1, a linha fina e os textos das redes, e nunca o rigor do texto: a lacuna honesta vale no Normal e na Curiosidade, e o PROTOCOLO: EXPLODE! vale no `explode`.
+Toda matéria sai em um jeito. A Pauta escolhe o tom e, no Conteúdo, o jeito, antes do H1. O jeito muda o H1, a linha fina e os textos das redes, e nunca o rigor do texto: a lacuna honesta vale na Direta e na Curiosidade, o PROTOCOLO: EXPLODE! vale no `explode`, e o Sóbrio informa.
 
-- **Vitrine Normal.** O H1 entrega o fato: quem e o quê, com o nome na frente. A lacuna mora na linha fina.
-- **Vitrine Curiosidade.** O H1 abre a pergunta ou o contraste que o leitor faria sobre algo que **já conhece**, e a matéria a responde cedo. A linha fina segue A linha fina, acima, e não repete o H1.
+- **Direta** (Conteúdo). O H1 entrega o fato: quem e o quê, com o nome na frente. A lacuna mora na linha fina. É o jeito de quando o fato já é a atração e não há pergunta de verdade a abrir.
+- **Curiosidade** (Conteúdo, o padrão quando há pergunta de verdade). O H1 abre a pergunta ou o contraste que o leitor faria sobre algo que **já conhece**, e a matéria a responde cedo. A linha fina segue A linha fina, acima, e não repete o H1.
+- **Explode** (Conteúdo, poucos por vez). O card nomeia o assunto e esconde o desfecho, e a matéria o paga no lide (PROTOCOLO: EXPLODE!, abaixo).
+- **Sóbrio** (tom Sóbrio). O H1 informa o fato com sobriedade: nome na frente, verbo no presente, sem pergunta e sem lacuna. A linha fina dá o contorno.
 
 **Regras da Curiosidade**
 
 1. **A lacuna parte do que o leitor sabe.** A curiosidade nasce quando falta um pedaço de algo conhecido (Loewenstein). O H1 começa por um nome, uma obra ou um fato que o leitor reconhece. Pergunta sobre o que ele nunca ouviu não gera clique.
 2. **Pergunta específica, resposta real e cedo.** A matéria paga a pergunta do H1 no prazo de toda promessa da vitrine (segundo ou terceiro parágrafo, salvo onde o prompt diz outro lugar). Se o H1 é a pergunta que o leitor digitaria na busca, a resposta vem já no primeiro ou no segundo parágrafo. Se a resposta é fraca, o H1 não serve.
 3. **Formas que funcionam.** A pergunta que o leitor digitaria ("Qual foi o último show de [artista]?"), o contraste ("[Banda] vendeu [n] milhões sem nenhuma música inédita"), o número concreto e a consequência antes do fato.
-4. **Proibido nos dois jeitos.** "Você não vai acreditar", "o motivo vai te surpreender", "veja o que aconteceu", adjetivo de vitrine, caixa alta, pergunta de resposta óbvia e pergunta que a matéria não responde.
+4. **Proibido em todos os jeitos.** "Você não vai acreditar", "o motivo vai te surpreender", "veja o que aconteceu", adjetivo de vitrine, caixa alta, pergunta de resposta óbvia e pergunta que a matéria não responde.
 
 **Qual usar** [PREFERÊNCIA]
 
-- **Normal:** notícia que o leitor já espera (turnê, data, line-up, lançamento anunciado), entrevista e todo texto em que o nome e o fato já bastam.
-- **Curiosidade:** história de obra, bastidor, "por que" e "como", ranking com critério e notícia que traz uma pergunta de verdade, respondida no lide.
-- **Nunca Curiosidade** [INEGOCIÁVEL]: morte, doença, acidente, crime, tragédia, processo e qualquer texto sobre alguém em sofrimento. O H1 informa, sóbrio.
+- **Primeiro o tom.** Tema de Sóbrio [INEGOCIÁVEL] é Sóbrio, nunca Curiosidade nem Explode.
+- **No Conteúdo, uma pergunta decide entre Curiosidade e Direta:** existe uma pergunta de verdade, que o leitor faria e o lide responde? Se sim, Curiosidade: história de obra, bastidor, "por que" e "como", ranking com critério e a notícia que traz a pergunta. Se não, Direta: turnê, data, line-up, lançamento anunciado, entrevista e todo texto em que o nome e o fato já bastam. Não force pergunta onde não há: pergunta de resposta óbvia é isca.
 - **Explode** [PREFERÊNCIA]: notícia de anúncio em que falta uma peça nomeável e forte (quem abre, quem divide o palco, o preço, a data de um segundo show), bastidor com desfecho claro e lista de topo escondido. Escolha pensada para a rede: pede que a matéria pague o desfecho no lide e que o editor aceite poucos por vez.
-- Na dúvida, Normal. O prompt do formato pode fixar o jeito (o Hermes é sempre Normal; o Aion sai na Curiosidade, o padrão, ou no Explode, e nunca no Normal). Na Anamnesis, recomende um e diga em meia linha por quê.
+- O prompt do formato pode fixar o jeito (o Hermes é sempre Direta; o Aion sai na Curiosidade, o padrão, ou no Explode, e no Sóbrio quando a história gira em torno de morte, doença ou tragédia, nunca na Direta). Na Anamnesis, recomende um e diga em meia linha por quê.
 - O jeito escolhido vira dado: a Distribuição o grava em cada link, e é assim que a casa descobre o que funciona com o leitor.
 
 ### PROTOCOLO: EXPLODE! [INEGOCIÁVEL quando o jeito é `explode`]
 
-O terceiro jeito da vitrine, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5.
+O terceiro jeito do Conteúdo, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5 e, quando o horário foi combinado, o 7.
 
-**Os seis gatilhos**
+**Os sete gatilhos**
 
 1. **Nomeie o assunto, esconda o desfecho.** O card diz do que se trata e com quem, com o nome que o leitor conhece na frente, e retém a peça que falta: quem, qual, quanto, onde, por quê, como terminou. A lacuna aperta quando o leitor está perto de saber (Loewenstein), então dê o contorno (quantos, desde quando, de qual cidade) e guarde o miolo. A linha fina segue a forma de A linha fina, acima: afirmação, contorno na primeira oração e buraco nomeado na segunda. Exemplo (colchetes são placeholders, não fatos): H1 "[Banda] em Curitiba: quem abre o show?", linha fina "**O nome foi confirmado ontem e tem [n] anos de estrada.**", chamada "Olha quem vai abrir pra [banda] em Curitiba."
-2. **Um pedido, um verbo, um passo.** Imperativo concreto ("olha", "confere", "adivinha", "manda"), uma ação só, ao alcance de um polegar. Nunca duas opções, nunca "saiba mais".
-3. **Pertencimento com papel.** Fale de pessoa para pessoa e no plural do ouvinte ("a gente"), e dê a quem clica e a quem repassa um papel: o que soube primeiro, o que lembra, o que estava lá. O Exército dava patente; a Mundo Livre dá a posição de quem entende do assunto. Sem farda, sem grito de guerra, sem "soldado".
+2. **Um pedido, um verbo, um passo.** Imperativo concreto ("olha", "confere", "adivinha", "manda"), uma ação só, ao alcance de um polegar. Nunca duas opções, nunca "saiba mais". O pedido pode ser "conta" (uma lembrança, um palpite, uma opinião) em vez de "clica", nos textos de Facebook, Instagram e WhatsApp: o leitor quer ser ouvido, e o comentário alimenta o capítulo seguinte (Compartilhar). O card continua pagando no lide, e a casa lê o que vem e responde no card seguinte.
+3. **Pertencimento com papel.** Fale de pessoa para pessoa e no plural do ouvinte ("a gente"), e dê a quem clica e a quem repassa um papel: o que soube primeiro, o que lembra, o que estava lá. O Exército dava patente; a Mundo Livre dá a posição de quem entende do assunto. Sem farda, sem grito de guerra, sem "soldado". A casa pode ter uma assinatura fixa que o ouvinte repete (o nome de uma série de cards, uma vinheta falada): é língua de rádio, não de campanha, e só rende com meses de repetição [SUGESTÃO].
 4. **Placar e prazo reais.** Número, data e contagem verdadeiros (o ingresso abre quinta, restam [n] datas, faltam [n] dias para o show). Sem prazo real não há prazo. O leitor de 50 anos reconhece pressa fabricada de longe, e só cai uma vez.
 5. **Atrito zero para repassar** (o Kit de repasse da Distribuição). Imagem e link vão juntos, e o texto sai pronto para encaminhar sem edição. Dê a quem manda o ganho de quem manda: "eu soube primeiro", "eu sei mais que você" (Sutherland).
 6. **Cadência** [SUGESTÃO] (ver Uma pauta por vez, em capítulos, em Compartilhar). Se a pauta tem desdobramentos (anúncio, confirmação, ingresso, resultado), cada card abre a lacuna do próximo, e a casa volta ao assunto. Não repita o mesmo molde de card duas vezes seguidas.
+7. **Janela única** [SUGESTÃO]. O card sai em todos os perfis da casa no mesmo minuto, de preferência quando o locutor fala do assunto no ar (Compartilhar). É hipótese, e não regra: o ganho possível é concentrar os primeiros sinais, e a casa mede.
 
 **O freio** [INEGOCIÁVEL]. É ele que sustenta o clique do card de amanhã.
 
 - **O desfecho se paga cedo e inteiro**: no lide (segundo ou terceiro parágrafo) e, na lista, no item que a linha fina anuncia, sem revelar o topo antes. Card que a matéria não paga é promessa quebrada, e quem foi enganado não abre o próximo.
 - **O assunto fica nomeado.** Pronome no lugar do nome, "isso", "essa banda", "o motivo" e as fórmulas vazias ("você não vai acreditar", "o motivo vai te surpreender", "veja o que aconteceu") seguem proibidos: escondem o assunto, e o que se esconde aqui é o desfecho.
 - **Nada falso, nada insinuado.** Nenhuma urgência ou escassez inventada, nenhuma sugestão de briga, saída, morte ou escândalo que a matéria não confirma, nenhuma foto que diga o que o texto não diz. A afirmação de alguém vai atribuída a esse alguém.
-- **Fora do `explode`**: tudo o que a Curiosidade veta (morte, doença, acidente, crime, tragédia, processo e quem sofre) e os textos de promoção e sorteio.
-- **Poucos por vez** [PREFERÊNCIA]. Explode em todo card vira ruído, e o leitor aprende a ignorar. Reserve-o para a pauta com desfecho nomeável e forte; na dúvida, Curiosidade ou Normal.
+- **Fora do `explode`**: tudo o que é tom Sóbrio (morte, doença, acidente, crime, tragédia, processo e quem sofre) e os textos de promoção e sorteio.
+- **Poucos por vez** [PREFERÊNCIA]. Explode em todo card vira ruído, e o leitor aprende a ignorar. Reserve-o para a pauta com desfecho nomeável e forte; na dúvida, Curiosidade ou Direta.
 
 ### O que move o clique [PREFERÊNCIA, com a evidência marcada]
 
@@ -177,6 +190,9 @@ Estas são as alavancas do clique que têm estudo por trás, cada uma com o que 
 - **Número no H1, manchete longa e citação parcial** não mudaram o clique no Blendle. O número serve para ser específico, não para fisgar.
 - **Sentimento negativo** ajudou no Blendle e não se repetiu no estudo holandês de testes A/B. Não é alavanca.
 - **Os números de Janones** (selfie, quatro horas, três minutos) são relato de campanha, sem estudo. Seguem como hipóteses.
+- **A tese do pêndulo** (Viccari, 2026: quanto mais extremo, mais visualizações) é observação de criador, sem dado, e puxa contra o freio e contra o leitor da casa. Importa-se a paixão do torcedor, a vibração de quem gosta, no verbo e no ritmo, nunca a posição extrema.
+- **Postar no mesmo segundo** para o algoritmo tratar o assunto como evento é afirmação de Janones, repetida por Viccari, sem prova. Serve como hipótese de concentrar os primeiros sinais.
+- **O canal do Exército do Lula** cresceu muito, mas o próprio Viccari diz duas vezes que conteúdo explica só parte da virada que veio depois. O protocolo copia o mecanismo, nunca a prova de resultado.
 - **Quase nenhum estudo mede leitura**, só clique. Clique alto com leitura baixa é promessa mal paga.
 
 **O preço da isca** (Molyneux e Coddington, 2019; 483 adultos nos EUA). A manchete de isca baixou a qualidade percebida, com efeito pequeno e resultado de credibilidade inconsistente no próprio artigo. O estudo não mediu clique nem compartilhamento. A leitura prudente, que é inferência da casa: o clique se ganha, e o preço aparece na confiança ao longo do tempo. É por isso que o freio existe.
@@ -199,6 +215,7 @@ Duas regras valem para todas. **A pergunta entra no card nas palavras do ouvinte
 
 O clique é metade do trabalho, e a mesma lacuna que o provoca sustenta a leitura inteira.
 
+- **No Conteúdo, o ritmo é parte do texto.** Parágrafos curtos para o celular, um empurrão no fim de cada um e o ângulo da casa à vista antes do terceiro parágrafo. O Perfil Conteúdo da Vernacular diz como isso soa; no Sóbrio, nada disso se aplica.
 - **Primeiro o "por quê?", depois a informação.** Contexto entregue antes de o leitor querer sabê-lo é peso; depois que a pergunta existe, a mesma informação passa a ser desejada (McKee). Crie a necessidade e então explique. Isto vale para contexto e bastidor; o fato da notícia continua no lide.
 - **Abra pela segunda metade do incidente.** Agatha Christie abre com o corpo que cai do armário, e a curiosidade corre nas duas direções, para trás (como chegou aqui?) e para a frente (e agora?). Comece pela descoberta, pela decisão ou pela consequência, não pela origem cronológica.
 - **Cada parágrafo empurra o seguinte.** O último período é o trampolim do próximo, e a primeira frase existe para fazer ler a segunda (Zinsser).
@@ -229,22 +246,23 @@ O leitor e o Google confiam em quem mostra de onde tirou o que diz.
 - **Fato com dono, prova no fim.** Todo fato tem fonte, e a fonte aparece na lista Fontes, no fim do texto, nunca no meio da frase. O corpo conta, a lista prova. Fonte primária antes de agregador, e a lista diz só o que foi lido de fato.
 - **O que vai à busca também é fato.** H1, linha fina, título SEO, meta description e alt text passam pela mesma apuração que o corpo. Nada inventado em nenhum deles.
 - **Data honesta.** A data muda só quando o conteúdo muda.
-- **Ponto de vista com jogo limpo.** A casa pode ter opinião. Diga o defeito e o melhor argumento do outro lado antes que o leitor os procure, e declare em uma frase o interesse da casa quando ele existe (parceria, promoção, preferência assumida). Quem desarma primeiro ganha a confiança (Sheridan).
+- **Ponto de vista com jogo limpo.** A casa tem opinião, e no Conteúdo ela é parte do produto: vem colada ao fato, sai como da casa (nunca como fato do mundo) e não se esconde atrás de "dizem". Diga o defeito e o melhor argumento do outro lado antes que o leitor os procure, e declare em uma frase o interesse da casa quando ele existe (parceria, promoção, preferência assumida). Quem desarma primeiro ganha a confiança (Sheridan).
 - **Mostre, não proclame.** A rádio não diz que é a melhor; mostra a entrevista, o show, o bastidor. O que não se mostra não existe.
 
 ### Compartilhar [PREFERÊNCIA]
 
-Como o pack circula depois de publicado. A base é o *Janonismo Cultural* (Janones, 2023), manual de uma campanha eleitoral no Facebook, no X e no Telegram. Muito dele vale para o público dele (Facebook, classes C e D, 2022), e os números que ele cita (selfie rende 20% mais, quatro horas entre posts, compartilhamentos acima das curtidas em três minutos) são observação própria, sem estudo. Use como hipótese e meça no GA4.
+Como o pack circula depois de publicado. A base é o *Janonismo Cultural* (Janones, 2023), manual de uma campanha eleitoral no Facebook, no X e no Telegram, e, sobre o mesmo mecanismo, a leitura de Jonny Viccari (2026), também de criador e sem estudo. Muito dele vale para o público dele (Facebook, classes C e D, 2022), e os números que ele cita (selfie rende 20% mais, quatro horas entre posts, compartilhamentos acima das curtidas em três minutos) são observação própria, sem estudo. Use como hipótese e meça no GA4.
 
 - **Uma pauta por vez, em capítulos.** O espaço do feed é limitado: dois assuntos ao mesmo tempo dividem a atenção, e a rede dá mais alcance ao assunto que já está sendo comentado. A pauta grande (turnê, lançamento, aniversário de disco) vira uma novela: cada card abre a lacuna do próximo capítulo, e as perguntas dos comentários viram o capítulo seguinte. Não abra uma segunda novela antes de fechar a primeira. A matéria evergreen volta no aniversário.
 - **Ouvir antes de publicar.** Olhe o que a rede comenta hoje e as perguntas nos comentários dos últimos cards antes de soltar o seguinte. A pergunta que o ouvinte já fez vale mais que a que a redação imaginou. Não solte pauta séria no meio de um assunto que toma a rede inteira. Dia e hora são hipótese: o GA4 diz a janela da casa.
 - **Um post-mãe por rede.** O original fica no perfil principal. Os outros perfis da casa (programas, locutores, parceiros) compartilham o original e não repostam cópia, porque a audiência espalhada em cópias perde a força que teria concentrada (Janones: a live com Lula teve 300 perfis publicando separado).
+- **Janela única.** [SUGESTÃO] Combine o minuto: o card sai em todos os perfis da casa ao mesmo tempo, de preferência quando o locutor fala do assunto no ar. A rádio é o único meio da casa com audiência simultânea, justamente o que Viccari diz ter sumido da cultura. Que o algoritmo trate o minuto como evento é afirmação de Janones, sem prova; trate como hipótese e leia o resultado no GA4 contra os cards soltos em horas diferentes.
 - **Quem fala é pessoa.** Texto de rede em voz de gente, nunca de "Equipe Mundo Livre" nem de comunicado. A rádio tem voz, e o áudio do locutor vale mais que o texto quando soa como conversa e não como anúncio ("Atenção!").
 - **Cada rede é um lugar.** Facebook: feed e notificação, leitor mais velho. X: formador de opinião e imprensa, onde a pauta vira assunto. Instagram: recorrência e story. WhatsApp: gente para gente, em grupos. O mesmo texto não serve às quatro, e a Distribuição entrega um para cada.
 - **Quem repassa precisa de motivo e de facilidade.** O repasse sai pronto (imagem e link juntos, uma frase que dá para mandar sem editar) e vai para o grupo certo: card de show no grupo de fãs da banda, e não no da academia (Janones: segmentação).
 - **Boato não vira manchete.** A rede não distingue "X morreu" de "X não morreu": os dois fazem o assunto circular. Quando um boato corre sobre um artista, o H1 diz o fato apurado e confirmado, sem repetir o boato e sem negá-lo (Janones: "fake news não se desmente").
 
-**O que não se importa do livro** [INEGOCIÁVEL]. O Janones joga o jogo da rede para vencer uma eleição em quatro semanas. A Mundo Livre joga o da confiança de um leitor de 30 a 60 anos que detecta clickbait de longe, e quem perde esse leitor não ganha o próximo clique. Ficam de fora: provocar, insultar ou armar isca para adversário; título ou imagem que sugerem o que o conteúdo não é (o livro defende um "urgente!" sobre um vídeo que não era isso; o Discover e o leitor punem); urgência fabricada; insinuação do tipo "poderia muito bem ter feito"; manchete que repete o boato; apagar o post para esconder o erro (corrija e registre).
+**O que não se importa do livro** [INEGOCIÁVEL]. O Janones joga o jogo da rede para vencer uma eleição em quatro semanas. A Mundo Livre joga o da confiança de um leitor de 30 a 60 anos que detecta clickbait de longe, e quem perde esse leitor não ganha o próximo clique. Ficam de fora: provocar, insultar ou armar isca para adversário; título ou imagem que sugerem o que o conteúdo não é (o livro defende um "urgente!" sobre um vídeo que não era isso; o Discover e o leitor punem); urgência fabricada; insinuação do tipo "poderia muito bem ter feito"; manchete que repete o boato; apagar o post para esconder o erro (corrija e registre). Do vídeo de Viccari ficam de fora a tese do pêndulo (a posição mais extrema rende mais), a isca de engajamento que esconde a resposta de quem não paga e o cinismo de que o leitor "só quer novela".
 
 ### Distribuição [INEGOCIÁVEL quando o editor manda o link]
 
@@ -252,7 +270,7 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 
 1. **Confira em uma linha** a matéria e o jeito da vitrine (da Pauta). Se o jeito não estiver na conversa, pergunte em uma linha.
 2. **Um link por rede, com UTM.** Modelo: `[URL]?utm_source={rede}&utm_medium=social&utm_campaign=cards&utm_content={jeito}`
-    - `rede`: `facebook`, `whatsapp`, `x` ou `instagram`. `jeito`: `normal`, `curiosidade` ou `explode`.
+    - `rede`: `facebook`, `whatsapp`, `x` ou `instagram`. `jeito`: `direta`, `curiosidade`, `explode` ou `sobrio`. A `direta` ocupa o lugar do antigo `normal`; no GA4, some as duas na leitura dos cards anteriores a esta versão.
     - Tudo em minúsculas, sem espaço nem acento. Se a URL já tem `?`, junte com `&`. Tire da URL os parâmetros de terceiros (`fbclid` e parecidos).
     - No `explode`, acrescente `&utm_term=a` (a chamada do pacote). Só quando o editor pedir teste A/B, entregue uma segunda chamada com outro gatilho e `utm_term=b`.
     - UTM só em link que vai para fora do site. Nunca no corpo da matéria, nas tags nem no "Confira também:".
@@ -263,13 +281,14 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
     - **Instagram:** post comum não leva link clicável. Entregue duas peças: a mensagem para os grupos de compartilhamento (uma frase de pessoa para pessoa e o link, como no WhatsApp, para quem manda o card nos grupos) e o story, com o texto de tela (até 8 palavras que abrem a pergunta) e o link para o adesivo de link. Diga que o link da bio é a reserva.
     - **Áudio do locutor** [SUGESTÃO, quando o editor pedir]: roteiro de 15 a 20 segundos, em fala de conversa, que abre a pergunta e não a responde e fecha com o pedido único. Serve ao canal e aos grupos do WhatsApp.
     - **Post-mãe e Kit de repasse** [PREFERÊNCIA]: depois das redes, uma caixa "Para a casa" com o post-mãe a compartilhar (nada de repostar cópia), uma frase pronta para locutores, equipe e parceiros mandarem aos seus grupos, e os grupos certos para esta matéria (fãs da banda, rock clássico, cena de Curitiba). O pedido de repasse aparece só nas mensagens de pessoa para pessoa, uma vez, com o motivo ("manda pra quem foi ao show").
+    - **No `sobrio`**: o texto que acompanha informa (quem, o quê, quando) com a mesma sobriedade do H1, sem pedido de repasse, sem Kit de repasse, sem áudio de locutor com gancho e sem story de curiosidade. Quem repassa por conta própria já tem o link.
     - Rede que o editor não pediu fica de fora. Sem pedido, entregue as quatro.
-4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1. No `explode`, nenhum texto traz o desfecho, e cada um aplica os gatilhos 2 a 5 do PROTOCOLO: EXPLODE!.
+4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1. No `explode`, nenhum texto traz o desfecho, e cada um aplica os gatilhos 2 a 5 do PROTOCOLO: EXPLODE! (e o 7, quando o horário foi combinado). No `sobrio`, o texto só informa.
 5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão (e Session manual term, para ler a variante no `explode`). Nos primeiros minutos do post, veja também se os compartilhamentos passam as curtidas, sinal de alcance grande segundo o Janones; é heurística dele, a confirmar com o histórico da casa.
 
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
-1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece? No `explode`, o card nomeia o assunto, esconde o desfecho, pede uma ação só e não traz urgência inventada, e a matéria paga o desfecho no lide? A linha fina é afirmação e passa no Teste da linha fina?
+1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece? No `explode`, o card nomeia o assunto, esconde o desfecho, pede uma ação só e não traz urgência inventada, e a matéria paga o desfecho no lide? A linha fina é afirmação e passa no Teste da linha fina? No Sóbrio, o card informa o fato, sem buraco e sem suspense?
 2. **Essência.** Dá para dizer em uma frase o que o leitor leva? O começo do texto já a entrega ou se aproxima dela?
 3. **Diferença.** O texto tem algo que um resumo automático não teria?
 4. **Leitor.** Um ouvinte de 50 anos, lendo no celular depois do trabalho, chega ao fim sem tropeçar e com vontade de mandar o link a alguém?
@@ -277,8 +296,11 @@ Vale para as matérias (Gazette, Aion, Pantheon e Herodotus). O Hermes fica de f
 6. **Retenção.** A abertura levanta o "por quê?" antes de explicar, cada parágrafo empurra o seguinte e o final fica no ponto mais forte, sem resumo?
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
+9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa, gancho e voz, e cada fato continua com dono e com fonte na lista?
 
 ---
+
+*Lectern v2.0.0: a casa passa de jornalismo com vitrine para conteúdo com apuração. Seção nova Os dois tons da casa: Conteúdo, o padrão, com ângulo, gancho, ritmo e voz, e Sóbrio, obrigatório em morte, doença, acidente, crime, tragédia, processo e abuso e na dúvida sobre o tema, com o freio valendo nos dois. Os três jeitos viram quatro: Direta (o antigo Normal, agora dentro do Conteúdo), Curiosidade, Explode e Sóbrio; o `utm_content` passa a `direta`, `curiosidade`, `explode` ou `sobrio`. A partir do vídeo de Jonny Viccari sobre o canal do Exército do Lula, o PROTOCOLO: EXPLODE! ganha o pedido "conta" no gatilho 2, a assinatura de rádio no gatilho 3 e o gatilho 7, janela única (o card sai no mesmo minuto em que o locutor fala do assunto), também em Compartilhar. O que a pesquisa não sustenta registra a tese do pêndulo, o mesmo segundo e o limite causal do canal. A prova dá à casa ângulo e opinião no Conteúdo, Segurar quem clicou põe o ritmo no texto, a Distribuição trata o `sobrio` e o Teste ganha o item Tom. Publicado: 2026-11-02*
 
 *Lectern v1.8.0: A prova passa a pedir a fonte no fim, na lista Fontes, e não no meio da frase ("Fato com dono, prova no fim"; a lista diz só o que foi lido de fato). A linha fina exige fato apurado no corpo, e o Teste da linha fina confere que esse fato consta em Fontes. Publicado: 2026-10-29*
 

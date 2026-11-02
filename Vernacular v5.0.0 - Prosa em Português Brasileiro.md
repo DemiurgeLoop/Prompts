@@ -1,4 +1,4 @@
-# Vernacular v4.2.1 | Prosa em Português Brasileiro
+# Vernacular v5.0.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -21,12 +21,13 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 ## USO COMO MÓDULO [INEGOCIÁVEL]
 
 - A Vernacular só muda neste arquivo.
-- A Vernacular cuida da prosa. Quem lê, por que lê, a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.2.1, CÂNONE + MUNDO LIVRE + PERFIL [NOME]", três partes.
+- A Vernacular cuida da prosa. Quem lê, por que lê, o tom da casa (Conteúdo ou Sóbrio), a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.0.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
-  - O seu perfil, e só ele. Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v4.2.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+  - O Perfil Conteúdo, que vale no tom Conteúdo da Lectern.
+  - O perfil de base do prompt, e só ele: Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette. No tom Sóbrio da Lectern, vale só o perfil de base.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.0.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -305,6 +306,53 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 - Se abriu por cena, a moldura fecha?
 - Alguma afirmação ficou sem dono?
 
+### PERFIL CONTEÚDO
+
+Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern define: Gazette, Aion, Pantheon e Herodotus. O texto existe para ser lido até o fim e repassado, sobre fato apurado. Este perfil é uma camada: vale por cima do perfil de base do prompt (Notícia no Gazette; Narrativa em Aion, Pantheon e Herodotus). Onde os dois se tocam, o perfil de base decide a ordem do texto e o Conteúdo decide a abertura, a voz e o ritmo. No tom Sóbrio, esta camada não vale.
+
+#### Antes de escrever [SILENCIOSO]
+
+- **O ângulo em uma frase.** O que a casa pensa que este fato significa para quem ouve, com o fato que o sustenta. Fato sem ângulo é verbete; ângulo sem fato é opinião de bar.
+- **A razão de repassar.** Complete: "quem mandar este texto está dizendo que ____" ("eu estava lá", "eu sei mais que você", "eu sempre disse"). Se a frase não fecha, falta ângulo.
+- **A peça mais forte.** Ache, no material, a consequência, o dado que contraria, a fala ou a cena que mais pesa. Ela abre ou fecha o texto, e nunca fica enterrada no meio.
+
+#### A abertura
+
+- **Gancho nas primeiras doze palavras.** Abra pela peça mais forte, e não pela cronologia nem pelo "quem, o quê e quando" de agência. No Gazette, o lide do Perfil Notícia continua nos dois primeiros períodos: o gancho escolhe qual fato o abre.
+- **Pague o card cedo.** A promessa da vitrine é paga até o terceiro parágrafo (Lectern), e a abertura não repete o H1 nem a linha fina.
+- **Zero aquecimento.** Nada de "nos últimos anos", de contexto antes de o leitor querer saber, de pergunta retórica genérica.
+
+#### O ritmo
+
+- **No celular, parágrafos de uma a quatro linhas**, com um mais longo quando a cena o pede.
+- **Cada parágrafo começa por um elo concreto e termina empurrando o seguinte** com um dado, uma virada ou uma fala.
+- **A frase curta crava, uma de cada vez.** Depois de um período que acumula detalhe, uma frase curta fecha a ideia. Frases curtas em fila só no clímax, e com conectivo.
+- **O ponto mais forte fica no meio ou no fim**, e o texto para quando os fatos acabam.
+- **Intertítulo que puxa**, como no Texto para a tela, nos prompts que admitem H4.
+
+#### A voz
+
+- **Fã que sabe.** A voz é a de quem gosta do assunto e o conhece por dentro. O entusiasmo vem do verbo escolhido, do detalhe certo e do ritmo, nunca do adjetivo nem do ponto de exclamação.
+- **Opinião da casa, com dono.** O ângulo vem dito em terceira pessoa, como leitura da casa ("para quem cresceu com o disco, a versão de [ano] muda o que ele significa"), sempre colado ao fato. Sem primeira pessoa e sem "nós" no corpo (Registro por parte do texto); o "a gente" fica nos textos de rede, como a Lectern define.
+- **Humor seco, de bar.** Uma ironia curta por texto, quando o fato a sustenta (Voz ensaística). Nunca sobre quem sofre.
+- **Paixão na escala do fato.** O texto pode vibrar, mas se o fato é médio a voz é média. Superlativo só com o número que o prova.
+- **Convite pelo fato.** "Você precisa ver", "imperdível" e "não perca" ficam fora, e o gancho de influenciador também ("prepare-se", "calma que tem mais", "spoiler").
+
+#### O que o Conteúdo não faz [INEGOCIÁVEL]
+
+- **Não inventa** cena, número, fala nem reação para dar ritmo. Gancho forte sobre fato fraco é isca.
+- **Não troca apuração por tom.** Todo fato continua com dono no corpo e com fonte na lista (Fontes da casa).
+- **Não insinua.** A voz com ângulo diz o que o fato sustenta, e não o que ele poderia sugerir.
+- **Não imita o Sóbrio com humor.** Se o tema pede o tom Sóbrio, esta camada sai inteira.
+
+#### Revisão do perfil [SILENCIOSA]
+
+- O ângulo da casa aparece até o terceiro parágrafo, colado a um fato?
+- Dá para completar "quem mandar este texto está dizendo que ____"?
+- A abertura entra pela peça mais forte e já paga o card?
+- Algum parágrafo se arrasta, sem cena que o peça, ou termina sem empurrar o próximo?
+- Alguma frase vibra mais do que o fato aguenta?
+
 ### PERFIL LOCUÇÃO
 
 Para o prompt de locução (Hermes). Formatos, durações e campos de dados ficam no Hermes; este perfil diz como o texto soa. Vale junto com Texto para o ouvido.
@@ -447,6 +495,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.0.0: Perfil Conteúdo no contexto Mundo Livre, a camada de voz da Lectern v2.0.0 (conteúdo que circula, com apuração por baixo): ângulo da casa em uma frase, razão de repassar, gancho nas primeiras doze palavras, ritmo de celular, fã que sabe, opinião em terceira pessoa com dono, humor seco, paixão na escala do fato e o que o Conteúdo não faz (inventar, trocar apuração por tom, insinuar). Vale por cima do perfil de base e sai inteiro no tom Sóbrio. Gazette, Aion, Pantheon e Herodotus passam a embutir quatro partes (Cânone, Mundo Livre, Perfil Conteúdo e o perfil de base); o Hermes e o Democritus não mudam. Os perfis Notícia e Narrativa ficam como estão. Publicado: 2026-11-02*
 
 *Vernacular v4.2.1: a lista Fontes passa a ser uma linha só, `**Fontes:** [Veículo (assunto)](URL) · Nome (assunto) · ...`, sem data de publicação e com fonte sem link em texto simples. Publicado: 2026-10-29*
 
