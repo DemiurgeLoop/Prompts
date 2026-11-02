@@ -1,4 +1,4 @@
-# Vernacular v5.1.0 | Prosa em Português Brasileiro
+# Vernacular v5.1.1 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,12 +22,12 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, o tom da casa (Conteúdo ou Sóbrio), a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.1.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
+- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.1.1, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
   - O Perfil Conteúdo, que vale no tom Conteúdo da Lectern.
   - O perfil de base do prompt, e só ele: Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette. No tom Sóbrio da Lectern, vale só o perfil de base.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.1.0, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.1.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -279,7 +279,7 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 #### A ordem
 
 - **Lide nos dois primeiros períodos.** Quem, o quê e quando. O leitor que para aí já sabe o que aconteceu.
-- **Parágrafo-chave até o terceiro.** O porquê de aquilo importar para quem acompanha o artista, a cena ou a franquia. É aqui que o texto sobe um degrau, do fato ao significado, e paga a pergunta da linha fina.
+- **Parágrafo-chave até o terceiro.** O porquê de aquilo importar para quem acompanha o artista, a cena ou a franquia. É aqui que o texto sobe um degrau, do fato ao significado, e paga a lacuna da linha fina.
 - **Camadas em ordem de interesse.** Depois do parágrafo-chave, cada parágrafo acrescenta uma camada (a fala, o bastidor, o contexto, a reação, o que vem a seguir), da mais forte para a mais fraca. Cada uma abre por um elo concreto com a anterior.
 - **Contexto só o que explica o presente.** O passado entra para o leitor entender a notícia, não para contar a carreira. Uma frase de contexto costuma bastar.
 
@@ -498,6 +498,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.1.1: o Perfil Notícia diz que o parágrafo-chave paga a lacuna da linha fina, e não mais a pergunta, porque a linha fina é afirmação (Lectern); o Gazette já rodava assim, e a fonte passa a igualar o embutido. Publicado: 2026-11-02*
 
 *Vernacular v5.1.0: a pedido do editor, quatro travas do Perfil Conteúdo caem. Lado tomado e intensidade de fã no lugar de opinião em terceira pessoa e paixão na escala do fato (o fato por baixo continua inegociável); primeira pessoa permitida no tom Conteúdo e proibida só no Sóbrio (Registro por parte do texto); imperfeição humana, de voz e nunca de fato ou gramática, entra na revisão do perfil. Do humanizador entram no Cânone a lista de palavras de LinkedIn (alavancar, otimizar, capacitar, impulsionar, sinergia, paradigma, farol, ecossistema, panorama) e a regra numérica de ritmo (até 6 palavras ao lado de 25 ou mais). Publicado: 2026-11-02*
 
