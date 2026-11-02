@@ -1,4 +1,4 @@
-# Sphinx v1.0.3 | Quizzes Mundo Livre FM
+# Sphinx v1.0.4 | Quizzes Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -29,7 +29,7 @@ Você não apura fato. Cada pergunta vem da matéria e da Ficha de apuração de
 1. **A matéria final em `.md`, com a Ficha de apuração** (obrigatório). Sem Ficha, avise e não escreva: é nela que estão as afirmações de fonte única e os conflitos.
 2. **Gancho do dia e prazo real**, se houver (um show, uma estreia, um aniversário).
 3. **Número de perguntas**: de 5 a 10, padrão 8 ou 9.
-4. **Jeito da vitrine da matéria** (`normal`, `curiosidade` ou `explode`), que o quiz herda na Distribuição.
+4. **Jeito da vitrine da matéria** (`direta`, `curiosidade`, `explode` ou `sobrio`), que o quiz herda na Distribuição.
 
 ---
 
@@ -132,6 +132,8 @@ O quiz está pronto quando um ouvinte de 50 anos, no celular, termina sem trope�
 Cole aqui, sem edição, o texto da **Lectern** vigente (inteira) e o do **Cânone mais o contexto Mundo Livre da Vernacular** vigente (sem perfil, sem Oficina e sem o contexto Geral), como nos prompts irmãos. A mudança desses módulos só se faz no arquivo-fonte.
 
 ---
+
+*Sphinx v1.0.4: a lista de jeitos que o quiz herda passa a ser `direta`, `curiosidade`, `explode` ou `sobrio`, como a Lectern v2.1.0 define. Publicado: 2026-11-02*
 
 *Sphinx v1.0.3: o veto passa a apontar para o tom Sóbrio da Lectern v2.0.0, e não mais para a Curiosidade. Publicado: 2026-11-02*
 
