@@ -117,24 +117,63 @@ Termine perguntando se a pessoa quer que o registro seja atualizado.
 
 # REGISTRO DE CODENAMES (atualize a cada novo prompt)
 
+Estado em 2026-11-02: 33 prompts no repositório. A tabela é a lista de nomes ocupados; consulte-a antes de propor qualquer codename.
+
+## Coleção principal
+
 | Codename | Função |
 |---|---|
-| Alexandria | Transcrições e highlights |
+| Aphex | Edição de vídeo-ensaio, da voz gravada ao vídeo renderizado |
+| Ariadne | Indexador da Wizard's Garden |
 | Aristarchus | Análise de ensaios |
-| Democritus | Atomic Notes |
-| Erasmus | Refinamento de prompts (Refinamento do Declínio) |
-| Florilegium | Resumir artigos e ensaios |
-| Hermes | Textos promocionais Mundo Livre FM |
-| Herodotus | Entrevistas em matérias |
+| Arrian | Transcrição integral, veredito e pathway |
+| Buddhaghosa | Leitura inspecional, pathway e resumo |
+| Callimachus | Bibliotecário dos Personal Curriculums |
+| Democritus | Notas atômicas da Wizard's Garden |
 | Lethe | Limpeza de chats do Claude Code |
-| Marginalia | Resumir livros |
+| Nomenclator | Criador de codenames |
+| Odysseus | YT-DLP (biblioteca musical) |
 | Orpheus | Curadoria de playlists de álbuns |
-| Argonaut | YT-DLP (biblioteca musical) |
-| Socrates | Auditoria de prompts |
-| Sonar | Radar de notícias Mundo Livre FM |
+| Photius | Curador particular |
+| Recension | Remaster de ensaios |
+| Rhapsode | Roteiro de vídeo-ensaio |
+| Sherlock | Análise holmesiana |
+| Socrates | Auditoria e lapidação de prompts |
+| Stobaeus | Clippings do Xteink para notas do Obsidian |
 | Thoth | Personal Curriculum |
-| Venice | Notícias Mundo Livre FM |
+| Vasari | Masterpieces Essentials (curadoria de obras-primas) |
+| Vernacular | Prosa em português brasileiro |
 | Vulgate | Tradução |
+
+## Mundo Livre FM
+
+| Codename | Função |
+|---|---|
+| Aion | Histórias de obra evergreen |
+| Galen | Post-mortem de matéria |
+| Gazette | Notícias |
+| Hermes | Textos promocionais |
+| Herodotus | Entrevistas em matérias |
+| Humboldt | Roteiro de entrevistas |
+| Laureate | Ganhadores de promoções |
+| Lectern | Leitor, vitrine e busca |
+| Occam | Refinador de prompts (o modo REFINAR do Socrates, com as constantes da casa) |
+| Pantheon | Listas, rankings e tier lists |
+| Sonar | Radar de notícias |
+| Sphinx | Quizzes |
+
+## Nomes aposentados (não reutilizar)
+
+| Codename | Destino |
+|---|---|
+| Alexandria | Virou o Arrian (o próprio Arrian registra "antes Alexandria") |
+| Erasmus | Fundido no Socrates v2.0.0 |
+| Rosetta | Aposentada; a Vernacular a substitui |
+| Augur | Absorvido pelo Buddhaghosa (inspeção e veredito) |
+| Marginalia | Absorvido pelo Buddhaghosa (resumo por capítulo) |
+| Florilegium | Absorvido pelo Buddhaghosa (resumo de artigos e ensaios) |
+| Argonaut | No registro antigo, YT-DLP. Provavelmente virou o Odysseus (mesma função); o repositório não confirma |
+| Venice | No registro antigo, notícias da Mundo Livre FM. Provavelmente virou o Gazette (mesma função); o repositório não confirma |
 
 ---
 
@@ -147,3 +186,7 @@ Termine perguntando se a pessoa quer que o registro seja atualizado.
 - [ ] Nenhum fato sobre a figura foi afirmado sem certeza?
 - [ ] O nome de arquivo segue `Codename vX.Y.Z - Descrição.md`?
 - [ ] Entreguei no máximo uma recomendação e duas alternativas?
+
+---
+
+*Nomenclator v1.1.1: registro sincronizado com o repositório (33 prompts, separados em coleção principal e Mundo Livre FM) e com os nomes aposentados listados para não serem reutilizados. Publicado: 2026-11-02*
