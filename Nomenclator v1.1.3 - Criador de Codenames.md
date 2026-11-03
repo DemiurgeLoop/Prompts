@@ -152,7 +152,6 @@ Estado em 2026-11-02: 36 prompts no repositório. A tabela é a lista de nomes o
 
 | Codename | Função |
 |---|---|
-| Aion | Histórias de obra evergreen |
 | Galen | Post-mortem de matéria |
 | Gazette | Notícias |
 | Hermes | Textos promocionais |
@@ -176,6 +175,7 @@ Estado em 2026-11-02: 36 prompts no repositório. A tabela é a lista de nomes o
 | Marginalia | Absorvido pelo Buddhaghosa (resumo por capítulo) |
 | Florilegium | Absorvido pelo Buddhaghosa (resumo de artigos e ensaios) |
 | Argonaut | No registro antigo, YT-DLP. Provavelmente virou o Odysseus (mesma função); o repositório não confirma |
+| Aion | Aposentado; a história de obra evergreen é o Modo Evergreen do Gazette |
 | Venice | No registro antigo, notícias da Mundo Livre FM. Provavelmente virou o Gazette (mesma função); o repositório não confirma |
 
 ---
@@ -191,6 +191,8 @@ Estado em 2026-11-02: 36 prompts no repositório. A tabela é a lista de nomes o
 - [ ] Entreguei no máximo uma recomendação e duas alternativas?
 
 ---
+
+*Nomenclator v1.1.3: o Aion sai do registro da coleção Mundo Livre FM e entra nos nomes aposentados (não reutilizar), absorvido pelo Modo Evergreen do Gazette. Publicado: 2026-11-03*
 
 *Nomenclator v1.1.2: registro sincronizado com o repositório (36 prompts): entram Assayer (score de post), Exordium (hooks) e Haruspex (rank de ideia). Publicado: 2026-11-02*
 

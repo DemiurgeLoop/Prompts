@@ -1,4 +1,4 @@
-# Vernacular v5.1.1 | Prosa em Português Brasileiro
+# Vernacular v5.1.2 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -22,12 +22,12 @@ Bases: Othon M. Garcia (*Comunicação em prosa moderna*), Nilson Lage (*Linguag
 
 - A Vernacular só muda neste arquivo.
 - A Vernacular cuida da prosa. Quem lê, por que lê, o tom da casa (Conteúdo ou Sóbrio), a vitrine e a busca ficam na **Lectern**, o módulo irmão. Os prompts de escrita da Mundo Livre FM embutem os dois, e um não repete o outro.
-- Gazette, Aion, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.1.1, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
+- Gazette, Pantheon e Herodotus embutem, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v5.1.2, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL [NOME]", quatro partes.
   - O Cânone, menos Texto para o ouvido.
   - Do contexto Mundo Livre, as seções O leitor da casa, Registro por parte do texto, Proibidos da casa e Fontes da casa.
   - O Perfil Conteúdo, que vale no tom Conteúdo da Lectern.
-  - O perfil de base do prompt, e só ele: Narrativa para Aion, Pantheon e Herodotus; Notícia para o Gazette. No tom Sóbrio da Lectern, vale só o perfil de base.
-- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.1.1, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
+  - O perfil de base do prompt, e só ele: Narrativa para Pantheon e Herodotus; Notícia para o Gazette, inclusive no Modo Evergreen. No tom Sóbrio da Lectern, vale só o perfil de base.
+- O Hermes embute um recorte fixo, sob o título "PROSA: VERNACULAR v5.1.2, RECORTE LOCUÇÃO": do Cânone, as seções Registro, Voz de máquina, O leitor, Frase, Palavra, Texto para a tela e Texto para o ouvido; do contexto Mundo Livre, O leitor da casa e Proibidos da casa; e o Perfil Locução inteiro.
 - Os títulos da Mundo Livre acompanham a versão do arquivo, mesmo quando o trecho embutido não mudou.
 - O Democritus embute, sem editar uma vírgula, sob o título "PROSA: VERNACULAR v4.1.0, CÂNONE + PERFIL WIZARD'S GARDEN", duas partes: o Cânone, menos Texto para a tela e Texto para o ouvido, e o Perfil Wizard's Garden inteiro.
 - Humboldt e Sonar não escrevem para o leitor e ficam sem a seção.
@@ -211,7 +211,7 @@ O texto conta a história e a prova fica no fim. O leitor não tropeça em veíc
 
 ### PERFIL NARRATIVA
 
-Para os prompts que contam histórias (Aion, Pantheon, Herodotus). O leitor deve ler como quem lê um livro: cada parágrafo responde ao que o anterior deixou no ar, e a história anda para a frente sem que ele perceba o esforço.
+Para os prompts que contam histórias (Pantheon, Herodotus). O leitor deve ler como quem lê um livro: cada parágrafo responde ao que o anterior deixou no ar, e a história anda para a frente sem que ele perceba o esforço.
 
 #### Antes de escrever [SILENCIOSO]
 
@@ -309,7 +309,7 @@ Para o prompt de fato novo (Gazette). A notícia não guarda segredo: o leitor r
 
 ### PERFIL CONTEÚDO
 
-Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern define: Gazette, Aion, Pantheon e Herodotus. O texto existe para ser lido até o fim e repassado, sobre fato apurado. Este perfil é uma camada: vale por cima do perfil de base do prompt (Notícia no Gazette; Narrativa em Aion, Pantheon e Herodotus). Onde os dois se tocam, o perfil de base decide a ordem do texto e o Conteúdo decide a abertura, a voz e o ritmo. No tom Sóbrio, esta camada não vale.
+Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern define: Gazette, Pantheon e Herodotus. O texto existe para ser lido até o fim e repassado, sobre fato apurado. Este perfil é uma camada: vale por cima do perfil de base do prompt (Notícia no Gazette; Narrativa em Pantheon e Herodotus). Onde os dois se tocam, o perfil de base decide a ordem do texto e o Conteúdo decide a abertura, a voz e o ritmo. No tom Sóbrio, esta camada não vale.
 
 #### Antes de escrever [SILENCIOSO]
 
@@ -483,7 +483,7 @@ Nas três, a extensão varia no máximo 15%.
 - **Exemplo marcado como exemplo**, com placeholders entre colchetes, para o modelo não copiar o conteúdo.
 - **Contágio.** O prompt está escrito do jeito que quer a saída. Prompt com travessão, bacharelês e enchimento ensina o modelo a escrever assim.
 - **Preservação total.** Nenhuma regra some, nenhuma ganha ou perde peso, nenhuma ordem muda sem aviso. Contradição achada vai para Dúvidas, sem solução por conta própria.
-- **Módulo embutido não se lapida.** Trecho que vem de outro arquivo (esta própria Vernacular ou a Lectern dentro do Aion, por exemplo) fica intacto; a sugestão vai para o arquivo-fonte, em Dúvidas.
+- **Módulo embutido não se lapida.** Trecho que vem de outro arquivo (esta própria Vernacular ou a Lectern dentro do Pantheon, por exemplo) fica intacto; a sugestão vai para o arquivo-fonte, em Dúvidas.
 - **Arquitetura é de outro.** A estrutura e a lógica do prompt são trabalho do Socrates (qualquer prompt) e do Occam (prompts da Mundo Livre). Problema de arquitetura vai para Dúvidas, com o nome de quem resolve.
 
 ### Saída [INEGOCIÁVEL na ordem]
@@ -498,6 +498,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.1.2: o Aion sai das listas de prompts que embutem a Vernacular e dos perfis (a história de obra evergreen passa ao Gazette, com o Perfil Notícia); o texto das regras não mudou. Publicado: 2026-11-03*
 
 *Vernacular v5.1.1: o Perfil Notícia diz que o parágrafo-chave paga a lacuna da linha fina, e não mais a pergunta, porque a linha fina é afirmação (Lectern); o Gazette já rodava assim, e a fonte passa a igualar o embutido. Publicado: 2026-11-02*
 

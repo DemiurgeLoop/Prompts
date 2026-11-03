@@ -16,7 +16,7 @@ Leia o arquivo aqui e siga-o como está escrito, com os modos, a ordem de saída
 
 ## Módulos embutidos
 
-A **Lectern** e a **Vernacular** são as fontes únicas. Gazette, Aion, Pantheon, Herodotus e Hermes embutem cópias, e o Democritus embute a Vernacular em versão fixa própria. **Nunca edite um bloco embutido à mão.**
+A **Lectern** e a **Vernacular** são as fontes únicas. Gazette, Pantheon, Herodotus e Hermes embutem cópias, e o Democritus embute a Vernacular em versão fixa própria. **Nunca edite um bloco embutido à mão.**
 
 1. Mude a fonte (e suba a versão dela).
 2. Rode `python3 -I tools/sync_modules.py sync`.

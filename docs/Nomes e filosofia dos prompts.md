@@ -12,24 +12,24 @@ Uma palavra por prompt, o verbo que ele faz.
 
 | Prompt | Faz | Prompt | Faz |
 |---|---|---|---|
-| Gazette | noticia | Haruspex | pesa a ideia |
-| Aion | conta a obra | Exordium | abre |
-| Pantheon | ordena | Assayer | dá nota |
-| Herodotus | dá voz | Thoth | ensina |
-| Hermes | chama | Photius | indica |
-| Sonar | detecta | Vasari | consagra |
-| Humboldt | prepara | Buddhaghosa | inspeciona e resume |
-| Galen | diagnostica | Arrian | transcreve |
-| Sphinx | pergunta | Callimachus | cataloga |
-| Laureate | anuncia | Democritus | atomiza |
-| Occam | corta | Ariadne | guia |
-| Lectern | apoia o leitor | Stobaeus | copia |
-| Vernacular | escreve bem | Orpheus | acha a playlist |
-| Recension | remasteriza | Odysseus | baixa e organiza |
-| Rhapsode | fala | Socrates | audita |
-| Aphex | monta o vídeo | Nomenclator | batiza |
-| Aristarchus | critica | Lethe | esquece |
-| Sherlock | investiga | Vulgate | traduz |
+| Gazette | noticia e conta a obra | Haruspex | pesa a ideia |
+| Exordium | abre | Pantheon | ordena |
+| Assayer | dá nota | Herodotus | dá voz |
+| Thoth | ensina | Hermes | chama |
+| Photius | indica | Sonar | detecta |
+| Vasari | consagra | Humboldt | prepara |
+| Buddhaghosa | inspeciona e resume | Galen | diagnostica |
+| Arrian | transcreve | Sphinx | pergunta |
+| Callimachus | cataloga | Laureate | anuncia |
+| Democritus | atomiza | Occam | corta |
+| Ariadne | guia | Lectern | apoia o leitor |
+| Stobaeus | copia | Vernacular | escreve bem |
+| Orpheus | acha a playlist | Recension | remasteriza |
+| Odysseus | baixa e organiza | Rhapsode | fala |
+| Socrates | audita | Aphex | monta o vídeo |
+| Nomenclator | batiza | Aristarchus | critica |
+| Lethe | esquece | Sherlock | investiga |
+| Vulgate | traduz |  |  |
 
 ---
 
@@ -38,20 +38,14 @@ Uma palavra por prompt, o verbo que ele faz.
 ### Lectern
 - **Nome (do arquivo):** o atril, a estante onde se apoia o livro aberto para ler.
 - **Filosofia:** o leitor primeiro. Diz quem lê a Mundo Livre, por que ainda lê, em que tom a casa escreve (Conteúdo, o padrão, ou Sóbrio nos temas sérios) e como o texto chega até ele. A Lectern diz o que o leitor vê; a Vernacular diz como o texto soa, e uma não repete a outra.
-- **Chame quando:** nunca sozinha. Ela vem embutida em Gazette, Aion, Pantheon, Herodotus e Hermes.
+- **Chame quando:** nunca sozinha. Ela vem embutida em Gazette, Pantheon, Herodotus e Hermes.
 - **Fronteira:** não escreve nada. Quem muda a regra da vitrine, do card ou da busca muda a Lectern, e as cópias são regravadas.
 
 ### Gazette
 - **Nome (associação):** gazeta, o nome tradicional da folha de notícias. O nome antigo era Venice, segundo o registro do Nomenclator (sem confirmação).
 - **Filosofia:** notícia é conteúdo que circula, apurado como jornalismo. Tem ângulo, gancho e voz, exceto nos temas sérios, que saem no tom Sóbrio. As fontes dão fatos, nunca título, estrutura, ângulo ou frase.
-- **Chame quando:** há um fato novo (lançamento, anúncio, turnê, declaração).
-- **Fronteira:** história de uma obra sem fato novo é do Aion; ranking é do Pantheon.
-
-### Aion
-- **Nome (do arquivo):** "Aion é o tempo que não passa." O Chronos, tempo do relógio, sobrevive como modo opcional, para quando uma data ajuda a distribuir a matéria.
-- **Filosofia:** responder o que o leitor ainda não sabe sobre uma obra que ele conhece de cor, contado como história. A matéria vale em qualquer dia do ano.
-- **Chame quando:** quer o bastidor de uma música, disco, show, filme ou série.
-- **Fronteira:** não faz biografia nem perfil de carreira, e fato novo é do Gazette.
+- **Chame quando:** há um fato novo (lançamento, anúncio, turnê, declaração) ou, no Modo Evergreen, uma história de obra sem fato novo, escrita com a mesma prosa de notícia.
+- **Fronteira:** ranking é do Pantheon; biografia e perfil de carreira ficam de fora.
 
 ### Pantheon
 - **Nome (associação):** panteão, o conjunto dos grandes. Aqui, as obras que uma lista consagra e ordena.
@@ -284,4 +278,4 @@ Uma palavra por prompt, o verbo que ele faz.
 - **Quem edita e corta:** Recension, Aristarchus, Occam, Socrates, Vernacular. Lapidar é tirar.
 - **Quem mede antes de gastar:** Haruspex, Assayer, Galen. Dado do seu canal, e nunca gosto.
 - **Quem fala para o ouvido:** Rhapsode, Exordium, Hermes. O texto que será dito.
-- **Quem leva a notícia:** Gazette, Sonar, Aion, Pantheon, Sphinx, Laureate, Humboldt. A casa da Mundo Livre.
+- **Quem leva a notícia:** Gazette, Sonar, Pantheon, Sphinx, Laureate, Humboldt. A casa da Mundo Livre.

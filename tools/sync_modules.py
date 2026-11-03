@@ -24,8 +24,6 @@ MUNDO_LIVRE_BASE = ["O leitor da casa", "Registro por parte do texto", "Proibido
 EMBEDS = {
     "Gazette": {"canone": TODO_CANONE, "ml": MUNDO_LIVRE_BASE, "perfis": ["CONTEÚDO", "NOTÍCIA"],
                 "titulo": "CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL NOTÍCIA"},
-    "Aion": {"canone": TODO_CANONE, "ml": MUNDO_LIVRE_BASE, "perfis": ["CONTEÚDO", "NARRATIVA"],
-             "titulo": "CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL NARRATIVA"},
     "Pantheon": {"canone": TODO_CANONE, "ml": MUNDO_LIVRE_BASE, "perfis": ["CONTEÚDO", "NARRATIVA"],
                  "titulo": "CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL NARRATIVA"},
     "Herodotus": {"canone": TODO_CANONE, "ml": MUNDO_LIVRE_BASE, "perfis": ["CONTEÚDO", "NARRATIVA"],

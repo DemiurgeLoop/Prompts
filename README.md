@@ -19,8 +19,7 @@ Para fixar o nome e a ideia de cada prompt, leia `docs/Nomes e filosofia dos pro
 | Prompt | Para que serve |
 |---|---|
 | Lectern | Módulo: leitor, tons (Conteúdo e Sóbrio), vitrine, busca e Distribuição com UTM |
-| Gazette | Notícia de fato novo |
-| Aion | História de obra evergreen |
+| Gazette | Notícia de fato novo e história de obra evergreen (Modo Evergreen) |
 | Pantheon | Listas, rankings e tier lists |
 | Herodotus | Entrevista gravada vira matéria |
 | Hermes | Texto promocional (voz da rádio) |
