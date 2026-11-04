@@ -1,4 +1,4 @@
-# Vernacular v5.2.0 | Prosa em Português Brasileiro
+# Vernacular v5.3.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -209,7 +209,7 @@ O texto conta a história e a prova fica no fim. O leitor não tropeça em veíc
 - **O que só uma parte afirma sai como dela.** O que o artista, a empresa, a gravadora ou um lado da disputa diz de si ou do outro vai com o nome de quem disse ("a cantora diz que", "a empresa afirma que"), nunca como fato do mundo. Fala vai com quem falou. Isso é honestidade, não citação de fonte.
 - **O veículo entra quando é parte da história.** A lista que elegeu o disco, a entrevista que causou a briga, o documentário que revelou a cena: aí o veículo é personagem ou objeto do fato, não o canal dele. Uma vez só.
 - **Nada entra só para ter o que citar.** Vídeo antigo, matéria vizinha, declaração de ministro, estudo: se não faz a história andar, fica fora do corpo. Se sustenta um fato que o corpo usa, vai para Fontes.
-- **A lista.** Uma linha só: `**Fontes:**` e as fontes separadas por " · ", cada uma como `[Veículo (assunto)](URL)`, em que o assunto diz o que a fonte sustenta (`[NME (ataque de bots)](URL)`). Sem data de publicação. Fonte sem link entra como texto simples (`Gigantic Tickets (comunicado)`). Dado que muda com o tempo leva a data da consulta dentro do parêntese. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. É a única linha que a matéria carrega fora do corpo, ao lado do "Confira também".
+- **A lista.** Uma linha só: `**Fontes:**` e as fontes separadas por " · ", cada uma como `[Veículo (assunto)](URL)`, em que o assunto diz o que a fonte sustenta (`[NME (ataque de bots)](URL)`). Sem data de publicação. Fonte sem link entra como texto simples (`Gigantic Tickets (comunicado)`). Dado que muda com o tempo leva a data da consulta dentro do parêntese. A fonte primária vem primeiro, e as demais seguem a ordem em que sustentam o texto. O assunto entre parênteses tem até 3 palavras (`Billboard Brasil (entrevista)`), para a lista pesar pouco no olho. É a única linha que a matéria carrega fora do corpo, ao lado do "Confira também".
 - **A lista não mente.** Entra só o que foi lido de verdade, do jeito que foi lido: o que chegou por outro portal entra como esse portal, nunca como a fonte primária que ele cita. Assunto e link não se inventam, e o que falta vira `[?]` para o editor. Todo fato do corpo tem fonte na lista, e fonte que não sustenta nenhum fato sai.
 
 ### PERFIL NARRATIVA
@@ -504,6 +504,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.3.0: a lista Fontes da casa passa a pedir o assunto entre parênteses com até 3 palavras, para a lista ficar discreta (a Lectern define como ela sai no site, em `<details>`). Publicado: 2026-11-04*
 
 *Vernacular v5.2.0: entram o verbo do tamanho da fonte e a conferência de estreia, primeira vez e superlativo (Autoridade); "não tem cara de X" e "também não é X" na lista de fórmulas (Voz de máquina); o número pelo ouvido ("um disco", e não "1 disco") e a palavra com dois sentidos (Palavra); e, no Perfil Conteúdo, o fio entre os sinais, o leitor do lugar antes da lista de serviço e o item correspondente na revisão do perfil. Publicado: 2026-11-04*
 

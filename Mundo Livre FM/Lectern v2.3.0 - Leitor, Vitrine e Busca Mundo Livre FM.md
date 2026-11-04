@@ -1,4 +1,4 @@
-# Lectern v2.2.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.3.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -119,6 +119,7 @@ Moldes (colchetes são placeholders, não fatos):
 5. **Não entrega a tese nem o desfecho.** Se a segunda oração pode ser a resposta do H1, ela é resposta, e não buraco.
 6. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card. Vale também para a ponte da redação: a oração que liga dois fatos por inferência ("combina com", "indica", "prepara o terreno para") é leitura nossa e, sem fonte que a diga, não entra na linha fina.
 7. **Não repete o H1** e não responde a pergunta dele.
+8. **Sem tempo relativo.** A linha fina vive por semanas nos cards de outras matérias (Continuidade), e "amanhã", "sexta", "nesta semana" e "começa na quarta" envelhecem. Use a data absoluta ("em 15 de maio de 2027") ou o fato que não passa.
 
 **Fracas** (placeholders)
 
@@ -128,7 +129,7 @@ Moldes (colchetes são placeholders, não fatos):
 - Fórmula fato, desfecho e pergunta: "[Fato]. [Desfecho]. Mas de onde veio [X]?"
 - Duas perguntas na mesma linha: o leitor não sabe qual abrir.
 
-**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? Alguma oração liga dois fatos por inferência da redação? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
+**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? Alguma oração liga dois fatos por inferência da redação? (4) Há ponto de interrogação? Se há, reescreva. (5) Há tempo relativo ("amanhã", "sexta", "começa na quarta") que vai envelhecer no card? Se há, troque pela data absoluta. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
 
 ### Os quatro jeitos da vitrine [INEGOCIÁVEL]
 
@@ -288,6 +289,21 @@ Vale para as matérias (Gazette, Pantheon e Herodotus). O Hermes fica de fora. M
 4. **O texto que acompanha não repete o card.** Parta da Chamada para redes do pacote e ajuste o tom a cada rede. Na Curiosidade, nenhum texto responde a pergunta do H1. No `explode`, nenhum texto traz o desfecho, e cada um aplica os gatilhos 2 a 5 do PROTOCOLO: EXPLODE! (e o 7, quando o horário foi combinado). No `sobrio`, o texto só informa.
 5. **Feche com uma linha de leitura** [SUGESTÃO]: no GA4, Reports > Acquisition > Traffic acquisition > Session source / medium, com Session manual ad content como segunda dimensão (e Session manual term, para ler a variante no `explode`). Nos primeiros minutos do post, veja também se os compartilhamentos passam as curtidas, sinal de alcance grande segundo o Janones; é heurística dele, a confirmar com o histórico da casa.
 
+### Continuidade: o pack dentro da casa [INEGOCIÁVEL quando a matéria sobe ao site]
+
+O leitor que chegou ao fim da matéria é o mais valioso da casa, e o pack (imagem, H1 e linha fina) é o que leva esse leitor a outra matéria. O pacote entrega, além do texto, os blocos de continuidade prontos para o WordPress.
+
+1. **Quem escolhe e de onde.** Quem escreve escolhe os cards entre as matérias mais recentes do site (a listagem `/posts`, páginas 1 a 3, cerca de 30 matérias), lendo o site na hora e nunca de memória. Se o site não puder ser lido, diga isso ao editor e entregue só o "Confira também" manual.
+2. **Critério: tema, público e momento.** Tags e cena em comum com a matéria, o leitor da casa (o centro do rock) e o fato recente. Um card por artista, nunca a própria matéria, e matéria em tom Sóbrio nunca recebe card de assunto leve.
+3. **Quantos.** De 2 a 3, conforme quantas cumprem a relação do título. Nunca complete com card que não cumpre.
+4. **O título nomeia a relação real**, em tom de conversa: "Se você gosta de [artista ou cena], pode gostar de", "Fique ligado também em" (fato da mesma semana), "Mais sobre [assunto]" e, no Sóbrio, "Leia também". "Quem leu também gostou de" só com dado de leitura conjunta do GA4. Sem o dado, é afirmação falsa e fica proibido.
+5. **Todo card leva o pack inteiro**: imagem, categoria, H1, linha fina e data. Nenhum card sai sem linha fina. Se a linha fina da matéria escolhida envelheceu (tempo relativo, como em A linha fina), o card usa uma versão corrigida, com data absoluta, e o editor atualiza a linha fina da matéria para ficar igual. O card nunca contradiz a matéria.
+6. **Um bloco no meio da matéria** [PREFERÊNCIA]. Só em matéria média ou especial (acima de 400 palavras) e nunca no Sóbrio: um card só, em faixa baixa, depois do parágrafo-chave e antes de um H4, nunca dentro de lista nem de serviço. Ele se liga ao que o parágrafo acabou de dizer ("Falando em [nome]") e não repete o card do fim. Meça a rolagem e o clique no GA4, e se a rolagem cair o bloco sai.
+7. **Fontes sem barulho.** A lista Fontes sai num `<details>` fechado ("Fontes (n)"), com o assunto de até 3 palavras entre parênteses e a data de consulta só no dado que muda.
+8. **Entrega técnica** [INEGOCIÁVEL]. HTML com CSS escopado pelo prefixo `mlx-`, sem JavaScript, sem iframe e sem fonte embutida: o texto herda a Montserrat e o título usa a Americane Condensed que o site já carrega. Sem H1 a H6 dentro do bloco, imagem com largura e altura declaradas e carga preguiçosa, texto alternativo, links internos sem UTM (a medição é por evento do GA4). Se o WordPress remover o `<style>`, o bloco continua legível: imagem contida e texto em linhas separadas.
+9. **Identidade visual.** Americane Condensed Black em caixa alta no título da seção e Americane Condensed Medium nos H1 dos cards, Montserrat no resto, `#055464` no gradiente e na categoria, `#00839f` e `#43bacd` nos destaques, cantos de 12 px e sombra leve. O card segue o do `/posts` do site, com a linha fina a mais.
+10. **Os arquivos.** Uma pasta descartável em Downloads, `ML colar - [tema]`, com `1 - meio da matéria.html` (quando couber), `2 - fontes.html` e `3 - fim da matéria.html`, na ordem em que se colam em blocos de HTML do WordPress, mais `0 - pré-visualização.html` só para conferir. O editor apaga a pasta depois de colar, e quem escreve nunca apaga.
+
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
 1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece? No `explode`, o card nomeia o assunto, esconde o desfecho, pede uma ação só e não traz urgência inventada, e a matéria paga o desfecho no lide? A linha fina é afirmação e passa no Teste da linha fina? No Sóbrio, o card informa o fato, sem buraco e sem suspense?
@@ -299,8 +315,11 @@ Vale para as matérias (Gazette, Pantheon e Herodotus). O Hermes fica de fora. M
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
+10. **Continuidade.** Os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
+
+*Lectern v2.3.0: entra a seção Continuidade (o pack dentro da casa): cards escolhidos entre as 30 matérias mais recentes do site por tema, público e momento, de 2 a 3, com título que nomeia a relação real ("Quem leu também gostou de" só com dado do GA4), todo card com o pack inteiro, bloco opcional no meio da matéria, Fontes em `<details>` fechado, entrega em HTML com CSS escopado `mlx-` sem JavaScript nem iframe, identidade visual da casa e pasta descartável `ML colar - [tema]` com os arquivos de colar no WordPress. A linha fina ganha a regra do tempo relativo (data absoluta, porque o card vive semanas) e o Teste da linha fina e o Teste da Lectern ganham o item correspondente. Publicado: 2026-11-04*
 
 *Lectern v2.2.0: entram a escala de calor do verbo no H1 (verbo neutro para registro, quente e proporcional para gesto de gosto, e o que fica fora do freio, como "ama", caixa alta e "olha"), o H1 do Explode em afirmação com a peça nomeada pelo tipo e sem título, e a regra da ponte da redação na linha fina (oração que liga dois fatos por inferência não entra no card), com o item correspondente no Teste da linha fina. Publicado: 2026-11-04*
 
