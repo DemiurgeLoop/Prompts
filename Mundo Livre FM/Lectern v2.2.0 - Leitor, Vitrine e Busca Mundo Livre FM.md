@@ -1,4 +1,4 @@
-# Lectern v2.1.1 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.2.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -78,6 +78,7 @@ O card (foto, H1 e linha fina) é o texto que mais gente lê, e para muitos é o
 - **O que o leitor reconhece vai na frente, exceto no H1 curto do Conteúdo (abaixo), onde o título SEO leva o nome.** O nome da banda, do artista, da obra ou do filme abre o H1, porque o fim dele some no celular e na busca.
 - **H1 curto no Conteúdo.** [PREFERÊNCIA] O H1 pode ser curto e afirmativo: de 3 a 4 palavras de núcleo, até 8 no total, com o nome quando couber e uma direção clara, nunca neutro. O título SEO fica com o nome e a frase-foco por inteiro (A busca) e é ele que a busca lê. Padrões de partida, a conferir contra o dado do canal: primeira pessoa mais verbo de ação mais consequência; mudança mais urgência; confissão com humor; número específico mais sistema. Perdem: genérico explicativo, palavra vazia, elogio sem consequência, neutro de professor.
 - **Específico vence genérico.** Número, nome, ano e fato concreto no lugar do adjetivo. "Lucro de 5%" convence; "menos do que você imagina" não.
+- **Escala de calor do verbo** [PREFERÊNCIA]. O H1 pode ser quente, e a temperatura do verbo acompanha o fato. Quando o fato é um registro, o verbo é concreto e neutro ("posta", "volta", "cancela"). Quando o fato é um gesto de gosto ou de entusiasmo, o verbo é quente e proporcional ("se rende", "se derrete", "elogia"). Ficam fora do freio o verbo que promete mais do que o fato prova ("ama", "venera", "enlouquece"), a caixa alta e a ordem no lugar do assunto ("olha", "veja"), que é lacuna falsa. Um story compartilhado sustenta "se rende" e não sustenta "ama". Verbo abstrato de sentimento ("demonstra carinho", "expressa admiração") é a versão fraca do quente: troque por um verbo que uma pessoa faria.
 - **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o detalhe, o desfecho) sem respondê-la. Ele nunca esconde o *quê*. No jeito `explode`, o desfecho fica escondido com mais força, e o assunto e a promessa paga continuam valendo (PROTOCOLO: EXPLODE!, abaixo). Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
 - **H1 e linha fina nunca repetem a mesma informação.** O H1 fisga, a linha fina aperta.
 - **Toda promessa é paga, e cedo**: até o segundo ou terceiro parágrafo, salvo quando o prompt diz outro lugar (a lista paga no item que a linha fina anuncia). Prometer e enrolar é o mesmo que mentir.
@@ -116,7 +117,7 @@ Moldes (colchetes são placeholders, não fatos):
 3. **Verbo de conversa e conta concreta.** "Avisa", "conta", "explica", "tenta". Número, época ou fonte no lugar do adjetivo. Sem humor de encomenda.
 4. **Uma frase, cerca de 140 caracteres** (teto de 160). Sem fatos em fila: dois substantivos técnicos seguidos ("a máscara de [lugar] e o desenho de [época]") leem como ficha.
 5. **Não entrega a tese nem o desfecho.** Se a segunda oração pode ser a resposta do H1, ela é resposta, e não buraco.
-6. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card.
+6. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card. Vale também para a ponte da redação: a oração que liga dois fatos por inferência ("combina com", "indica", "prepara o terreno para") é leitura nossa e, sem fonte que a diga, não entra na linha fina.
 7. **Não repete o H1** e não responde a pergunta dele.
 
 **Fracas** (placeholders)
@@ -127,7 +128,7 @@ Moldes (colchetes são placeholders, não fatos):
 - Fórmula fato, desfecho e pergunta: "[Fato]. [Desfecho]. Mas de onde veio [X]?"
 - Duas perguntas na mesma linha: o leitor não sabe qual abrir.
 
-**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
+**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? Alguma oração liga dois fatos por inferência da redação? (4) Há ponto de interrogação? Se há, reescreva. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
 
 ### Os quatro jeitos da vitrine [INEGOCIÁVEL]
 
@@ -155,7 +156,7 @@ Toda matéria sai em um jeito. A Pauta escolhe o tom e, no Conteúdo, o jeito, a
 
 ### PROTOCOLO: EXPLODE! [INEGOCIÁVEL quando o jeito é `explode`]
 
-O terceiro jeito do Conteúdo, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5 e, quando o horário foi combinado, o 7.
+O terceiro jeito do Conteúdo, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal) ou é uma afirmação que nomeia a peça pelo tipo e esconde o nome dela (colchetes são placeholders: "[Artista] se rende a álbum de [artista] antes do show em [cidade]", em que o álbum fica sem título e o lide o paga), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5 e, quando o horário foi combinado, o 7.
 
 **Os sete gatilhos**
 
@@ -300,6 +301,8 @@ Vale para as matérias (Gazette, Pantheon e Herodotus). O Hermes fica de fora. M
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
 
 ---
+
+*Lectern v2.2.0: entram a escala de calor do verbo no H1 (verbo neutro para registro, quente e proporcional para gesto de gosto, e o que fica fora do freio, como "ama", caixa alta e "olha"), o H1 do Explode em afirmação com a peça nomeada pelo tipo e sem título, e a regra da ponte da redação na linha fina (oração que liga dois fatos por inferência não entra no card), com o item correspondente no Teste da linha fina. Publicado: 2026-11-04*
 
 *Lectern v2.1.1: o Aion sai da lista dos prompts que embutem o módulo e das regras de jeito e de Distribuição, porque a história de obra evergreen passa ao Modo Evergreen do Gazette; o texto das regras não mudou. Publicado: 2026-11-03*
 

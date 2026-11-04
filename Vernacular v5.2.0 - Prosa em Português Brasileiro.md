@@ -1,4 +1,4 @@
-# Vernacular v5.1.2 | Prosa em Português Brasileiro
+# Vernacular v5.2.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -54,7 +54,7 @@ O contexto decide o que é erro. O mesmo "pra" acerta num roteiro e erra num art
 
 A voz de máquina é o bacharelês da era digital: fórmulas que têm cara de texto e nada dizem. Sai sempre, em qualquer contexto e em qualquer modo.
 
-- **Fórmulas.** "Não é sobre X, é sobre Y", "não apenas X, mas também Y", "mais do que X", "em um mundo onde", "e é exatamente isso que", "seja X, seja Y" como floreio, trio de adjetivos ("cru, visceral e honesto"), pergunta retórica em série, "no fim das contas", "um lembrete de que", "vale lembrar", "mergulhar fundo", "jornada", "navegar" no sentido figurado, "desbloquear o potencial".
+- **Fórmulas.** "Não é sobre X, é sobre Y", "não apenas X, mas também Y", "não tem cara de X", "também não é X", "mais do que X", "em um mundo onde", "e é exatamente isso que", "seja X, seja Y" como floreio, trio de adjetivos ("cru, visceral e honesto"), pergunta retórica em série, "no fim das contas", "um lembrete de que", "vale lembrar", "mergulhar fundo", "jornada", "navegar" no sentido figurado, "desbloquear o potencial".
 - **Hesitação.** "Um pouco", "bastante", "quase", "uma espécie de", "de certa forma", "sem dúvida", "talvez", "é importante notar", "podemos dizer que". Quando a palavra é o próprio fato ("a banda quase acabou em 1979"), ela fica.
 - **Pigarro.** A frase que gasta o começo antes de dizer algo: "É importante lembrar que", "O objetivo deste texto é", "De acordo com [fonte]," quando o que importa é o fato. Comece pelo sujeito e pelo verbo; a atribuição desce para o meio ou o fim da frase.
 - **Palavras de LinkedIn.** No sentido figurado: alavancar, otimizar, capacitar, impulsionar, sinergia, paradigma, farol, ecossistema e panorama ("desbloquear" e "jornada" já estão acima). Troque pela palavra que um amigo usaria no WhatsApp.
@@ -100,6 +100,8 @@ O leitor precisa saber, a cada frase, de que se fala e por que esta frase vem de
 - **Verbo de ação.** "Uma bomba explodiu e rasgou o carro" vence "houve uma explosão que atingiu o carro". Fuja do substantivo que esconde o verbo ("a realização da gravação"). "Quanto mais a banda tocava, mais o público crescia" vence "observou-se uma correlação entre a frequência de shows e o público".
 - **Adjetivo de juízo vira dado.** "Show histórico" vira o público, o lugar e o que aconteceu ali. "Voz marcante" vira o que a voz faz. Quem tira a conclusão é o leitor.
 - **Número na escala do leitor.** Quando o número sozinho não diz nada, compare com algo que o leitor conhece.
+- **Número pelo ouvido.** Métrica, data, ano e valor vão em dígito. "Um" e "uma" como artigo ou quantidade solta ficam por extenso ("um disco", e não "1 disco"), porque ninguém diz um do outro jeito no balcão. Quando o prompt do formato manda dígito, o dígito vale para a métrica e o extenso continua valendo para o artigo.
+- **Palavra com dois sentidos.** [PREFERÊNCIA] Termo que significa duas coisas no mesmo contexto confunde o leitor ("pista" como sinal e como o piso do show, "disco" como álbum e como o aparelho). Fique com um sentido por texto e troque o outro ("recado", "sinal").
 - **Comparação que ensina.** A analogia parte de algo que o leitor conhece bem para explicar o que ele não conhece ("um pomelo é uma toranja gigante"). Analogia que só enfeita sai, porque o leitor não completa a conta.
 - **Clichê e par viciado saem.** [INEGOCIÁVEL] Metáfora gasta ("pedra no sapato", "divisor de águas", "botou a casa abaixo", "rasgou o verbo") e substantivo com o adjetivo de sempre ("papel fundamental", "importância crucial", "carreira sólida", "riff poderoso", "letra profunda", "som visceral").
 - **Redundância sai.** [INEGOCIÁVEL] "Elo de ligação", "surpresa inesperada", "há 30 anos atrás", advérbio que repete o verbo ("confirmou oficialmente").
@@ -116,6 +118,7 @@ O leitor precisa saber, a cada frase, de que se fala e por que esta frase vem de
 
 - **Fato primeiro, ideia depois.** Toda interpretação vem colada ao fato que a sustenta, na mesma frase ou na seguinte. Ideia sem fato sai.
 - **Autoridade calma.** Afirme o que apurou, sem a hesitação listada em Voz de máquina.
+- **O verbo fica do tamanho da fonte.** Quem escreve não promove o que a fonte disse: "a música traz um trecho em português" não vira "ela canta em português", "participou" não vira "liderou", "disse que talvez" não vira "disse que vai". Em estreia, primeira vez e superlativo ("o primeiro show no país", "o maior público"), confira o escopo antes de escrever: o primeiro solo não é o primeiro.
 - **O leitor sabe de quem é cada afirmação.** O que é da fonte vem atribuído; o que é de quem escreve vem sem atribuição. Uma atribuição por fonte e por parágrafo basta.
 - **Sem metadiscurso.** Nada de "como veremos", "neste texto", "a seguir". Exceções: o contrato de uma lista e a placa de rota do texto falado (ver Texto para o ouvido).
 - **Nada inventado.** Fato que falta vira `[?]`, nunca preenchimento.
@@ -329,12 +332,14 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 - **Cada parágrafo começa por um elo concreto e termina empurrando o seguinte** com um dado, uma virada ou uma fala.
 - **A frase curta crava, uma de cada vez.** Depois de um período que acumula detalhe, uma frase curta fecha a ideia. Frases curtas em fila só no clímax, e com conectivo.
 - **O ponto mais forte fica no meio ou no fim**, e o texto para quando os fatos acabam.
+- **O fio entre os sinais.** Quando a matéria tem vários sinais soltos do mesmo fato (um disco, uma música, uma letra, uma agenda), junte-os sob uma ideia que o leitor repete ("o story é só o recado mais recente") em vez de empilhar parágrafos sem elo. O fio nomeia o padrão, e cada sinal vem com o seu fato e a sua fonte. O fio nunca liga dois fatos por inferência que nenhuma fonte diz.
 - **Intertítulo que puxa**, como no Texto para a tela, nos prompts que admitem H4.
 
 #### A voz
 
 - **Fã que sabe.** A voz é a de quem gosta do assunto e o conhece por dentro. O entusiasmo vem do verbo escolhido, do detalhe certo e do ritmo, nunca do adjetivo nem do ponto de exclamação.
 - **Lado tomado, com dono.** A casa tem posição e a diz sem rodeio, porque o centro confortável não explode. O ângulo pode vir em primeira pessoa (o "eu" de quem assina, o "a gente" da rádio) ou em terceira ("para quem cresceu com o disco, a versão de [ano] muda o que ele significa"), sempre colado ao fato e sem virar fato do mundo.
+- **O leitor do lugar.** Quando a matéria tem serviço (ingresso, data, local), um parágrafo curto fala com o leitor de quem a notícia interessa mais, em voz de conversa ("para o fã carioca, a notícia boa é que a primeira noite ainda tem ingresso"), antes da lista de serviço. Só com fato do lugar, nunca com ligação inventada.
 - **Humor seco, de bar.** Uma ironia curta por texto, quando o fato a sustenta (Voz ensaística). Nunca sobre quem sofre.
 - **Intensidade de fã.** O texto vibra e pode ser extremo na posição: veredito duro e superlativo valem, desde que o fato por baixo exista e o número que prova o superlativo esteja no texto.
 - **Imperfeição humana.** Pelo menos uma por texto: um fragmento, um aparte, uma opinião torta, um detalhe sem função que só quem viveu lembra, algo que fica chato ou irritante porque é real. É imperfeição de voz, nunca erro de fato nem de gramática.
@@ -354,6 +359,7 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 - A abertura entra pela peça mais forte e já paga o card?
 - Algum parágrafo se arrasta, sem cena que o peça, ou termina sem empurrar o próximo?
 - O texto tem lado tomado e pelo menos uma imperfeição humana?
+- Os sinais soltos têm um fio, sem ligação inventada entre eles, e o parágrafo do leitor do lugar, quando há serviço, vem antes da lista?
 - Alguma frase afirma mais do que o fato sustenta (intensidade vale, fato inventado não)?
 
 ### PERFIL LOCUÇÃO
@@ -498,6 +504,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.2.0: entram o verbo do tamanho da fonte e a conferência de estreia, primeira vez e superlativo (Autoridade); "não tem cara de X" e "também não é X" na lista de fórmulas (Voz de máquina); o número pelo ouvido ("um disco", e não "1 disco") e a palavra com dois sentidos (Palavra); e, no Perfil Conteúdo, o fio entre os sinais, o leitor do lugar antes da lista de serviço e o item correspondente na revisão do perfil. Publicado: 2026-11-04*
 
 *Vernacular v5.1.2: o Aion sai das listas de prompts que embutem a Vernacular e dos perfis (a história de obra evergreen passa ao Gazette, com o Perfil Notícia); o texto das regras não mudou. Publicado: 2026-11-03*
 
