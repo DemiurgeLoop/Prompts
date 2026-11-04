@@ -1,4 +1,4 @@
-# Lectern v2.3.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.4.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -301,8 +301,55 @@ O leitor que chegou ao fim da matéria é o mais valioso da casa, e o pack (imag
 6. **Um bloco no meio da matéria** [PREFERÊNCIA]. Só em matéria média ou especial (acima de 400 palavras) e nunca no Sóbrio: um card só, em faixa baixa, depois do parágrafo-chave e antes de um H4, nunca dentro de lista nem de serviço. Ele se liga ao que o parágrafo acabou de dizer ("Falando em [nome]") e não repete o card do fim. Meça a rolagem e o clique no GA4, e se a rolagem cair o bloco sai.
 7. **Fontes sem barulho.** A lista Fontes sai num `<details>` fechado ("Fontes (n)"), com o assunto de até 3 palavras entre parênteses e a data de consulta só no dado que muda.
 8. **Entrega técnica** [INEGOCIÁVEL]. HTML com CSS escopado pelo prefixo `mlx-`, sem JavaScript, sem iframe e sem fonte embutida: o texto herda a Montserrat e o título usa a Americane Condensed que o site já carrega. Sem H1 a H6 dentro do bloco, imagem com largura e altura declaradas e carga preguiçosa, texto alternativo, links internos sem UTM (a medição é por evento do GA4). Se o WordPress remover o `<style>`, o bloco continua legível: imagem contida e texto em linhas separadas.
-9. **Identidade visual.** Americane Condensed Black em caixa alta no título da seção e Americane Condensed Medium nos H1 dos cards, Montserrat no resto, `#055464` no gradiente e na categoria, `#00839f` e `#43bacd` nos destaques, cantos de 12 px e sombra leve. O card segue o do `/posts` do site, com a linha fina a mais.
-10. **Os arquivos.** Uma pasta descartável em Downloads, `ML colar - [tema]`, com `1 - meio da matéria.html` (quando couber), `2 - fontes.html` e `3 - fim da matéria.html`, na ordem em que se colam em blocos de HTML do WordPress, mais `0 - pré-visualização.html` só para conferir. O editor apaga a pasta depois de colar, e quem escreve nunca apaga.
+9. **Identidade visual.** Americane Condensed Black em caixa alta no título da seção e Americane Condensed Medium nos H1 dos cards, Montserrat no resto, `#055464` no gradiente e na categoria, `#00839f` e `#43bacd` nos destaques, cantos de 12 px e sombra leve. O card segue o do `/posts` do site, com a linha fina a mais, e é o do Template fixo.
+10. **Template fixo.** O visual é sempre o do template abaixo, sem variação de layout entre matérias.
+11. **Os arquivos.** Uma pasta descartável em Downloads, `ML colar - [tema]`, com `1 - meio da matéria.html` (quando couber), `2 - fontes.html` e `3 - fim da matéria.html`, na ordem em que se colam em blocos de HTML do WordPress, mais `0 - pré-visualização.html` só para conferir. O editor apaga a pasta depois de colar, e quem escreve nunca apaga.
+
+**Template fixo** [INEGOCIÁVEL]. O bloco tem um visual só, o da casa: imagem de ponta a ponta, gradiente `#055464`, categoria em pílula, H1 em Americane Condensed, linha fina e data, em 2 ou 3 colunas no computador e em coluna única no celular. Quem escreve copia o CSS abaixo sem alterar uma linha, troca só os dados entre colchetes e não inventa outro layout (lista, imagem ao lado do texto, fundo branco, nome de classe diferente de `mlx-`). A largura e a altura da imagem são as reais do arquivo.
+
+Bloco do fim da matéria (`3 - fim da matéria.html`), com `data-n` igual ao número de cards.
+
+```html
+<style>.mlx{--t:#055464;--b:#00839f;--l:#43bacd;margin:2.2rem 0;font-family:inherit;color:#1f2327;line-height:1.35;content-visibility:auto;contain-intrinsic-size:auto 480px}
+.mlx,.mlx *{box-sizing:border-box}
+.mlx-t{font-family:"Americane Condensed","Arial Narrow",sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(24px,4.4vw,32px);line-height:1.02;color:var(--t);margin:0;max-width:640px}
+.mlx-bar{display:block;width:64px;height:4px;background:var(--l);border-radius:2px;margin:12px 0 16px}
+.mlx-lab{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--b);margin:0 0 8px}
+.mlx-grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:720px){.mlx-grid[data-n="2"]{grid-template-columns:repeat(2,1fr)}.mlx-grid[data-n="3"]{grid-template-columns:repeat(3,1fr)}}
+.mlx a.mlx-card{position:relative;display:block;min-height:340px;overflow:hidden;border-radius:12px;background:var(--t);box-shadow:0 4px 6px rgba(0,0,0,.14);transition:box-shadow .25s}
+.mlx a.mlx-card,.mlx a.mlx-card *{color:#fff!important;text-decoration:none!important;border:0}
+.mlx a.mlx-card:hover{box-shadow:0 14px 24px rgba(0,0,0,.28)}
+.mlx a.mlx-card:focus-visible{outline:3px solid var(--l);outline-offset:3px}
+.mlx a.mlx-card img{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover;margin:0!important;transition:transform .35s}
+.mlx a.mlx-card:hover img{transform:scale(1.06)}
+.mlx a.mlx-card::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--t) 14%,rgba(5,84,100,.8) 46%,rgba(5,84,100,0) 82%)}
+.mlx-body{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;gap:8px;min-height:340px;padding:56px 20px 18px}
+.mlx-body br{display:none}
+.mlx-chip{display:inline-block;background:var(--t);font-size:12px;font-weight:600;line-height:1.5;padding:3px 18px;border-radius:999px}
+.mlx-h{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-family:"Americane Condensed","Arial Narrow",sans-serif;font-weight:500;text-transform:uppercase;font-size:clamp(21px,3.4vw,25px);line-height:1.08}
+.mlx-s{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:13.5px;line-height:1.45;opacity:.93}
+.mlx-d{font-size:12px;font-weight:300;opacity:.9}
+.mlx-mid a.mlx-card,.mlx-mid .mlx-body{min-height:216px}
+.mlx-mid a.mlx-card::after{background:linear-gradient(to right,var(--t) 8%,rgba(5,84,100,.84) 50%,rgba(5,84,100,0) 96%)}
+.mlx-mid .mlx-body{justify-content:center;max-width:640px;padding:20px 22px}
+.mlx-mid .mlx-h,.mlx-mid .mlx-s{-webkit-line-clamp:2}
+@media(max-width:719px){.mlx-mid .mlx-s{display:none}.mlx-mid a.mlx-card::after{background:linear-gradient(to top,var(--t) 10%,rgba(5,84,100,.82) 55%,rgba(5,84,100,0) 92%)}.mlx-mid .mlx-body{justify-content:flex-end;max-width:none}}</style>
+<section class="mlx not-prose" aria-label="[TÍTULO QUE NOMEIA A RELAÇÃO]"><span class="mlx-t" style="display:block">[TÍTULO QUE NOMEIA A RELAÇÃO]</span><span class="mlx-bar"></span><div class="mlx-grid" data-n="[2 ou 3]"><a class="mlx-card" href="https://mundolivrefm.com.br/posts/[SLUG]"><img src="[URL DA IMAGEM]" width="[LARGURA REAL]" height="[ALTURA REAL]" loading="lazy" decoding="async" alt="[H1 DA MATÉRIA]" style="max-width:100%;max-height:240px;width:auto;height:auto"><span class="mlx-body"><span class="mlx-chip">[CATEGORIA]</span><br><span class="mlx-h">[H1 DA MATÉRIA]</span><br><span class="mlx-s">[LINHA FINA]</span><br><span class="mlx-d">[DATA POR EXTENSO]</span></span></a><a class="mlx-card" href="https://mundolivrefm.com.br/posts/[SLUG]"><img src="[URL DA IMAGEM]" width="[LARGURA REAL]" height="[ALTURA REAL]" loading="lazy" decoding="async" alt="[H1 DA MATÉRIA]" style="max-width:100%;max-height:240px;width:auto;height:auto"><span class="mlx-body"><span class="mlx-chip">[CATEGORIA]</span><br><span class="mlx-h">[H1 DA MATÉRIA]</span><br><span class="mlx-s">[LINHA FINA]</span><br><span class="mlx-d">[DATA POR EXTENSO]</span></span></a></div></section>
+```
+
+Bloco do meio da matéria (`1 - meio da matéria.html`), com o mesmo `<style>` acima e um card só.
+
+```html
+<style>[o mesmo CSS do bloco do fim]</style>
+<aside class="mlx mlx-mid not-prose" aria-label="[RÓTULO, como Falando em Seu Jorge]"><div class="mlx-lab">[RÓTULO]</div><a class="mlx-card" href="https://mundolivrefm.com.br/posts/[SLUG]"><img src="[URL DA IMAGEM]" width="[LARGURA REAL]" height="[ALTURA REAL]" loading="lazy" decoding="async" alt="[H1 DA MATÉRIA]" style="max-width:100%;max-height:240px;width:auto;height:auto"><span class="mlx-body"><span class="mlx-chip">[CATEGORIA]</span><br><span class="mlx-h">[H1 DA MATÉRIA]</span><br><span class="mlx-s">[LINHA FINA]</span><br><span class="mlx-d">[DATA POR EXTENSO]</span></span></a></aside>
+```
+
+Bloco das fontes (`2 - fontes.html`), só com estilo em linha.
+
+```html
+<details style="font-size:13px;line-height:1.7;color:#6b7280;margin:18px 0 0"><summary style="cursor:pointer">Fontes ([N])</summary><p style="margin:6px 0 0"><a href="[URL]" style="color:inherit;text-decoration:underline">[VEÍCULO (assunto)]</a> · <a href="[URL]" style="color:inherit;text-decoration:underline">[VEÍCULO (assunto)]</a></p></details>
+```
 
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
@@ -315,9 +362,11 @@ O leitor que chegou ao fim da matéria é o mais valioso da casa, e o pack (imag
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
-10. **Continuidade.** Os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
+10. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
+
+*Lectern v2.4.0: a Continuidade ganha o Template fixo (CSS e HTML do bloco do fim, do meio e das fontes, copiados sem alterar o CSS, com troca só dos dados), porque cada execução inventava um layout diferente (lista de cards brancos com imagem ao lado, por exemplo). O visual de referência é o de imagem de ponta a ponta com gradiente da casa. Publicado: 2026-11-04*
 
 *Lectern v2.3.0: entra a seção Continuidade (o pack dentro da casa): cards escolhidos entre as 30 matérias mais recentes do site por tema, público e momento, de 2 a 3, com título que nomeia a relação real ("Quem leu também gostou de" só com dado do GA4), todo card com o pack inteiro, bloco opcional no meio da matéria, Fontes em `<details>` fechado, entrega em HTML com CSS escopado `mlx-` sem JavaScript nem iframe, identidade visual da casa e pasta descartável `ML colar - [tema]` com os arquivos de colar no WordPress. A linha fina ganha a regra do tempo relativo (data absoluta, porque o card vive semanas) e o Teste da linha fina e o Teste da Lectern ganham o item correspondente. Publicado: 2026-11-04*
 
