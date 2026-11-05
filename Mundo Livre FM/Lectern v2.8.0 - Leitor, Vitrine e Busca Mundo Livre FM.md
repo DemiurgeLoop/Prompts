@@ -1,4 +1,4 @@
-# Lectern v2.7.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.8.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -79,7 +79,7 @@ O card (foto, H1 e linha fina) é o texto que mais gente lê, e para muitos é o
 - **H1 curto no Conteúdo.** [PREFERÊNCIA] O H1 pode ser curto e afirmativo: de 3 a 4 palavras de núcleo, até 8 no total, com o nome quando couber e uma direção clara, nunca neutro. O título SEO fica com o nome e a frase-foco por inteiro (A busca) e é ele que a busca lê. Padrões de partida, a conferir contra o dado do canal: primeira pessoa mais verbo de ação mais consequência; mudança mais urgência; confissão com humor; número específico mais sistema. Perdem: genérico explicativo, palavra vazia, elogio sem consequência, neutro de professor.
 - **Específico vence genérico.** Número, nome, ano e fato concreto no lugar do adjetivo. "Lucro de 5%" convence; "menos do que você imagina" não.
 - **Escala de calor do verbo** [PREFERÊNCIA]. O H1 pode ser quente, e a temperatura do verbo acompanha o fato. Quando o fato é um registro, o verbo é concreto e neutro ("posta", "volta", "cancela"). Quando o fato é um gesto de gosto ou de entusiasmo, o verbo é quente e proporcional ("se rende", "se derrete", "elogia"). Ficam fora do freio o verbo que promete mais do que o fato prova ("ama", "venera", "enlouquece"), a caixa alta e a ordem no lugar do assunto ("olha", "veja"), que é lacuna falsa. Um story compartilhado sustenta "se rende" e não sustenta "ama". Verbo abstrato de sentimento ("demonstra carinho", "expressa admiração") é a versão fraca do quente: troque por um verbo que uma pessoa faria.
-- **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o detalhe, o desfecho) sem respondê-la. Ele nunca esconde o *quê*. No jeito `explode`, o desfecho fica escondido com mais força, e o assunto e a promessa paga continuam valendo (PROTOCOLO: EXPLODE!, abaixo). Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
+- **Lacuna honesta.** O card diz do que se trata e com quem, e abre uma pergunta específica (o porquê, o como, o desfecho) sem respondê-la, com nome e em palavra de gente, nunca com coringa ("um detalhe", "uma surpresa"). Ele nunca esconde o *quê*. No jeito `explode`, o desfecho fica escondido com mais força, e o assunto e a promessa paga continuam valendo (PROTOCOLO: EXPLODE!, abaixo). Exagero, informação retida para forçar o clique e apelo a choque, escândalo ou indignação derrubam o texto no Discover e a confiança do leitor. O card tem a escala do fato (Kovach e Rosenstiel: proporção), e a afirmação forte que é de alguém vai atribuída a esse alguém no próprio H1 ("[Fulano] diz que..."), nunca seca.
 - **H1 e linha fina nunca repetem a mesma informação.** O H1 fisga, a linha fina aperta.
 - **Toda promessa é paga, e cedo**: até o segundo ou terceiro parágrafo, salvo quando o prompt diz outro lugar (a lista paga no item que a linha fina anuncia). Prometer e enrolar é o mesmo que mentir.
 - **Teste do card.** Lendo só o card, o leitor sabe do que se trata e com quem? Precisa ser sim. Já sabe a resposta? Precisa ser não. Sente que perde algo se não clicar? Precisa ser sim. Se a resposta escapou para a vitrine, leve-a ao corpo e troque-a pelo que ela provoca.
@@ -92,50 +92,54 @@ O que o leitor vê no feed não é um texto, é um conjunto de quatro peças: **
 
 - **Imagem:** quem. O rosto ou a cena que o leitor reconhece.
 - **H1:** o assunto, com o nome na frente e, quando couber, quem faz o quê.
-- **Linha fina:** o contorno e o buraco, em afirmação, sem o desfecho (A linha fina, abaixo).
+- **Linha fina:** o fato com nome e o detalhe humano que dá vontade de ler, em afirmação, sem o desfecho (A linha fina, abaixo).
 - **Chamada:** o terceiro gancho, em voz de pessoa, com um pedido só.
 
 Escreva nesta ordem [PREFERÊNCIA]: essência, H1, linha fina, chamada e, por último, a direção da imagem. As quatro peças dizem a mesma verdade que a matéria, e a matéria paga tudo o que elas abrem. O pack não existe para fazer clicar quem não queria aquilo; existe para fazer clicar com vontade quem quer saber aquilo.
 
 ### A linha fina [INEGOCIÁVEL]
 
-A linha fina é a segunda coisa que o leitor lê e a que mais separa o card que clica do que passa. A forma da casa vem das melhores linhas finas do Gazette e vale nos três jeitos do Conteúdo. No tom Sóbrio, a linha fina dá o contorno do fato (quem, quando, o que se sabe) e não abre buraco.
+A linha fina é a segunda coisa que o leitor lê e a que mais separa o card que clica do que passa. Ela fala como gente fala: diz o que aconteceu, com o nome de quem fez, e deixa o leitor com vontade de ver o resto porque ele já se importa com aquilo, não porque lhe esconderam alguma coisa. No tom Sóbrio, dá o contorno do fato (quem, quando, o que se sabe) e não abre buraco.
 
-**Uma afirmação, de duas orações ligadas por "e" ou "mas".** A primeira dá o contorno: contagem, época, fonte, quantos, desde quando. A segunda aponta a peça que falta e a deixa nomeada na própria frase, sem preenchê-la. O leitor faz a pergunta sozinho, e a pergunta que ele faz sozinho pesa mais que a que a redação faz por ele.
+**Uma frase de conversa, de duas orações ligadas por "e" ou "mas".** A primeira conta o fato, com nome e verbo de pessoa. A segunda traz a parte mais humana ou mais surpreendente do material, dita com todas as letras: a fala, o gesto, o número, o nome. O leitor entra pelo que sente (graça, carinho, espanto, nostalgia) e segue porque quer a história inteira.
 
-Moldes (colchetes são placeholders, não fatos):
+Moldes (colchetes são placeholders, não fatos)
 
-- **Contagem e virada:** "Foi a [segunda] vez que [fato] e a [segunda] vez que [fato], mas [a peça] agora é outra."
-- **Contorno e gesto:** "[O motivo] vem da época, e [a fonte] conta que agora [ação inesperada que esconde a peça]."
-- **A novidade com a conta:** "[N] dias depois de [fato anterior], [fonte] avisa que [data ou lugar] é a última."
-- **A segunda lacuna:** "Na entrevista à [veículo], [pessoa] também explica por que [fato que o H1 não tocou]."
+- **Fato e gesto.** "[Pessoa] respondeu a um fã no X com [o que disse ou fez, nas palavras do material], e [o detalhe humano, dito por inteiro]."
+- **Conta e virada.** "[N] anos depois de [fato], [pessoa] [faz algo concreto] e [o que isso muda para o fã]."
+- **A novidade com a conta.** "[N] dias depois de [fato anterior], [fonte] avisa que [data ou lugar] é a última."
+- **A segunda camada.** "Na entrevista à [veículo], [pessoa] também conta [o assunto, com nome] e [o que o leitor ainda não sabia]."
 
 **Regras**
 
-1. **Afirmação, não pergunta.** A interrogação mora no H1, uma por card no máximo. A linha fina que volta a perguntar gasta a lacuna que o H1 já abriu.
-2. **O buraco é elemento da frase** ("o réu agora é outro", "um dos músicos da outra banda"), e não um "por que...?". Nomear a peça sem dizê-la é o que o Explode pede: contorno dado, miolo guardado.
-3. **Verbo de conversa e conta concreta.** "Avisa", "conta", "explica", "tenta". Número, época ou fonte no lugar do adjetivo. Sem humor de encomenda.
-4. **Uma frase, cerca de 140 caracteres** (teto de 160). Sem fatos em fila: dois substantivos técnicos seguidos ("a máscara de [lugar] e o desenho de [época]") leem como ficha.
-5. **Não entrega a tese nem o desfecho.** Se a segunda oração pode ser a resposta do H1, ela é resposta, e não buraco.
-6. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card. Vale também para a ponte da redação: a oração que liga dois fatos por inferência ("combina com", "indica", "prepara o terreno para") é leitura nossa e, sem fonte que a diga, não entra na linha fina.
-7. **Não repete o H1** e não responde a pergunta dele.
-8. **Sem tempo relativo.** A linha fina vive por semanas nos cards de outras matérias (Continuidade), e "amanhã", "sexta", "nesta semana" e "começa na quarta" envelhecem. Use a data absoluta ("em 15 de maio de 2027") ou o fato que não passa.
+1. **Diga o que aconteceu.** O *quê* nunca fica escondido. "Um detalhe", "uma informação", "algo", "uma surpresa" e "uma revelação" são coringas: se existe, dê o nome.
+2. **Fale do mundo, não do texto.** Sem "o post seguinte", "termina com", "traz", "revela", "só entrega" e "na última linha". O leitor do card não lê sobre posts, lê sobre a pessoa.
+3. **Gente no sujeito e verbo de gente.** "Conta", "responde", "pede", "avisa", "agradece", "tenta". Número, época ou fonte no lugar do adjetivo. Sem humor de encomenda.
+4. **Calor sem enfeite.** Tom de quem conta a um amigo, em palavra de conversa. Sem substantivo abstrato ("gesto de carinho", "postura", "movimento"), sem jargão e sem adjetivo de vitrine.
+5. **A vontade de ler vem da história, não do buraco.** A linha fina nunca esconde o nome da pessoa, da obra nem do fato. O que o corpo ainda paga (o porquê, o como, o que veio depois) fica fora da frase, sem ser anunciado por palavra vazia. Se a segunda oração é a resposta do H1, troque-a por outro detalhe humano do material.
+6. **Afirmação, não pergunta.** A interrogação mora no H1, uma por card no máximo. A linha fina que volta a perguntar gasta a curiosidade que o H1 já abriu.
+7. **Uma frase, cerca de 140 caracteres** (teto de 160). Sem fatos em fila: dois substantivos técnicos seguidos ("a máscara de [lugar] e o desenho de [época]") leem como ficha.
+8. **Só fato apurado no corpo.** A linha fina passa pela mesma apuração que o texto (A prova), e o fato dela consta em Fontes. A leitura própria da redação, que nenhuma fonte diz, vai para o corpo, atribuída, e para a Ficha; nunca para o card. Vale também para a ponte da redação: a oração que liga dois fatos por inferência ("combina com", "indica", "prepara o terreno para") é leitura nossa e, sem fonte que a diga, não entra na linha fina.
+9. **Não repete o H1** e não responde a pergunta dele.
+10. **Sem tempo relativo.** A linha fina vive por semanas nos cards de outras matérias (Continuidade), e "amanhã", "sexta", "nesta semana" e "começa na quarta" envelhecem. Use a data absoluta ("em 15 de maio de 2027") ou o fato que não passa.
 
 **Fracas** (placeholders)
 
+- Coringa que fala do texto: "[Pessoa] respondeu a [alguém], e o [post] termina com um detalhe sobre [quem fez]."
+- Esconde o nome: "[Banda] anuncia [algo] com [alguém] e [uma surpresa]."
 - Entrega a tese e pergunta no fim: "[A] e [B] nasceram separados. Quem os juntou?"
-- Pergunta no lugar do buraco: "Quem [fez X], e por que [detalhe que só o corpo explica]?"
+- Pergunta no lugar da frase: "Quem [fez X], e por que [detalhe que só o corpo explica]?"
 - Ficha técnica: "Um [objeto] e um [objeto] de [época] [verbo]."
 - Fórmula fato, desfecho e pergunta: "[Fato]. [Desfecho]. Mas de onde veio [X]?"
 - Duas perguntas na mesma linha: o leitor não sabe qual abrir.
 
-**Teste da linha fina** [SILENCIOSO]. (1) Lendo só o card, qual pergunta o leitor faz sozinho? É a que a matéria paga no lide? (2) Dá para deduzir o desfecho? Se sim, corte a oração que o entrega. (3) Cada oração tem o fato no corpo, e esse fato consta em Fontes? Alguma oração liga dois fatos por inferência da redação? (4) Há ponto de interrogação? Se há, reescreva. (5) Há tempo relativo ("amanhã", "sexta", "começa na quarta") que vai envelhecer no card? Se há, troque pela data absoluta. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que deixa o buraco mais claro.
+**Teste da linha fina** [SILENCIOSO]. (1) Um ouvinte de 50 anos, lendo só o card, entende o que aconteceu e com quem, sem decifrar nada? (2) Há palavra coringa ("detalhe", "algo", "surpresa", "revelação") ou fala do texto ("post", "termina com")? Se há, troque pelo nome da coisa. (3) Soa como alguém contando a um amigo, e dá vontade de ler o resto? (4) Dá para deduzir o desfecho da matéria? Se sim, corte a oração que o entrega. (5) Cada oração tem o fato no corpo, e esse fato consta em Fontes? Alguma oração liga dois fatos por inferência da redação? (6) Há ponto de interrogação? Se há, reescreva. (7) Há tempo relativo que vai envelhecer no card? Se há, troque pela data absoluta. [PREFERÊNCIA] Escreva a linha fina de três jeitos e fique com o que um amigo repetiria em voz alta.
 
 ### Os quatro jeitos da vitrine [INEGOCIÁVEL]
 
 Toda matéria sai em um jeito. A Pauta escolhe o tom e, no Conteúdo, o jeito, antes do H1. O jeito muda o H1, a linha fina e os textos das redes, e nunca o rigor do texto: a lacuna honesta vale na Direta e na Curiosidade, o PROTOCOLO: EXPLODE! vale no `explode`, e o Sóbrio informa.
 
-- **Direta** (Conteúdo). O H1 entrega o fato: quem e o quê, com o nome na frente. A lacuna mora na linha fina. É o jeito de quando o fato já é a atração e não há pergunta de verdade a abrir.
+- **Direta** (Conteúdo). O H1 entrega o fato: quem e o quê, com o nome na frente. A vontade de ler mora na linha fina. É o jeito de quando o fato já é a atração e não há pergunta de verdade a abrir.
 - **Curiosidade** (Conteúdo, o padrão quando há pergunta de verdade). O H1 abre a pergunta ou o contraste que o leitor faria sobre algo que **já conhece**, e a matéria a responde cedo. A linha fina segue A linha fina, acima, e não repete o H1.
 - **Explode** (Conteúdo, poucos por vez). O card nomeia o assunto e esconde o desfecho, e a matéria o paga no lide (PROTOCOLO: EXPLODE!, abaixo).
 - **Sóbrio** (tom Sóbrio). O H1 informa o fato com sobriedade: nome na frente, verbo no presente, sem pergunta e sem lacuna. A linha fina dá o contorno.
@@ -157,7 +161,7 @@ Toda matéria sai em um jeito. A Pauta escolhe o tom e, no Conteúdo, o jeito, a
 
 ### PROTOCOLO: EXPLODE! [INEGOCIÁVEL quando o jeito é `explode`]
 
-O terceiro jeito do Conteúdo, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal) ou é uma afirmação que nomeia a peça pelo tipo e esconde o nome dela (colchetes são placeholders: "[Artista] se rende a álbum de [artista] antes do show em [cidade]", em que o álbum fica sem título e o lide o paga), a linha fina só dá o contorno, e os textos das redes seguem os gatilhos 2 a 5 e, quando o horário foi combinado, o 7.
+O terceiro jeito do Conteúdo, feito para a rede, onde o card tem um segundo para vencer tudo o mais que está no celular. O método vem do canal de WhatsApp do "Exército do Lula", que em 2026 saiu de 60 mil para quase 11 milhões de inscritos em três semanas (AFP, 26/10/2026), e dos avisos que ele mandava a quem entrava. Copie o mecanismo, nunca o tema nem o tom de campanha: a Mundo Livre é rádio de rock, não palanque. A forma do `explode`: o H1 segue a da Curiosidade (a pergunta que o leitor digitaria, com o nome na frente, para o título SEO continuar literal) ou é uma afirmação que nomeia a peça pelo tipo e esconde o nome dela (colchetes são placeholders: "[Artista] se rende a álbum de [artista] antes do show em [cidade]", em que o álbum fica sem título e o lide o paga), a linha fina só dá o contorno, com nome e em palavra de gente (sem "um detalhe" nem "uma surpresa"), e os textos das redes seguem os gatilhos 2 a 5 e, quando o horário foi combinado, o 7.
 
 **Os sete gatilhos**
 
@@ -375,6 +379,8 @@ O pack é a parte mais lida da matéria e a mais cara de consertar depois que o 
 11. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
+
+*Lectern v2.8.0: a linha fina passa a falar como gente: diz o que aconteceu, com nome e verbo de pessoa, e a vontade de ler vem da história, não de buraco. Proíbe coringa ("um detalhe", "uma surpresa") e fala do texto ("o post seguinte termina com"), exige palavra de conversa e ganha o Teste reescrito e duas fracas novas. Publicado: 2026-11-05*
 
 *Lectern v2.7.0: o Teste da Lectern ganha o item Intertítulos (os H4, lidos em sequência e sozinhos, contam a matéria e nomeiam o que entregam), alinhado à Vernacular v5.5.0. Publicado: 2026-11-05*
 
