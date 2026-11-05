@@ -1,4 +1,4 @@
-# Vernacular v5.4.0 | Prosa em Português Brasileiro
+# Vernacular v5.5.0 | Prosa em Português Brasileiro
 
 ## COMO LER ESTE ARQUIVO
 
@@ -137,7 +137,9 @@ O leitor de tela escaneia antes de ler e decide em poucos segundos se fica.
 
 - **Primeira frase curta.** A abertura entra em uma dúzia de palavras, como bússola e não como régua, e já diz algo. O período longo vem depois que o leitor entrou.
 - **O olho procura âncoras.** O negrito marca o termo que o olho busca ao escanear, no máximo um por parágrafo, salvo regra do contexto ou do prompt.
-- **Intertítulo é placa que puxa.** Curto, concreto, promete a camada seguinte e pode ser a pergunta que o trecho responde. Nunca rótulo ("Contexto", "Curiosidades"). A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo é placa que revela e puxa.** Diz o que o trecho entrega e deixa em aberto só o porquê ou o como, nunca o objeto (a lacuna na dose, como na lacuna honesta da Lectern). Nunca rótulo ("Contexto", "Curiosidades") e nunca descrição do gesto do texto ("termina com", "só entrega", "revela"): ele nomeia a pessoa, a coisa, o número ou a fala. A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo, regras de forma.** Uma ideia e uma linha no celular, de 3 a 8 palavras, com a palavra que informa na frente [PREFERÊNCIA]. Cobre a seção inteira sem prometer o que ela não paga, e não repete o H1 nem a linha fina. É pergunta só se o trecho responde nas primeiras frases. Os intertítulos de uma matéria têm a mesma forma gramatical entre si.
+- **Teste dos intertítulos** [SILENCIOSO]. Lidos em sequência e sozinhos, eles contam a matéria? Algum precisa do parágrafo para fazer sentido, tem duas ideias ou esconde o nome do que entrega? Então reescreva.
 
 ### Texto para o ouvido [INEGOCIÁVEL quando o texto será falado]
 
@@ -333,7 +335,7 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 - **A frase curta crava, uma de cada vez.** Depois de um período que acumula detalhe, uma frase curta fecha a ideia. Frases curtas em fila só no clímax, e com conectivo.
 - **O ponto mais forte fica no meio ou no fim**, e o texto para quando os fatos acabam.
 - **O fio entre os sinais.** Quando a matéria tem vários sinais soltos do mesmo fato (um disco, uma música, uma letra, uma agenda), junte-os sob uma ideia que o leitor repete ("o story é só o recado mais recente") em vez de empilhar parágrafos sem elo. O fio nomeia o padrão, e cada sinal vem com o seu fato e a sua fonte. O fio nunca liga dois fatos por inferência que nenhuma fonte diz.
-- **Intertítulo que puxa**, como no Texto para a tela, nos prompts que admitem H4.
+- **Intertítulo que revela e puxa**, com as regras de forma e o Teste dos intertítulos do Texto para a tela, nos prompts que admitem H4.
 
 #### A voz
 
@@ -504,6 +506,8 @@ No modo **Diagnóstico**, entregue só os itens 1, 3 e 4, com até 15 apontament
 Antes de entregar, faça a Revisão em três passadas do Cânone sobre o próprio resultado.
 
 ---
+
+*Vernacular v5.5.0: o intertítulo passa a revelar e puxar (nomeia o que o trecho entrega, sem rótulo e sem descrever o gesto do texto), ganha regras de forma (uma ideia, uma linha, de 3 a 8 palavras, informação na frente, sem repetir o H1, paralelismo) e o Teste dos intertítulos, lidos em sequência e sozinhos. Base: NN/g (layer-cake), Poynter Eyetrack III, Ann Wylie, Copyblogger e a meta-análise de Le Quéré e Matias (2025). Publicado: 2026-11-05*
 
 *Vernacular v5.4.0: a lista Fontes e o H4 "Confira também:" deixam de aparecer no texto da matéria. As fontes saem só no bloco de fontes da Continuidade (Lectern), e o fim da matéria é o bloco de cards. Publicado: 2026-11-04*
 

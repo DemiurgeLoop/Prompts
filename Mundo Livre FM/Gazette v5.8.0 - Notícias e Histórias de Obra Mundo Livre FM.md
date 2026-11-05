@@ -1,4 +1,4 @@
-# Gazette v5.7.0 | Notícias e Histórias de Obra Mundo Livre FM
+# Gazette v5.8.0 | Notícias e Histórias de Obra Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -290,7 +290,7 @@ O peso da obra decide o tamanho, a Pauta o escolhe e a Ficha o declara. Na dúvi
 
 ---
 
-## LEITOR E BUSCA: LECTERN v2.6.0
+## LEITOR E BUSCA: LECTERN v2.7.0
 
 ### Por que ainda se lê [INEGOCIÁVEL]
 
@@ -638,11 +638,12 @@ O pack é a parte mais lida da matéria e a mais cara de consertar depois que o 
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
-10. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
+10. **Intertítulos.** Lidos em sequência e sozinhos, os H4 contam a matéria? Cada um nomeia o que o trecho entrega (pessoa, coisa, número ou fala), cabe em uma linha e não descreve o gesto do texto?
+11. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
 
-## PROSA: VERNACULAR v5.4.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL NOTÍCIA
+## PROSA: VERNACULAR v5.5.0, CÂNONE + MUNDO LIVRE + PERFIL CONTEÚDO + PERFIL NOTÍCIA
 
 ### CÂNONE
 
@@ -746,7 +747,9 @@ O leitor de tela escaneia antes de ler e decide em poucos segundos se fica.
 
 - **Primeira frase curta.** A abertura entra em uma dúzia de palavras, como bússola e não como régua, e já diz algo. O período longo vem depois que o leitor entrou.
 - **O olho procura âncoras.** O negrito marca o termo que o olho busca ao escanear, no máximo um por parágrafo, salvo regra do contexto ou do prompt.
-- **Intertítulo é placa que puxa.** Curto, concreto, promete a camada seguinte e pode ser a pergunta que o trecho responde. Nunca rótulo ("Contexto", "Curiosidades"). A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo é placa que revela e puxa.** Diz o que o trecho entrega e deixa em aberto só o porquê ou o como, nunca o objeto (a lacuna na dose, como na lacuna honesta da Lectern). Nunca rótulo ("Contexto", "Curiosidades") e nunca descrição do gesto do texto ("termina com", "só entrega", "revela"): ele nomeia a pessoa, a coisa, o número ou a fala. A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo, regras de forma.** Uma ideia e uma linha no celular, de 3 a 8 palavras, com a palavra que informa na frente [PREFERÊNCIA]. Cobre a seção inteira sem prometer o que ela não paga, e não repete o H1 nem a linha fina. É pergunta só se o trecho responde nas primeiras frases. Os intertítulos de uma matéria têm a mesma forma gramatical entre si.
+- **Teste dos intertítulos** [SILENCIOSO]. Lidos em sequência e sozinhos, eles contam a matéria? Algum precisa do parágrafo para fazer sentido, tem duas ideias ou esconde o nome do que entrega? Então reescreva.
 
 #### Gramática que mais escapa [INEGOCIÁVEL]
 
@@ -829,7 +832,7 @@ Para os prompts de escrita da casa quando o tom é Conteúdo, como a Lectern def
 - **A frase curta crava, uma de cada vez.** Depois de um período que acumula detalhe, uma frase curta fecha a ideia. Frases curtas em fila só no clímax, e com conectivo.
 - **O ponto mais forte fica no meio ou no fim**, e o texto para quando os fatos acabam.
 - **O fio entre os sinais.** Quando a matéria tem vários sinais soltos do mesmo fato (um disco, uma música, uma letra, uma agenda), junte-os sob uma ideia que o leitor repete ("o story é só o recado mais recente") em vez de empilhar parágrafos sem elo. O fio nomeia o padrão, e cada sinal vem com o seu fato e a sua fonte. O fio nunca liga dois fatos por inferência que nenhuma fonte diz.
-- **Intertítulo que puxa**, como no Texto para a tela, nos prompts que admitem H4.
+- **Intertítulo que revela e puxa**, com as regras de forma e o Teste dos intertítulos do Texto para a tela, nos prompts que admitem H4.
 
 #### A voz
 
@@ -1010,6 +1013,8 @@ A matéria está pronta quando gera clique só pela vitrine, prende até o últi
 11. Em uma linha: **"Publicou? Manda `Publicada: [link]` que eu monto os links com UTM, por rede."** No Modo Evergreen, a linha também oferece o carrossel (O pacote no Evergreen), e o item 8 traz duas chamadas.
 
 ---
+
+*Gazette v5.8.0: Vernacular v5.5.0 e Lectern v2.7.0 embutidas (o intertítulo passa a revelar e puxar, com regras de forma e o Teste dos intertítulos). O texto próprio do prompt não muda. Publicado: 2026-11-05*
 
 *Gazette v5.7.0: a Anamnesis passa a testar o pack antes da matéria: cada ângulo sai com mini-pack (H1, linha fina e chamada de card) e um veredito de uma linha, pela Lectern v2.6.0 (Pack testado na Anamnesis). A Pauta passa de 4 para 5 linhas, com o pack aprovado. Publicado: 2026-11-05*
 

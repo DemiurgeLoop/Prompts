@@ -1,4 +1,4 @@
-# Lectern v2.6.0 | Leitor, Vitrine e Busca Mundo Livre FM
+# Lectern v2.7.0 | Leitor, Vitrine e Busca Mundo Livre FM
 
 ## COMO LER ESTE ARQUIVO
 
@@ -371,9 +371,12 @@ O pack é a parte mais lida da matéria e a mais cara de consertar depois que o 
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
-10. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
+10. **Intertítulos.** Lidos em sequência e sozinhos, os H4 contam a matéria? Cada um nomeia o que o trecho entrega (pessoa, coisa, número ou fala), cabe em uma linha e não descreve o gesto do texto?
+11. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
+
+*Lectern v2.7.0: o Teste da Lectern ganha o item Intertítulos (os H4, lidos em sequência e sozinhos, contam a matéria e nomeiam o que entregam), alinhado à Vernacular v5.5.0. Publicado: 2026-11-05*
 
 *Lectern v2.6.0: seção nova Pack testado na Anamnesis: cada ângulo sai com mini-pack (H1, linha fina e chamada de card), passa pelos cinco critérios do Assayer em silêncio e mostra só o pack corrigido com um veredito de uma linha. O pack escolhido vira a quinta linha da Pauta. Publicado: 2026-11-05*
 

@@ -1,4 +1,4 @@
-# Hermes v3.11.0 | Textos Promocionais Mundo Livre FM
+# Hermes v3.12.0 | Textos Promocionais Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -97,7 +97,7 @@ O ouvinte decide por uma conta que faz de cabeça: o que ele quer levar, vezes a
 
 ---
 
-## LEITOR E BUSCA: LECTERN v2.6.0
+## LEITOR E BUSCA: LECTERN v2.7.0
 
 ### Por que ainda se lê [INEGOCIÁVEL]
 
@@ -445,11 +445,12 @@ O pack é a parte mais lida da matéria e a mais cara de consertar depois que o 
 7. **Pack.** Imagem, H1, linha fina e chamada acrescentam uma coisa cada, sem repetir nem contradizer uma à outra? A imagem é crua e não sugere o que o texto não diz? Juntas, as quatro continuam verdadeiras depois de ler a matéria?
 8. **Clique.** O H1 traz o nome na frente e, quando couber, quem faz o quê? A pergunta literal, se houver, é a do ouvinte? A emoção é admiração, humor, utilidade ou surpresa de verdade, sem raiva nem ansiedade fabricadas? Está definido o que vai julgar o card no GA4 (clique, rolagem, tempo, volta)?
 9. **Tom.** O tema é de Sóbrio (morte, doença, acidente, crime, tragédia, processo, abuso, quem sofre)? Então o texto não tem gancho de suspense, humor nem pedido de repasse. Se não é, o texto tem ângulo da casa com lado tomado, gancho e voz, e cada fato continua com dono e com fonte na lista?
-10. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
+10. **Intertítulos.** Lidos em sequência e sozinhos, os H4 contam a matéria? Cada um nomeia o que o trecho entrega (pessoa, coisa, número ou fala), cabe em uma linha e não descreve o gesto do texto?
+11. **Continuidade.** O bloco é o Template fixo, com o CSS intocado, os cards cumprem a relação do título, cada um tem linha fina sem tempo relativo, não há card de assunto leve em matéria Sóbrio, e o bloco do meio, se houver, vem depois do parágrafo-chave e antes de um H4?
 
 ---
 
-## PROSA: VERNACULAR v5.4.0, RECORTE LOCUÇÃO
+## PROSA: VERNACULAR v5.5.0, RECORTE LOCUÇÃO
 
 ### CÂNONE (RECORTE)
 
@@ -517,7 +518,9 @@ O leitor de tela escaneia antes de ler e decide em poucos segundos se fica.
 
 - **Primeira frase curta.** A abertura entra em uma dúzia de palavras, como bússola e não como régua, e já diz algo. O período longo vem depois que o leitor entrou.
 - **O olho procura âncoras.** O negrito marca o termo que o olho busca ao escanear, no máximo um por parágrafo, salvo regra do contexto ou do prompt.
-- **Intertítulo é placa que puxa.** Curto, concreto, promete a camada seguinte e pode ser a pergunta que o trecho responde. Nunca rótulo ("Contexto", "Curiosidades"). A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo é placa que revela e puxa.** Diz o que o trecho entrega e deixa em aberto só o porquê ou o como, nunca o objeto (a lacuna na dose, como na lacuna honesta da Lectern). Nunca rótulo ("Contexto", "Curiosidades") e nunca descrição do gesto do texto ("termina com", "só entrega", "revela"): ele nomeia a pessoa, a coisa, o número ou a fala. A frase antes dele é a mais forte da seção, porque é ali que o leitor decide se continua.
+- **Intertítulo, regras de forma.** Uma ideia e uma linha no celular, de 3 a 8 palavras, com a palavra que informa na frente [PREFERÊNCIA]. Cobre a seção inteira sem prometer o que ela não paga, e não repete o H1 nem a linha fina. É pergunta só se o trecho responde nas primeiras frases. Os intertítulos de uma matéria têm a mesma forma gramatical entre si.
+- **Teste dos intertítulos** [SILENCIOSO]. Lidos em sequência e sozinhos, eles contam a matéria? Algum precisa do parágrafo para fazer sentido, tem duas ideias ou esconde o nome do que entrega? Então reescreva.
 
 #### Texto para o ouvido [INEGOCIÁVEL quando o texto será falado]
 
@@ -669,6 +672,8 @@ Depois do bloco de Atenção, fora do texto do site, quatro campos que seguem A 
 - O texto passa no teste do Valor percebido (o que ganha, como participa e quando sabe), sem inflar prêmio nem chance?
 
 ---
+
+*Hermes v3.12.0: Vernacular v5.5.0 e Lectern v2.7.0 embutidas (o intertítulo passa a revelar e puxar, com regras de forma e o Teste dos intertítulos). O texto próprio do prompt não muda. Publicado: 2026-11-05*
 
 *Hermes v3.11.0: a Lectern embutida sobe à v2.6.0 (Pack testado na Anamnesis). O texto próprio do prompt não muda, já que o Hermes não tem Anamnesis. Publicado: 2026-11-05*
 
