@@ -1,4 +1,4 @@
-# Hermes v3.10.0 | Textos Promocionais Mundo Livre FM
+# Hermes v3.11.0 | Textos Promocionais Mundo Livre FM
 
 ## COMO LER ESTE PROMPT
 
@@ -97,7 +97,7 @@ O ouvinte decide por uma conta que faz de cabeça: o que ele quer levar, vezes a
 
 ---
 
-## LEITOR E BUSCA: LECTERN v2.5.0
+## LEITOR E BUSCA: LECTERN v2.6.0
 
 ### Por que ainda se lê [INEGOCIÁVEL]
 
@@ -425,6 +425,15 @@ Bloco das fontes (`2 - fontes.html`), só com estilo em linha.
 <details style="font-size:13px;line-height:1.7;color:#6b7280;margin:18px 0 0"><summary style="cursor:pointer">Fontes ([N])</summary><p style="margin:6px 0 0"><a href="[URL]" style="color:inherit;text-decoration:underline">[VEÍCULO (assunto)]</a> · <a href="[URL]" style="color:inherit;text-decoration:underline">[VEÍCULO (assunto)]</a></p></details>
 ```
 
+### Pack testado na Anamnesis [INEGOCIÁVEL nas Anamnesis do Gazette, do Pantheon e do Herodotus]
+
+O pack é a parte mais lida da matéria e a mais cara de consertar depois que o texto está pronto. Por isso a Anamnesis o testa antes da primeira linha do corpo. É uma versão mini do modo chamada de card do Exordium com a nota do Assayer, sem os dois prompts por inteiro.
+
+1. **Um mini-pack por candidato.** Cada ângulo (no Pantheon, cada tese candidata) sai com H1 provisório, linha fina e chamada de card, no jeito de vitrine recomendado para ele. A chamada tem de 1 a 3 frases, até cerca de 200 caracteres, não repete o H1 nem a linha fina, não responde a pergunta deles e, no `explode`, termina em um pedido só, com um verbo. No tom Sóbrio não há chamada de card: só H1 e linha fina.
+2. **Teste em silêncio, veredito de uma linha.** Passe cada pack pelos cinco critérios do Assayer: hook (específico, com nome ou número do material, para o scroll), voz (a da casa, com a primeira pessoa ou o "a gente" da rádio na chamada), densidade (o leitor leva algo específico só do card), estrutura (um pedido, um verbo, um passo; a chamada que repete o H1 reprova) e prontidão (nada de frase de IA nem palavra de LinkedIn, pela Voz de máquina da Vernacular). Pack reprovado nunca aparece. O que aparece é o pack já corrigido e uma linha: **passa**, ou **ajustado**, com o que mudou e a regra que mandou mudar. Sem nota numérica.
+3. **Sem dado inventado.** Sem os melhores e os piores cards da casa com métrica, o veredito é provisório e o fix cita a regra da Lectern, nunca um número de desempenho. Nome e número do pack vêm só do material, e o que falta vira `[?]`.
+4. **A Pauta carrega o pack.** O pack do ângulo escolhido entra como quinta linha da Pauta (H1, linha fina e chamada), e o Pacote final é conferido contra ele. Se o texto pediu outro H1, a mudança sai dita em uma linha. Em "direto", vale o pack do ângulo recomendado.
+
 ### Teste da Lectern [SILENCIOSO, antes de entregar]
 
 1. **Card.** H1 e linha fina, sozinhos, dizem do que se trata e dão um motivo real para clicar, sem prometer o que o texto não entrega, e um desconhecido o resume em três segundos? Na Curiosidade, o card não traz a resposta e o H1 parte de algo que o leitor conhece? No `explode`, o card nomeia o assunto, esconde o desfecho, pede uma ação só e não traz urgência inventada, e a matéria paga o desfecho no lide? A linha fina é afirmação e passa no Teste da linha fina? No Sóbrio, o card informa o fato, sem buraco e sem suspense?
@@ -660,6 +669,8 @@ Depois do bloco de Atenção, fora do texto do site, quatro campos que seguem A 
 - O texto passa no teste do Valor percebido (o que ganha, como participa e quando sabe), sem inflar prêmio nem chance?
 
 ---
+
+*Hermes v3.11.0: a Lectern embutida sobe à v2.6.0 (Pack testado na Anamnesis). O texto próprio do prompt não muda, já que o Hermes não tem Anamnesis. Publicado: 2026-11-05*
 
 *Hermes v3.10.0: a Lectern embutida sobe à v2.5.0 (a linha "Fontes:" e o H4 "Confira também:" saem do texto; as fontes vivem só no bloco da Continuidade). O texto próprio do prompt não muda. Publicado: 2026-11-04*
 
